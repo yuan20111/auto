@@ -1,0 +1,15 @@
+autowork (1.0-3) unstable; urgency=low
+
+  * 检查32位编译机是否正常工作
+
+ -- zhiyuan <yuanzhiyuan@nfschina.com>  Wed, 21 Sep 2016 15:41:55 +0800
+autowork (1.0-2) unstable; urgency=low
+
+  * test changelog 
+
+ -- zhiyuan <yuanzhiyuan@nfschina.com>  Wed, 03 Aug 2016 13:10:51 +0800
+autowork (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- zhiyuan <yuanzhiyuan@nfschina.com>  Wed, 03 Aug 2016 13:03:11 +0800
