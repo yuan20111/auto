@@ -1,0 +1,6 @@
+%div
+  = render 'devise/shared/signin_box'
+
+  - if signup_enabled?
+    .prepend-top-20
+      = render 'devise/shared/signup_box'

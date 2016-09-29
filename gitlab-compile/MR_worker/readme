@@ -1,0 +1,61 @@
+
+合并请求提交时的格式审查处理：
+    合并请求的title、description，以及软件版本号和有无冲突
+    如果分支比较、分支冲突和软件版本号检测不通过，则返回上级compare branches界面
+    如果title和description检测不通过，停留在本页面(submit merge request界面)
+    如果所有项检测无误，则调转至成功创建合并请求的界面
+
+预编译和编译：
+  1. 在提交合并请求之前有选择性地进行预编译(点击precompile source branch按钮,发送预编译指令)，收到编译成功的邮件后方可提交合并请求
+  2. 在成功合并请求时，会向编译机发送编译指令和note文件信息
+     note文件字段：修改人、软件包、描述、修复bug、合并Req 
+     预编译指令：仓库地址和源分支
+     编译指令：仓库地址和目标分支
+     
+
+  日志信息修改点：
+gitlab/config/environment.rb增加格式化代码,格式日志信息
+gitlab/app/views/admin/logs/show.html.haml文件增加 Gitlab::CompileLogger, Gitlab::RepertoryLogger
+gitlab/log 目录下增加compile.log和repertory.log文件（存储文件）
+gitlab/lib/gitlab/下增加compile_logger.rb和repertory_logger.rb文件
+
+脚本：放在gitlab/precompile目录下scp_log.sh，内容已标记，需修改编译机和仓库机IP 密码 log目录及文件名，脚本放在源码机任意目录后台执行即可，
+每隔一段时间会自动拷贝log文件
+
+  邮件修改点（以新增email地址为例增加模块给其他人发送邮件）
+gitlab/app/models/email.rb文件中notify方法中增加NotificationService.new.easy_msg
+gitlab/app/services/notification_service.rb文件中增加easy_msg方法
+gitlab/app/mailers/notify.rb文件中增加include Emails::Easymsg
+gitlab/app/mailers/emails目录中增加easymsg.rb文件，文件中@user定义的为接收邮箱
+gitlab/app/views/notify目录中增加easy_msg_email.html.haml和easy_msg_email.text.erb，这两个文件为邮件内容
+
+
+
+自动合并请求的总子开关
+
+1.添加pam_enabled（子开关）和am_enabled（总开关）字段
+  a.登录gitlab的postgresql数据库
+    sudo -u git -H psql -d gitlabhq_production
+  b.projects表中添加总子开关字段
+    alter table projects add pam_enabled boolean not null default 'false';
+    alter table projects add am_enabled boolean not null default 'false';
+
+2.修改路由gitlab/config/routes.rb，增加toggle_pam_enabled和toggle_am_enabled的路由
+
+3.修改视图gitlab/app/views/dashboard/projects.html.haml加入总子开关的链接，点击可以修改该字段的值（true代表打开，false代表关闭）
+
+4.修改控制器gitlab/app/controllers/projects_controller.rb添加toggle_pam_enable和toggle_am_enabled方法；create方法增加对am_enabled默认值的处理
+
+5.添加js代码gitlab/app/views/projects/toggle_pam_enabled.js.erb和gitlab/app/views/projects/toggle_am_enabled.js.erb
+
+自动合并请求（普通用户提交的合并请求用管理员身份来处理）
+
+1.修改视图gitlab/app/views/projects/merge_requests/show/_mr_accept.html.haml增加流程控制是否自动合并请求
+2.修改控制器gitlab/app/controllers/projects/merge_requests_controller.rb中的automerge方法和define_show_vars方法
+
+自动合并请求优化界面
+
+1.修改视图gitlab/app/views/dashboard/projects.html.haml，管理员可修改总子开关，普通用户只能查看
+
+2.修改视图gitlab/app/views/projects/new.html.haml，增加子开关设置选项（只有管理员新建项目时可以指定子开关默认值）
+  修改控制器gitlab/app/controllers/projects_controller.rb，增加健壮参数pam_enabled

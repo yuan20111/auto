@@ -1,0 +1,31 @@
+%html{lang: "en"}
+  %head
+    %meta{content: "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+      %title
+        GitLab
+  :css
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    p.details {
+      font-style:italic;
+      color:#777
+    }
+    .footer p {
+      font-size:small;
+      color:#777
+    }
+    #{add_email_highlight_css}
+  %body
+    %div.content
+      = yield
+    %div.footer{style: "margin-top: 10px;"}
+      %p
+        \—
+        %br
+        - if @target_url
+          #{link_to "View it on GitLab", @target_url}
+          = email_action @target_url
+        - if @project
+          You're receiving this notification because you are a member of the #{link_to_unless @target_url, @project.name_with_namespace, project_url(@project)} project team.
