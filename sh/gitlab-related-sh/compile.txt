@@ -1,0 +1,10 @@
+编译参数: http://192.168.7.230:nfschina/sunshine.git master
+修改人: Administrator
+软件包: sunshine
+描述: 问题描述：5
+解决方法：5
+审核人：5
+审核描述：5
+
+修复bug: bug2345
+合并Req: http://192.168.7.230/nfschina/sunshine/merge_requests/5

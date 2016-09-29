@@ -1,0 +1,19 @@
+TARGET = test
+DIR = sub add
+
+OBJSDIR=.objs
+#VPATH=add:sub:.
+DIRS = $(DIR) .
+CFLAGS = -O2 $(patsubst %, -I%, $(DIR))
+FILES = $(foreach dir, $(DIRS), $(wildcard $(dir)/*.c))
+OBJS = $(patsubst %.c,%.o,$(FILES))
+
+$(TARGET): $(OBJSDIR) $(OBJS) 
+		$(CC) -o $(TARGET) $(patsubst %, $(OBJSDIR)/%/*.o, $(DIR)) $(OBJSDIR)/*.o 	$(CFLAGS)
+$(OBJS):%.o:%.c
+			$(CC) -c $(CFLAGS) $< -o $(OBJSDIR)/$@ 
+$(OBJSDIR):
+		mkdir -p  $(patsubst %, ./$(OBJSDIR)/%, $(DIR))
+
+clean:
+		-$(RM) -r $(TARGET) $(OBJS) $(OBJSDIR)

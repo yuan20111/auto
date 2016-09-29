@@ -1,0 +1,172 @@
+#调试部分脚本
+echo "Hello $USER,"
+set -x
+echo "Today is $(date +%Y-%m-%d)"
+set +x
+
+#判断执行结果
+
+N=$?  #0 <= N <= 255
+
+0 无错误，正常执行结束
+非0 异常
+1-125命令不成功退出
+126命令成功，但文件无法执行
+127命令找不到
+>128命令因收到信号而死亡
+
+To find base directory
+APP_ROOT=`dirname "$0"`
+
+# To find the file name
+filename=`basename "$filepath"`
+
+# To find the file name without extension
+filename=`basename "$filepath" .html`
+
+e.g.
+BASEDIR=$(dirname $0)
+        cd $BASEDIR
+        CURRENT_DIR=`pwd`
+
+####--------------------------
+        本地变量：
+        设置
+        LOCAL_VAR="test"
+        or
+        LOCAL_VAR="test"
+        readonly LOCAL_VAR #设置只读
+
+        还可以使用declare命令定义
+
+        位置变量：
+        $0 脚本名称
+        $# 传递到脚本参数个数
+        $$ shell脚本运行当前进程ID
+        $? 退出状态
+        $N N>=1，第n个参数
+
+        字符串处理：
+        ${#VARIABLE_NAME} 可以给出字符串的长度。
+
+        if [ ${#authy_api_key} != 32 ]
+        then
+        return $FAIL
+        fi
+
+        echo "$x$y"  #拼接字符串
+
+#字符串切片 awk
+        ${变量名:起始:长度}得到子字符串
+
+        $ test='I love china'
+        $ echo ${test:5}
+        e china
+        $ echo ${test:5:10}
+        e china
+
+        str="hello world"
+        echo ${str:6}  # ${var:offset:length}:wq
+
+#文本处理
+        想输出多行用：
+        sed -n '1,n' file
+        挑着输出用 “；”
+          sed -n '1p;4p;7p;9p'  file
+          sed -n '/aaa/,$p'
+#正则匹配
+        if [[ $str =~ [0-9]+\.[0-9]+ ]]
+
+        str='hello, world'
+        if echo "$str" | grep -E '[ ]+world$'; then
+        echo match!
+        fi
+###--------------------------------------
+        数值处理
+        a=1
+        a=`expr a + 1`
+
+        or
+
+        a=1
+        let a++
+        let a+=2
+
+        no1=4
+        no2=5
+        let result=no1+no2 #let 用于数学运算
+
+result=`expr 3 + 4`
+result=$(expr $no1 + 5)
+
+        result=$[ no1 + no2 ]
+        result=$[ $no + 5 ]
+
+result=$(( no1 + 5 ))
+
+
+#模式匹配
+
+        ${variable#pattern}   #匹配第一个到结尾
+        ${variable##pattern}   #匹配最后一个到结尾
+        ${variable%pattern}    #反向匹配第一个到结尾
+        ${variable%%pattern}    #反向匹配最后一个到结尾
+        ${variable/pattern/string}  #替换第一个,当查找中出现了：”/”请加转义符”\/”表示
+        ${variable//pattern/string} #替换所有
+
+#方便的语法
+        for (( expr1; expr2; expr3 )); do
+        commands
+        done
+        for (( i = 0; i < 100; i++ )); do … done
+        echo a{b,c,d}e  ==> abe ace ade
+
+
+        for i in `seq 1 100`  
+        do  
+           echo $i  
+        done  
+
+        for i in {1..100}  
+        do  
+           echo $i  
+        done  
+        seq -f "dir%03g" 1 2 100 动态数组
+        seq -f "dir%03g" a 2 z 动态数组
+#表达式求值
+        $[]    []$中间可以加表达式  eg: echo $[$a+$b]
+        $(())   (())中间可以加表达式。Eg： total=$(($a*$b))
+
+# 获取软连接指向的真实文件名
+#
+# ls 绝对路径
+    ls | sed "s:^:`pwd`/: "
+
+#注:有些系统没有这个命令
+        readlink /usr/bin/python
+
+
+#debug
+        function debug() {
+            if [[ $DEBUG ]]
+              then
+                  echo ">>> $*"
+                  fi
+        }
+
+# For any debug message
+ debug "Trying to find config file"
+
+# 还有来自于一些很酷的Geeks的单行debug函数：
+#
+ function debug() { ((DEBUG)) && echo ">>> $*"; }
+ function debug() { [ "$DEBUG" ] && echo ">>> $*"; }
+
+
+#执行日志
+#
+#
+exec ls >>"$LOGPATH"/xx.log.$TODAY 2>&1
+
+
+http://www.wklken.me/posts/2014/01/12/shell-script-base.html

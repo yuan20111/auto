@@ -1,0 +1,10 @@
+#!/bin/bash  
+
+expect -c "
+        spawn scp -r $@ zhiyuan@192.168.7.117:~/test
+  	expect {
+    		\"*assword\" {set timeout 30; send \"123\r\";}
+    		\"yes/no\" {send \"yes\r\"; exp_continue;}
+  	}
+        expect eof"
+exit
