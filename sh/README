@@ -1,0 +1,18 @@
+auto-login.sh 自动登陆
+auto-scp.sh     远程拷贝
+check-info.sh   检查电脑信息 
+crontab-lock.sh
+dhcp            自动配置IP
+get-log.sh      
+get-nfs-ip-info.sh
+gitlab-related-sh
+make
+re
+readme
+scp117
+sendmail.sh
+specviewperf-lancher.sh
+ssh102deb.sh
+test
+time.sh
+update-flash.sh

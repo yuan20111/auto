@@ -1,5 +1,9 @@
 #!/bin/bash  
 
+filename:scp117
+function:远程scp 文件 到117主机 （替换用户名，密码，IP）
+usage:scp117 <filename>
+
 expect -c "
         spawn scp -r $@ zhiyuan@192.168.7.117:~/test
   	expect {
