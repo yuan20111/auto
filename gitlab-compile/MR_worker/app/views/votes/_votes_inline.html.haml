@@ -1,9 +1,0 @@
-.votes.votes-inline
-  - unless votable.upvotes.zero?
-    .upvotes
-      + #{votable.upvotes}
-    - unless votable.downvotes.zero?
-      \/
-  - unless votable.downvotes.zero?
-    .downvotes
-      \- #{votable.downvotes}
