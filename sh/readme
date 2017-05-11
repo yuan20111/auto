@@ -170,3 +170,69 @@ exec ls >>"$LOGPATH"/xx.log.$TODAY 2>&1
 
 
 http://www.wklken.me/posts/2014/01/12/shell-script-base.html
+
+#找出比Makefile的修改日期更近的全部.c文件
+find . -name "*.c" -newer Makefile -print
+#压缩源码
+tar cvf archive.tar.gz *.c  *.h
+zip archive.zip *.h *.c
+#上周哪些文件没有改动过
+find . -name "*.java" -mtime +7 -print
+#上面的文件中，哪些使用了awt库？
+find . -name "*.java" -mtime +7 -print | xargs grep 'java.awt'
+
+表 3. Perl 常用匹配模式
+语法         说明                  示例
+.   匹配除换行符以外的所有字符  b.c 匹配 bac
+x?  匹配 0 次或一次 x 字符串    b?c 匹配 c 或者 bc
+x*  匹配 0 次或多次 x 字符串，但匹配可能的最少次数  b*c 匹配 c 或者 bbc
+x+  匹配 1 次或多次 x 字符串，但匹配可能的最少次数  b+c 匹配 bc 或者 bbc
+.*  匹配 0 次或一次的任何字符   b.*c 匹配 bgdc 等
+.+  匹配 1 次或多次的任何字符   b.+c 匹配 bgc 等
+{m}     匹配刚好是 m 个 的指定字符串    b{5}c 匹配 bbbbbc
+{m,n}   匹配在 m 个 以上 n 个 以下 的指定字符串     b{1,2} 匹配 b 或者 bb
+{m,}    匹配 m 个 以上 的指定字符串     b{2,} 匹配 bb 或者 bbb 等
+[]  匹配符合 [] 内的字符    b[d]c 匹配 bdc
+[^]     匹配不符合 [] 内的字符  b[^d]c 匹配 bAc
+[0-9]   匹配所有数字字符    b[0-9]c 匹配 b1c
+[a-z]   匹配所有小写字母字符    b[a-z]c 匹配 bac
+^   匹配字符开头的字符  ^perl 匹配以 perl 开头的字符
+$   匹配字符结尾的字符  perl$ 匹配以 perl 结尾的字符
+\d  匹配一个数字的字符，和 [0-9] 语法一样   b\dc 匹配 b1c
+\D  非数字，其他同 \d   b\Dc 匹配 bAc
+\w  英文字母或数字的字符串，和 [a-zA-Z0-9] 语法一样     b\wc 匹配 b1c 等
+\W  非英文字母或数字的字符串，和 [^a-zA-Z0-9] 语法一样  b\Wc 匹配 b c
+\s  空格，和 [\n\t\r\f] 语法一样    b\sc 匹配 b c
+\S  非空格，和 [^\n\t\r\f] 语法一样     b\Sc 匹配 bac 等
+\b  匹配以英文字母 , 数字为边界的字符串     \bbc\b 匹配 bc 但不匹配 bca
+\B  匹配不以英文字母 , 数值为边界的字符串   sa\B 将匹配 sand 和 Sally 等字符串，而不能匹配 Melissa.
+a|b|c   匹配符合 a 字符 或是 b 字符 或是 c 字符 的字符串
+abc 匹配含有 abc 的字符串   匹配 a 或者 b 或者 c 等
+(pattern) ()    这个符号会记住所找寻到的字符串，是一个很实用的语法。第一个 () 内所找到的字符串变成 $1 这个变量或是 \1 变量，第二个 () 内所找到的字符串变成 $2 这个变量或是 \2 变量，以此类推下去。    b(\d)c 表示匹配的任何数字将存放与 $1 变量中
+
+
+Python 语言本身不支持正则表达式，依赖 re 模块（python1.5 版本被引入）支持正则表达式。有搜索和匹配两种方法完成匹配模式。re 模块常用的函数和方法有 complie、match、search、find 与 findall 等。在利用 re 进行匹配之前，模式必须被编译成 regex 对象。
+表 4. Python 常用匹配模式
+语法一样说明示例
+.   匹配除换行符 \n 以外的任意字符  b.c 匹配 bac,bdc
+*   匹配前一个字符 0 次或多次   b*c 匹配 c，或者 bbbc
++   匹配前一个字符 1 次或多次   b+c 匹配 bc 或者 bbbc
+？  匹配前一个字符 0 或 1 次    b?c 匹配 c 或者 bc
+{m}     匹配前一个字符 m 次     b{2}c 匹配 bbc
+{m,n}   匹配前一个字符 m 至 n 次    b{2,5}c 匹配 bbc 或者 bbbbc
+[abc]   匹配 [] 内的任意字符    [bc] 匹配 b 或者 c
+\d  匹配数字 [0-9]  b\dc 匹配 b1c 等
+\D  匹配非数字，等价于 [^\d]    b\Dc 匹配 bAc
+\s  匹配空白字符    b\sc 匹配 b c
+\S  匹配非空白字符 [\^s]    b\Sc 匹配 bac
+\w  匹配 [A-Za-z0-9_]   b\wc 匹配 bAc 等
+\W  等价于 [^\w]    b\Wc 匹配 b c
+\   转义字符，  b\\c 匹配 b\c
+^   匹配字符串开头  ^bc 匹配句首的 bc
+$   匹配字符串末尾  bc$ 匹配以 bc 结尾的字符串
+\A  仅匹配字符串开头    \Abc 匹配字符串开头的 bc
+\Z  仅仅匹配字符串末尾  bc\Z 匹配字符串末尾的 bc
+|   匹配左右表达式任意一个  b|c 匹配 b 或者 c 
+
+
+
