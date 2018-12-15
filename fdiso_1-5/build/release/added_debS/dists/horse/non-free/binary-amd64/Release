@@ -1,0 +1,7 @@
+Archive: horse
+Version: 1.0
+Component: non-free
+Origin: CDOS
+Label: CDOS
+Architecture: amd64
+Description: CDOS disk repo

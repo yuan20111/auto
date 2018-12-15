@@ -1,0 +1,18 @@
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_11_PRD
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_10_PRD
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_09
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_08
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_07
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_06
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_05
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_04
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_03
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_02
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_01
+deb ftp://fdos2:fdos2123@192.168.8.102/1.5Need_2.0NotNeed/ 1.5Need_2.0NotNeed grub2
+deb ftp://fdos2:fdos2123@192.168.8.102/1.5Need_2.0NotNeed/ 1.5Need_2.0NotNeed shadow
+deb ftp://fdos2:fdos2123@192.168.8.102//HGJ_baserepo/HGJ_baserepo/packages.linuxmint.com/ qiana  main upstream import
+deb ftp://fdos2:fdos2123@192.168.8.102//HGJ_baserepo/HGJ_baserepo/extra.linuxmint.com/ qiana  main
+deb ftp://fdos2:fdos2123@192.168.8.102//HGJ_baserepo/HGJ_baserepo/archive.ubuntu.com/ubuntu/ trusty  main multiverse restricted universe
+deb ftp://fdos2:fdos2123@192.168.8.102//HGJ_baserepo/HGJ_baserepo/security.ubuntu.com/ubuntu/ trusty-security main multiverse restricted universe
+deb ftp://fdos2:fdos2123@192.168.8.102//HGJ_baserepo/HGJ_baserepo/archive.canonical.com/ubuntu/ trusty partner

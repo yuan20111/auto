@@ -1,0 +1,199 @@
+%h3.page-title
+  New merge request
+%p.slead
+  From
+  %strong.label-branch #{@merge_request.source_project_namespace}:#{@merge_request.source_branch}
+  %span into
+  %strong.label-branch #{@merge_request.target_project_namespace}:#{@merge_request.target_branch}
+
+  %span.pull-right
+    = link_to 'Change branches', new_project_merge_request_path(@project)
+
+- if @project.namespace.type == 'Group'
+  %hr
+    如果您是新员工，或者当前工程是新建工程， 强烈建议： 预编译！
+    %br
+    编译完成以后，你会收到邮件。 确认编译成功了再提交合并请求！
+    = link_to 'Precompile source branch', precompile_project_branch_path(@project, @commits), remote: true, method: :post, class: "btn btn-primary btn-small precompile_source_branch_class"
+  %hr
+
+= form_for [@project, @merge_request], html: { class: "merge-request-form form-horizontal gfm-form" } do |f|
+  .merge-request-form-info
+    .form-group
+      = f.label :title, class: 'control-label' do
+        %strong Title *
+      .col-sm-10
+        = f.text_field :title, maxlength: 255, autofocus: true, class: 'form-control pad js-gfm-input', required: true
+        .col-sm-12-hint
+          %span.light 格式举例：1. bug0034567:64位HGJ-0400：长时间S3测试，S3在准备睡眠时出现黑屏死机 &nbsp;&nbsp; 2. 无bug号:提升开机速度
+
+    .form-group.issuable-description
+      = f.label :description, 'Description', class: 'control-label'
+      .col-sm-10
+        = render layout: 'projects/md_preview', locals: { preview_class: "wiki" } do
+          = render 'projects/zen', f: f, attr: :description, classes: 'description form-control' 
+      
+          .col-sm-12-hint
+            %span.light 注意事项：Description必须包括4项（问题描述：|解决方法：|审核人：|审核描述：），每项以新的一行开始，且不得为空。
+          .col-sm-12-hint
+            .pull-left
+              Parsed with
+              #{link_to 'Gitlab Flavored Markdown', help_page_path('markdown', 'markdown'), target: '_blank'}.
+            .pull-right
+              Attach images (JPG, PNG, GIF) by dragging &amp; dropping
+              or #{link_to 'selecting them', '#', class: 'markdown-selector'}.
+
+          .clearfix
+          .error-alert
+    %hr
+    .form-group
+      .issue-assignee
+        = f.label :assignee_id, class: 'control-label' do
+          %i.fa.fa-user
+          Assign to
+      .col-sm-10
+        = project_users_select_tag('merge_request[assignee_id]', placeholder: 'Select a user', class: 'custom-form-control', selected: @merge_request.assignee_id, project_id: @merge_request.target_project_id)
+        &nbsp;
+        = link_to 'Assign to me', '#', class: 'btn assign-to-me-link'
+    .form-group
+      .issue-milestone
+        = f.label :milestone_id, class: 'control-label' do
+          %i.fa.fa-clock-o
+          Milestone
+        .col-sm-10
+          - if milestone_options(@merge_request).present?
+            = f.select(:milestone_id, milestone_options(@merge_request), {include_blank: 'Select milestone'}, {class: 'select2'})
+          - else
+            %span.light No open milestones available.
+          &nbsp;
+          - if can? current_user, :admin_milestone, @merge_request.target_project
+            = link_to 'Create new milestone', new_project_milestone_path(@merge_request.target_project), target: :blank
+    .form-group
+      = f.label :label_ids, class: 'control-label' do
+        %i.fa.fa-tag
+        Labels
+      .col-sm-10
+        - if @merge_request.target_project.labels.any?
+          = f.collection_select :label_ids, @merge_request.target_project.labels.all, :id, :name, {selected: @merge_request.label_ids}, multiple: true, class: 'select2'
+        - else
+          %span.light No labels yet.
+        &nbsp;
+        - if can? current_user, :admin_label, @merge_request.target_project
+          = link_to 'Create new label', new_project_label_path(@merge_request.target_project), target: :blank
+
+    .form-actions
+      - if contribution_guide_url(@target_project)
+        %p
+          Please review the
+          %strong #{link_to 'guidelines for contribution', contribution_guide_url(@target_project)}
+          to this repository.
+      = f.hidden_field :source_project_id
+      = f.hidden_field :source_branch
+      = f.hidden_field :target_project_id
+      = f.hidden_field :target_branch
+      = f.submit 'Submit merge request', class: 'btn btn-create btn-submit-mr'
+
+.mr-compare.merge-request
+  %ul.nav.nav-tabs.merge-request-tabs
+    %li.commits-tab{data: {action: 'commits'}}
+      = link_to url_for(params) do
+        %i.fa.fa-history
+        Commits
+        %span.badge= @commits.size
+    %li.diffs-tab{data: {action: 'diffs'}}
+      = link_to url_for(params) do
+        %i.fa.fa-list-alt
+        Changes
+        %span.badge= @diffs.size
+
+  .commits.tab-content
+    = render "projects/commits/commits", project: @project
+  .diffs.tab-content
+    - if @diffs.present?
+      = render "projects/diffs/diffs", diffs: @diffs, project: @project
+    - elsif @commits.size > MergeRequestDiff::COMMITS_SAFE_SIZE
+      .bs-callout.bs-callout-danger
+        %h4 This comparison includes more than #{MergeRequestDiff::COMMITS_SAFE_SIZE} commits.
+        %p To preserve performance the line changes are not shown.
+    - else
+      .bs-callout.bs-callout-danger
+        %h4 This comparison includes a huge diff.
+        %p To preserve performance the line changes are not shown.
+
+:javascript
+  document.onkeydown = function(event) {
+    target = event.target; //针对遵循w3c标准的浏览器，如Firefox  
+    code = event.keyCode;
+    if (code == 13) {
+      tag = target.tagName;
+      if (tag == "INPUT") { return false; }
+      else { return true; }
+    }
+  };
+
+:javascript
+  function validate_title()
+  {
+    $('.title-error').remove();
+
+    var str = $('#merge_request_title').val();
+    if(str.length == 0)
+    {
+      $('#merge_request_title').after("<span class='title-error' style='color:rgb(255, 0, 0)'>请填写Title！</span>");
+      return false;
+    }
+
+    var regx_bug = /(bug\d{7}){1,}[:：][ ]*\S/;
+    var regx_nbug = /无bug号[:：][ ]*\S/;
+    var res = regx_bug.test(str) || regx_nbug.test(str);
+    if(res)
+    {
+      return true;
+    } else {
+      $('#merge_request_title').after("<span class='title-error' style='color:rgb(255, 0, 0)'>Title格式错误，请参照格式举例！</span>");
+      return false;
+    }
+  }
+
+:javascript
+  function validate_desc()
+  {
+    $('.desc-error').remove();
+
+    var str = $('#merge_request_description').val();
+    var col = str.split("\n");
+
+    var regx = /^(问题描述：|解决方法：|审核人：|审核描述：)[ ]*\S/;
+    var res = regx.test(col[0]) && regx.test(col[1]) && regx.test(col[2]) && regx.test(col[3]);
+    if (res)
+    {
+      return true;
+    } else {
+      $('#merge_request_description').after("<span class='desc-error' style='color:rgb(255, 0, 0)'>4项内容必须都填，请参照注意事项！</span>");
+      return false;
+    }
+  }
+
+:javascript
+  $('.btn-submit-mr').on('click', function(e){
+    validate_title();
+    validate_desc();
+    if (($('.title-error').length > 0) || ($('.desc-error').length > 0))
+    {
+      e.preventDefault();
+    }
+  });
+
+:javascript
+  $('.assign-to-me-link').on('click', function(e){
+    $('#merge_request_assignee_id').val("#{current_user.id}").trigger("change");
+    e.preventDefault();
+  });
+
+  window.project_image_path_upload = "#{upload_image_project_path @project}";
+
+:javascript
+  var merge_request
+  merge_request = new MergeRequest({
+    action: 'commits'
+  });

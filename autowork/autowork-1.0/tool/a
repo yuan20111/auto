@@ -1,0 +1,123 @@
+#!/bin/bash
+#
+
+SIGNAL="/home/zhiyuan/test/181-signal"
+LOCAL="zhiyuan@192.168.7.168"
+LOCALIP=`ifconfig | grep eth0 -A1 | tail -1 | awk '{print $2}' | awk -F : '{print $2}'`
+
+did()
+{
+	exit 0
+}
+
+echo ======= begin ======
+
+
+help(){
+	echo "
+当前位置： `whoami`@$LOCALIP
+
+usage: a \$1
+         180 	64位编译机
+         206 	兆芯C
+         208 	兆芯A
+         207 	周报
+         251 	32位编译机
+         102 	服务器
+         dd CDOS-201601011600.iso /dev/sdc
+         mosfd_log
+         scp168 1.txt " 
+}
+mountiso(){
+pwd="/tmp"
+iso=$pwd/iso
+cas=$pwd/cas
+
+[ -n "$(mount | grep $cas)" ] && sudo umount $cas
+[ -n "$(mount | grep $iso)" ] && sudo umount $iso
+
+[ -d $iso ] || sudo mkdir -p $iso
+[ -d $cas ] || sudo mkdir -p $cas
+
+sudo mount $2 $iso  2>/dev/null 
+sudo mount $iso/casper/filesystem.squashfs $cas
+
+#echo "chroot..."
+
+sudo chroot $cas
+
+echo "umount cas " && [ -n "$(mount | grep $cas)" ] && sudo umount $cas
+echo "umount iso" && [ -n "$(mount | grep $iso)" ] && sudo umount $iso
+
+sudo rm -rf $iso  $cas
+
+}
+
+case $1 in 
+	mountiso) 	#制作u盘启动盘
+		mountiso
+		;; 
+	dd) 	#制作u盘启动盘
+		sudo dd if=$1 of=$2 bs=20M
+		[ "$?" == "0" ] && did || echo fail
+		;; 
+	mosfd_log) 	#制作iso
+		mosfd_log
+		[ "$?" == "0" ] && did || echo fail
+		ISO=`ls *.iso -rt | tail -1`
+		md5sum $ISO > ${ISO%.iso}.md5sum
+		;; 
+	scp168) 
+		#参数左移一位$0不变
+		shift
+		scp -r $@ zhiyuan@192.168.7.168:~/yuan/
+		[ "$?" == "0" ] && did || echo fail
+		;; 
+	scp180) 
+		shift
+		scp -r $2 nfs@192.168.7.180:~/yuan/
+		[ "$?" == "0" ] && did || echo fail
+		;; 
+	scp181) 
+		shift
+		scp -r $2 hmm@192.168.7.181:~/yuan/
+		[ "$?" == "0" ] && did || echo fail
+		;; 
+	diff_iso) 	
+		/home/zhiyuan/.vim/isoconf/diff_iso $2 $3
+		;; 
+	168) 	#64位编译机
+		ssh zhiyuan@192.168.7.168
+		;; 
+	180) 	#64位编译机
+		ssh nfs@192.168.7.180
+		;; 
+	181) 	#64位编译机
+		echo 181; alert 
+		ssh hmm@192.168.7.181
+		;; 
+	206) 	#兆芯C
+		ssh nfs@192.168.7.206
+		;; 
+	208) 	#兆芯A
+		ssh nfs@192.168.7.208
+		;; 
+	207) 	#周报
+		ssh root@192.168.7.207
+		;; 
+	251) 	#32位编译机
+		ssh mingming@192.168.7.251
+		;; 
+	102) 	#服务器
+		echo "passwd is mingming"
+		ssh mingming@192.168.8.102
+		;; 
+	-h | --help) 
+		help
+		;; 
+	*) 	
+		help
+	;; 
+esac 
+
+exit 0

@@ -1,0 +1,3 @@
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev HGJ-VER
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev HGJ
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev cdos_deb_unchangeable

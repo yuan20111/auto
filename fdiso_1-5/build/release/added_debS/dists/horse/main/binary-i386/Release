@@ -1,0 +1,7 @@
+Archive: horse
+Version: 1.0
+Component: main
+Origin: CDOS
+Label: CDOS
+Architecture: i386
+Description: CDOS disk repo

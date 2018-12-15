@@ -1,0 +1,8 @@
+d-i debian-installer/locale string zh_CN.UTF-8
+d-i clock-setup/utc boolean false
+d-i time/zone string Asia/Beijing
+
+d-i ubiquity/skip_eula boolean true
+
+d-i oem-config/early_command string lenovo-pre-oem-config
+d-i oem-config/late_command string lenovo-post-oem-config

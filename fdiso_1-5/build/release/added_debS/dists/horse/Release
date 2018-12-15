@@ -1,0 +1,66 @@
+Origin: CDOS
+Label: CDOS
+Suite: horse
+Codename: horse
+Version: 1.0
+Date: Mon, 15 Dec 2014 08:37:10 UTC
+Architectures: amd64 i386
+Components: main contrib non-free
+Description: CDOS disk repo
+MD5Sum:
+ e6090a9fcd9fe57b52840cb17e38da44 26847 main/binary-amd64/Packages
+ 4689e4024ad91cf3d677c91d4bf1af98 8856 main/binary-amd64/Packages.gz
+ fd184fb30f8e023d825ceab9d98342a2 117 main/binary-amd64/Release
+ 62acbc3c44841261682d00cd29b0013d 5169 main/binary-i386/Packages
+ 93b1e34b7d7f909e9cc288565e1373ac 1948 main/binary-i386/Packages.gz
+ 5b664ccc7c81e84022287a8a69f8b218 116 main/binary-i386/Release
+ 57e009a63209b99286ea7a5ce37602aa 920 contrib/binary-amd64/Packages
+ 251261a68980cbc7614630eadc0c901b 604 contrib/binary-amd64/Packages.gz
+ d6b72d446ed267b6be7cb87ad9c5c66a 120 contrib/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-i386/Packages.gz
+ 269ce37dec80f782d9f3ab8251b12377 119 contrib/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-amd64/Packages.gz
+ 6a113ef3a052793054ba24e8622cd9e1 121 non-free/binary-amd64/Release
+ 7d9f500f758bb4660ff99e106c5af07e 1498 non-free/binary-i386/Packages
+ f7e011a923a04eef65c6454d07c061d9 903 non-free/binary-i386/Packages.gz
+ 22b6d65fbb22880519ffe1daca6f14bf 120 non-free/binary-i386/Release
+SHA1:
+ 11564b6aeaee0346016f2fd4048773505ea89138 26847 main/binary-amd64/Packages
+ a1759e577e54b24b688168678536131b2554a9c7 8856 main/binary-amd64/Packages.gz
+ 978fee0e93d9689b64f1fcb7b1002f6afc62b855 117 main/binary-amd64/Release
+ 943bf77c82c33ca23b8300645ec93292525932fc 5169 main/binary-i386/Packages
+ 8ae71a4dbf2657ef2610e67121c539ad8caf9c25 1948 main/binary-i386/Packages.gz
+ fbf5188448c9b6b33df03c3eb8433095373458a8 116 main/binary-i386/Release
+ bac42f61b9c407d6245677513861c4d841a5b802 920 contrib/binary-amd64/Packages
+ c7b786fa1cfd3c309d024c4e962968857d73a436 604 contrib/binary-amd64/Packages.gz
+ 982bbc58ff2afe011d63be928ee1ca4f4b164922 120 contrib/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-i386/Packages.gz
+ 3b3684645040e4b882028ce2649fa4f677bf89ce 119 contrib/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-amd64/Packages.gz
+ e27cde5437c2714a76bdea6d008cb3d498a33889 121 non-free/binary-amd64/Release
+ f3ff13b4c596734dfe7f732943f4ac184525fc4b 1498 non-free/binary-i386/Packages
+ a4969bf0b765f6e4059ed4288bc9a0bdcc897806 903 non-free/binary-i386/Packages.gz
+ e35b49c65449a03fc103d426dc25744c35489ecf 120 non-free/binary-i386/Release
+SHA256:
+ bdb6bd4558a187ef39bfd4a520f0fea4fd66230ba3d927e30cd145dd75558c61 26847 main/binary-amd64/Packages
+ 496c3667403f1a4d019a924340b1b8e8574f63861d3191e87018a2653615c46c 8856 main/binary-amd64/Packages.gz
+ 38eb0a363d95ab63c84ca73c8e1e68183fb2e15ec0ff3101bf87c65417ac3771 117 main/binary-amd64/Release
+ fa58ea9ed77c0c7dcf8f1b35dea7255440db6fe38ab3fdab73a2c226bcbbf9ae 5169 main/binary-i386/Packages
+ 690614dcaa3e425fc48d70ee2dd3f9022d74a981d8a40fa876cdf68aa9641acd 1948 main/binary-i386/Packages.gz
+ d145e069a10ff32550382f0f1e70fa8bcfbf2c73bdcf6c77d49d0dc646fccbf9 116 main/binary-i386/Release
+ d5799eaf42fa3cc68df0d0c3c537f97e7d535290ff8ab5033bd360839726ddad 920 contrib/binary-amd64/Packages
+ 32dc6c6ba82e562e3494bd93be63a011a23bbed73b0cfd59c6343592713ae950 604 contrib/binary-amd64/Packages.gz
+ 37b06f9cf29580b6b62f2d3b651093a46e577a502e1f51546b6bb098d85134a2 120 contrib/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-i386/Packages.gz
+ 708c93919934e6f4a4e1a79442365d7194b9dd06d428c76283bc65f47dc54a3f 119 contrib/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-amd64/Packages.gz
+ c496878b67dee28811a8e6390066e2a5b67ae2e72f881c0ec8ad7cf0a0a45dcf 121 non-free/binary-amd64/Release
+ a303ed8aacd69bbe9eca4a4b546d3ba86e324fcb0e019f4197e1a6f4d079b565 1498 non-free/binary-i386/Packages
+ c44899762382c6feca3985e332dd225dfa8828c7c4ce8a3facfa94a0a52db71b 903 non-free/binary-i386/Packages.gz
+ 0978ad155dfc8b8449a83c9d255232eb516920823f3acb5081e8f32257cb54bb 120 non-free/binary-i386/Release

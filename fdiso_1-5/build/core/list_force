@@ -1,0 +1,10 @@
+bluez-audio
+bluez-hcidump
+bluez-btsco
+bluez-utils
+bluez-pcmcia-support
+bluez-compat
+bluez-tools
+gnome-user-share
+libgnome-bluetooth11
+platform-hw-ident

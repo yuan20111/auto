@@ -1,0 +1,114 @@
+Package: ncurses-term
+Source: ncurses
+Version: 5.9+20140118-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2154
+Breaks: bogl-bterm (<< 0.1.18-7), mlterm-common (<< 3.0.2-1)
+Replaces: bogl-bterm (<< 0.1.18-7), mlterm-common (<< 3.0.2-1), ncurses-base (<< 5.7+20100313-1)
+Multi-Arch: foreign
+Homepage: http://invisible-island.net/ncurses/
+Priority: standard
+Section: misc
+Filename: pool/main/n/ncurses/ncurses-term_5.9+20140118-1ubuntu1_all.deb
+Size: 242540
+SHA256: 00c8f0c1189c94dc81a904b3a4b02c7ba6b35a79adca2e2bc29081c567419052
+SHA1: 21716fe448a46086359f8b88e0ac96499b57d6aa
+MD5sum: b23e6a13dd7be4758dc1529b914a9a5c
+Description: additional terminal type definitions
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains all of the numerous terminal definitions not found in
+ the ncurses-base package.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
+Package: oem-config
+Source: ubiquity
+Version: 2.18.8-1linuxmint4
+Architecture: all
+Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 269
+Depends: debconf (>= 0.5) | debconf-2.0, sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16), ubiquity (= 2.18.8-1linuxmint4), oem-config-frontend-2.18.8-1linuxmint4, procps
+Conflicts: oem-config-keyboard, oem-config-locale, oem-config-timezone
+Replaces: oem-config-gtk (<< 1.54.13), oem-config-kde (<< 1.54.13), oem-config-keyboard, oem-config-locale, oem-config-timezone
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/oem-config_2.18.8-1linuxmint4_all.deb
+Size: 170140
+SHA256: c87c91271b17e38ae5b48c142976477efbd68fdb2540fb7867aee5ee27337fd9
+SHA1: dcd110a0e8859ba036b695f007c573e5fac3ac2f
+MD5sum: 5b6858771c7938a202c7eb64e20a5de0
+Description: Perform end-user configuration after initial OEM installation
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+
+Package: oem-config-debconf
+Source: ubiquity
+Version: 2.18.8-1linuxmint4
+Architecture: all
+Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 189
+Depends: sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16), oem-config (= 2.18.8-1linuxmint4), ubiquity-frontend-debconf (= 2.18.8-1linuxmint4)
+Provides: oem-config-frontend-2.18.8-1linuxmint4
+Priority: optional
+Section: admin
+Filename: pool/main/u/ubiquity/oem-config-debconf_2.18.8-1linuxmint4_all.deb
+Size: 161744
+SHA256: a1a05d0f726ec01e6efc072c046d692f5671e7d01a21990a757216fe6d0a6941
+SHA1: 26a7716110a8f9779b6e8e4651783270a80f3211
+MD5sum: 58d8004e92554e0f425cd25a5b87241f
+Description: debconf frontend for end-user post-OEM-install configuration
+ The oem-config script re-asks a number of questions that are normally asked
+ during installation, and reconfigures the system accordingly. This allows a
+ vendor to install a skeleton system, clone it onto a large number of
+ machines, and ship it to end users, while still allowing end users to set
+ up their own username and password, language, timezone, and so on.
+ .
+ This is a frontend to oem-config that simply arranges for questions to be
+ asked using the normal debconf frontend.
+
+Package: tasksel
+Version: 2.88ubuntu15
+Architecture: all
+Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 240
+Pre-Depends: debconf (>= 1.5.34) | cdebconf (>= 0.106)
+Depends: debconf (>= 0.5) | debconf-2.0, liblocale-gettext-perl, apt (>= 0.6.45ubuntu14), aptitude (>= 0.2.15-1), tasksel-data
+Conflicts: base-config (<< 2.32), debconf (<< 1.4.27)
+Priority: important
+Section: admin
+Filename: pool/main/t/tasksel/tasksel_2.88ubuntu15_all.deb
+Size: 29670
+SHA256: 34eb609f8d5387babdc5ec96a178053297de091170ed09282a0ff2e63e71a4e0
+SHA1: f77144d1e6f5011d2e7abc0a8dc72c582307bd52
+MD5sum: 2e096657693512ae39b94f66658fe9e7
+Description: Tool for selecting tasks for installation on Debian systems
+ This package provides 'tasksel', a simple interface for users who
+ want to configure their system to perform a specific task.
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+
+Package: tasksel-data
+Source: tasksel
+Version: 2.88ubuntu15
+Architecture: all
+Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
+Installed-Size: 136
+Depends: tasksel
+Recommends: laptop-detect
+Conflicts: tasksel (<< 2.67)
+Priority: important
+Section: admin
+Filename: pool/main/t/tasksel/tasksel-data_2.88ubuntu15_all.deb
+Size: 6366
+SHA256: 1430f6a12b2aec4d5b7e295f8f2bbb9bddf86882acd6a88ce0f177276f8edc07
+SHA1: 9deecf6ddac4820538b85758830868a8582b0a73
+MD5sum: 9e6d0f90594e051424709c3adefc14ec
+Description: Official tasks used for installation of Debian systems
+ This package contains data about the standard tasks available on a Debian
+ system.
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+

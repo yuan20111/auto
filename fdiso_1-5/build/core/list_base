@@ -1,0 +1,1372 @@
+ii  add-apt-key                                 1.0-0.5                                all          Command line tool to add GPG keys to the APT keyring
+ii  adduser                                     3.113+nmu3ubuntu1                      all          add and remove users and groups
+ii  alsa-base                                   1.0.25+dfsg-0ubuntu4                   all          ALSA driver configuration files
+ii  alsa-utils                                  1.0.25-4ubuntu2                        i386         Utilities for configuring and using ALSA
+ii  apg                                         2.2.3.dfsg.1-2build1                   i386         Automated Password Generator - Standalone version
+ii  apt                                         0.9.7.7ubuntu6                         i386         commandline package manager
+ii  apt-clone                                   0.3.1~ubuntu4                          all          Script to create state bundles
+ii  apt-transport-https                         0.9.7.7ubuntu6                         i386         https download transport for APT
+ii  apt-utils                                   0.9.7.7ubuntu6                         i386         package managment related utility programs
+ii  apt-xapian-index                            0.45ubuntu2.1                          all          maintenance and search tools for a Xapian index of Debian packages
+ii  aptdaemon                                   1.0-0ubuntu9                           all          transaction based package management service
+ii  aptdaemon-data                              1.0-0ubuntu9                           all          data files for clients
+ii  aptitude                                    0.6.8.1-2ubuntu2                       i386         terminal-based package manager
+ii  aptitude-common                             0.6.8.1-2ubuntu2                       all          architecture indepedent files for the aptitude package manager
+ii  apturl-common                               0.5.2ubuntu1                           i386         install packages using the apt protocol - common data
+ii  archdetect-deb                              1.92ubuntu1                            i386         Hardware architecture detector
+ii  aspell                                      0.60.7~20110707-1build1                i386         GNU Aspell spell-checker
+ii  aspell-en                                   7.1-0-1                                all          English dictionary for GNU Aspell
+ii  autoconf                                    2.69-1ubuntu1                          all          automatic configure script builder
+ii  automake                                    1:1.11.6-1ubuntu1                      all          Tool for generating GNU Standards-compliant Makefiles
+ii  autotools-dev                               20120608.1                             all          Update infrastructure for config.{guess,sub} files
+ii  avahi-autoipd                               0.6.31-1ubuntu3                        i386         Avahi IPv4LL network address configuration daemon
+ii  avahi-daemon                                0.6.31-1ubuntu3                        i386         Avahi mDNS/DNS-SD daemon
+ii  avahi-utils                                 0.6.31-1ubuntu3                        i386         Avahi browsing, publishing and discovery utilities
+ii  base-files                                  6.12ubuntu2                            i386         Debian base system miscellaneous files
+ii  base-passwd                                 3.5.26                                 i386         Debian base system master password and group files
+ii  bash                                        4.2-5ubuntu3                           i386         GNU Bourne Again SHell
+ii  bash-completion                             1:2.0-1ubuntu3                         all          programmable completion for the bash shell
+ii  bc                                          1.06.95-4ubuntu1                       i386         GNU bc arbitrary precision calculator language
+ii  bind9-host                                  1:9.9.2.dfsg.P1-2ubuntu2.2             i386         Version of 'host' bundled with BIND 9.X
+ii  binfmt-support                              2.0.13                                 i386         Support for extra binary formats
+ii  binutils                                    2.23.2-2ubuntu1                        i386         GNU assembler, linker and binary utilities
+ii  bison                                       2:2.5.dfsg-3ubuntu1                    i386         YACC-compatible parser generator
+ii  bluetooth                                   4.101-0ubuntu8b1                       all          Bluetooth support
+ii  bluez                                       4.101-0ubuntu8b1                       i386         Bluetooth tools and daemons
+ii  bluez-alsa:i386                             4.101-0ubuntu8b1                       i386         Bluetooth ALSA support
+ii  bluez-gstreamer                             4.101-0ubuntu8b1                       i386         Bluetooth GStreamer support
+ii  brltty                                      4.4-8ubuntu4                           i386         Access software for a blind person using a braille display
+ii  bsdmainutils                                9.0.4ubuntu3                           i386         collection of more utilities from FreeBSD
+ii  bsdutils                                    1:2.20.1-5.1ubuntu8                    i386         Basic utilities from 4.4BSD-Lite
+ii  btrfs-tools                                 0.19+20130117-0ubuntu1                 i386         Checksumming Copy on Write Filesystem utilities
+ii  build-essential                             11.6ubuntu4                            i386         Informational list of build-essential packages
+ii  busybox-initramfs                           1:1.20.0-8ubuntu1                      i386         Standalone shell setup for initramfs
+ii  busybox-static                              1:1.20.0-8ubuntu1                      i386         Standalone rescue shell with tons of builtin utilities
+ii  bzip2                                       1.0.6-4                                i386         high-quality block-sorting file compressor - utilities
+ii  ca-certificates                             20130119                               all          Common CA certificates
+ii  cabextract                                  1.4-4                                  i386         Microsoft Cabinet file unpacker
+ii  cifs-utils                                  2:5.5-1ubuntu2                         i386         Common Internet File System utilities
+ii  cli-common                                  0.8.2                                  all          common files between all CLI packages
+ii  command-not-found                           0.3ubuntu7.1                           all          Suggest installation of packages in interactive bash sessions
+ii  command-not-found-data                      0.3ubuntu7.1                           i386         Set of data files for command-not-found.
+ii  console-setup                               1.70ubuntu7                            all          console font and keymap setup program
+ii  consolekit                                  0.4.5-3.1ubuntu2                       i386         framework for defining and tracking users, sessions and seats
+ii  coreutils                                   8.20-3ubuntu5                          i386         GNU core utilities
+ii  cos-pluginsforfirefox                       1.0.1                                  all          plugins for firefox
+ii  cowsay                                      3.03+dfsg1-4                           all          configurable talking cow
+ii  cpio                                        2.11+dfsg-0.1ubuntu1                   i386         GNU cpio -- a program to manage archives of files
+ii  cpp                                         4:4.7.3-1ubuntu10                      i386         GNU C preprocessor (cpp)
+ii  cpp-4.7                                     4.7.3-1ubuntu1                         i386         GNU C preprocessor
+ii  crda                                        1.1.2-1ubuntu2                         i386         wireless Central Regulatory Domain Agent
+ii  cron                                        3.0pl1-124ubuntu2                      i386         process scheduling daemon
+ii  cryptsetup                                  2:1.4.3-4ubuntu2                       i386         disk encryption support - startup scripts
+ii  cryptsetup-bin                              2:1.4.3-4ubuntu2                       i386         disk encryption support - command line tools
+ii  cups-bsd                                    1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - BSD commands
+ii  cups-client                                 1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - client programs (SysV)
+ii  cups-common                                 1.6.2-1ubuntu8                         all          Common UNIX Printing System(tm) - common files
+ii  cups-daemon                                 1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - daemon
+ii  cups-pk-helper                              0.2.4-0ubuntu5                         i386         PolicyKit helper to configure cups with fine-grained privileges
+ii  cups-ppdc                                   1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - PPD manipulation utilities
+ii  curl                                        7.29.0-1ubuntu3.4                      i386         command line tool for transferring data with URL syntax
+ii  dash                                        0.5.7-3ubuntu1                         i386         POSIX-compliant shell
+ii  dbus                                        1.6.8-1ubuntu6.1                       i386         simple interprocess messaging system (daemon and utilities)
+ii  dbus-x11                                    1.6.8-1ubuntu6.1                       i386         simple interprocess messaging system (X11 deps)
+ii  dc                                          1.06.95-4ubuntu1                       i386         GNU dc arbitrary precision reverse-polish calculator
+ii  dconf-gsettings-backend:i386                0.16.0-0ubuntu1                        i386         simple configuration storage system - GSettings back-end
+ii  dconf-service                               0.16.0-0ubuntu1                        i386         simple configuration storage system - D-Bus service
+ii  dctrl-tools                                 2.22.2ubuntu1                          i386         Command-line tools to process Debian package information
+ii  debconf                                     1.5.49ubuntu1                          all          Debian configuration management system
+ii  debconf-i18n                                1.5.49ubuntu1                          all          full internationalization support for debconf
+ii  debianutils                                 4.3.4                                  i386         Miscellaneous utilities specific to Debian
+ii  desktop-file-utils                          0.21-0ubuntu3                          i386         Utilities for .desktop files
+ii  devscripts                                  2.13.1ubuntu0.1                        i386         scripts to make the life of a Debian Package maintainer easier
+ii  dialog                                      1.1-20120215-3                         i386         Displays user-friendly dialog boxes from shell scripts
+ii  dictionaries-common                         1.12.11                                all          Common utilities for spelling dictionary tools
+ii  diffstat                                    1.55-4                                 i386         produces graph of changes introduced by a diff file
+ii  diffutils                                   1:3.2-8                                i386         File comparison utilities
+ii  distro-info-data                            0.13ubuntu0.3                          all          information about the distributions' releases (data files)
+ii  dkms                                        2.2.0.3-1.1ubuntu2                     all          Dynamic Kernel Module Support Framework
+ii  dmidecode                                   2.11+20120326-2                        i386         SMBIOS/DMI table decoder
+ii  dmraid                                      1.0.0.rc16-4.2ubuntu1                  i386         Device-Mapper Software RAID support tool
+ii  dmsetup                                     2:1.02.74-6ubuntu4                     i386         Linux Kernel Device Mapper userspace library
+ii  dmz-cursor-theme                            0.4.3                                  all          Style neutral, scalable cursor theme
+ii  dnsmasq-base                                2.65-1ubuntu1                          i386         Small caching DNS proxy and DHCP/TFTP server
+ii  dnsutils                                    1:9.9.2.dfsg.P1-2ubuntu2.2             i386         Clients provided with BIND
+ii  doc-base                                    0.10.4                                 all          utilities to manage online documentation
+ii  docbook-xml                                 4.5-7.1                                all          standard XML documentation system for software and systems
+ii  dosfstools                                  3.0.14-1ubuntu1                        i386         utilities for making and checking MS-DOS FAT filesystems
+ii  dpkg                                        1.16.10ubuntu1                         i386         Debian package management system
+ii  dpkg-dev                                    1.16.10ubuntu1                         all          Debian package development tools
+ii  dpkg-repack                                 1.37                                   all          puts an unpacked .deb file back together
+ii  dput                                        0.9.6.3+nmu1ubuntu1                    all          Debian package upload tool
+ii  duplicity                                   0.6.21-0ubuntu1.2                      i386         encrypted bandwidth-efficient backup
+ii  dvd+rw-tools                                7.1-10build1                           i386         DVD+-RW/R tools
+ii  e2fslibs:i386                               1.42.5-1ubuntu4                        i386         ext2/ext3/ext4 file system libraries
+ii  e2fsprogs                                   1.42.5-1ubuntu4                        i386         ext2/ext3/ext4 file system utilities
+ii  ecryptfs-utils                              103-0ubuntu2                           i386         ecryptfs cryptographic filesystem (utilities)
+ii  ed                                          1.6-2ubuntu1                           i386         classic UNIX line editor
+ii  eject                                       2.1.5+deb1+cvs20081104-13              i386         ejects CDs and operates CD-Changers under Linux
+ii  findutils                                   4.4.2-5ubuntu1                         i386         utilities for finding files--find, xargs
+ii  g++                                         4:4.7.3-1ubuntu10                      i386         GNU C++ compiler
+ii  g++-4.7                                     4.7.3-1ubuntu1                         i386         GNU C++ compiler
+ii  gawk                                        1:4.0.1+dfsg-2ubuntu1                  i386         GNU awk, a pattern scanning and processing language
+ii  gcc                                         4:4.7.3-1ubuntu10                      i386         GNU C compiler
+ii  gcc-4.7                                     4.7.3-1ubuntu1                         i386         GNU C compiler
+ii  gcc-4.7-base:i386                           4.7.3-1ubuntu1                         i386         GCC, the GNU Compiler Collection (base package)
+ii  gconf-defaults-service                      3.2.6-0ubuntu1                         i386         GNOME configuration database system (system defaults service)
+ii  gconf-service                               3.2.6-0ubuntu1                         i386         GNOME configuration database system (D-Bus service)
+ii  gconf-service-backend                       3.2.6-0ubuntu1                         i386         GNOME configuration database system (D-Bus service)
+ii  gconf2                                      3.2.6-0ubuntu1                         i386         GNOME configuration database system (support tools)
+ii  gconf2-common                               3.2.6-0ubuntu1                         all          GNOME configuration database system (common files)
+ii  gdb                                         7.6~20130417-0ubuntu1                  i386         The GNU Debugger
+ii  gedit-common                                3.6.2-0ubuntu1                         all          official text editor of the GNOME desktop environment (support files)
+ii  gettext                                     0.18.1.1-10ubuntu3                     i386         GNU Internationalization utilities
+ii  gettext-base                                0.18.1.1-10ubuntu3                     i386         GNU Internationalization utilities for the base system
+ii  gir1.2-accounts-1.0                         1.8-0ubuntu1                           i386         typelib file for libaccounts-glib0
+ii  gir1.2-accountsservice-1.0                  0.6.29-1ubuntu8                        i386         GObject introspection data for AccountService
+ii  gir1.2-atk-1.0                              2.8.0-1                                i386         ATK accessibility toolkit (GObject introspection)
+ii  gir1.2-atspi-2.0                            2.8.0-1                                i386         Assistive Technology Service Provider (GObject introspection)
+ii  gir1.2-cogl-1.0                             1.14.0-0ubuntu1                        i386         GObject introspection data for the Cogl 1.0 library
+ii  gir1.2-dbusmenu-glib-0.4                    12.10.3daily13.06.19~13.04-0ubuntu1    i386         typelib file for libdbusmenu-glib4
+ii  gir1.2-dee-1.0                              1.2.3~daily13.03.13.1-0ubuntu1         i386         GObject introspection data for the Dee library
+ii  gir1.2-freedesktop                          1.36.0-1                               i386         Introspection data for some FreeDesktop components
+ii  gir1.2-gconf-2.0                            3.2.6-0ubuntu1                         i386         GNOME configuration database system (GObject-Introspection)
+ii  gir1.2-gdesktopenums-3.0                    3.6.1-0ubuntu1                         i386         GObject introspection for GSettings desktop-wide schemas
+ii  gir1.2-gdkpixbuf-2.0                        2.28.0-0ubuntu1                        i386         GDK Pixbuf library - GObject-Introspection
+ii  gir1.2-glib-2.0                             1.36.0-1                               i386         Introspection data for GLib, GObject, Gio and GModule
+ii  gir1.2-gmenu-3.0                            3.6.2-0ubuntu1                         i386         GObject introspection data for the GNOME menu library
+ii  gir1.2-gnomekeyring-1.0                     3.6.0-1                                i386         GNOME keyring services library - introspection data
+ii  gir1.2-gst-plugins-base-0.10                0.10.36-1.1ubuntu1                     i386         Description: GObject introspection data for the GStreamer Plugins Base library
+ii  gir1.2-gst-plugins-base-1.0                 1.0.6-1                                i386         Description: GObject introspection data for the GStreamer Plugins Base library
+ii  gir1.2-gstreamer-0.10                       0.10.36-1ubuntu2                       i386         Description: GObject introspection data for the GStreamer library
+ii  gir1.2-gstreamer-1.0                        1.0.6-1                                i386         Description: GObject introspection data for the GStreamer library
+ii  gir1.2-gudev-1.0                            198-0ubuntu11.2                        i386         libgudev-1.0 introspection data
+ii  gir1.2-javascriptcoregtk-3.0                1.10.2-0ubuntu1                        i386         GObject introspection data for the GTK+-based JavaScriptCore library
+ii  gir1.2-json-1.0                             0.15.2-0ubuntu1                        i386         GLib JSON manipulation library (introspection data)
+ii  gir1.2-messagingmenu-1.0                    12.10.6daily13.04.09-0ubuntu1          i386         Messaging Menu - gir bindings
+ii  gir1.2-networkmanager-1.0                   0.9.8.0-0ubuntu6.1                     i386         GObject introspection data for NetworkManager
+ii  gir1.2-notify-0.7                           0.7.5-2                                i386         sends desktop notifications to a notification daemon (Introspection files)
+ii  gir1.2-packagekitglib-1.0                   0.7.6-3ubuntu1                         i386         GObject introspection data for the PackageKit GLib library
+ii  gir1.2-polkit-1.0                           0.105-1ubuntu1.1                       i386         GObject introspection data for PolicyKit
+ii  gir1.2-signon-1.0                           1.9-0ubuntu1                           i386         GObject introspection data for the Signon library
+ii  gir1.2-soup-2.4                             2.40.3-0ubuntu1                        i386         GObject introspection data for the libsoup HTTP library
+ii  gir1.2-syncmenu-0.1                         12.10.5daily13.03.28.1-0ubuntu1        i386         indicator for synchronisation processes status - bindings
+ii  gir1.2-totem-plparser-1.0                   3.4.4-1                                i386         GObject introspection data for the Totem Playlist Parser library
+ii  gir1.2-unity-5.0:i386                       6.90.2daily13.04.05-0ubuntu1           i386         GObject introspection data for the Unity library
+ii  gir1.2-upowerglib-1.0                       0.9.20-1ubuntu0.1                      i386         GObject introspection data for upower
+ii  git                                         1:1.8.1.2-1                            i386         fast, scalable, distributed revision control system
+ii  git-man                                     1:1.8.1.2-1                            all          fast, scalable, distributed revision control system (manual pages)
+ii  glib-networking:i386                        2.36.2-0ubuntu0.1                      i386         network-related giomodules for GLib
+ii  glib-networking-common                      2.36.2-0ubuntu0.1                      all          network-related giomodules for GLib - data files
+ii  glib-networking-services                    2.36.2-0ubuntu0.1                      i386         network-related giomodules for GLib - D-Bus services
+ii  gnupg                                       1.4.12-7ubuntu1.3                      i386         GNU privacy guard - a free PGP replacement
+ii  gpgv                                        1.4.12-7ubuntu1.3                      i386         GNU privacy guard - signature verification tool
+ii  gpm                                         1.20.4-6ubuntu1                        i386         General Purpose Mouse interface
+ii  grep                                        2.14-1                                 i386         GNU grep, egrep and fgrep
+ii  groff-base                                  1.22.1-3                               i386         GNU troff text-formatting system (base system components)
+ii  growisofs                                   7.1-10build1                           i386         DVD+-RW/R recorder
+ii  grub-common                                 2.00-13ubuntu3                         i386         GRand Unified Bootloader (common files)
+ii  grub-gfxpayload-lists                       0.6                                    i386         GRUB gfxpayload blacklist
+ii  grub-pc                                     2.00-13ubuntu3                         i386         GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                                 2.00-13ubuntu3                         i386         GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+ii  grub2-common                                2.00-13ubuntu3                         i386         GRand Unified Bootloader (common files for version 2)
+ii  grub2-theme-mint                            1.0.9                                  all          Grub2 theme for Linux Mint
+ii  gsettings-desktop-schemas                   3.6.1-0ubuntu1                         all          GSettings deskop-wide schemas
+ii  gsfonts                                     1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1    all          Fonts for the Ghostscript interpreter(s)
+ii  gstreamer0.10-alsa:i386                     0.10.36-1.1ubuntu1                     i386         GStreamer plugin for ALSA
+ii  gstreamer0.10-ffmpeg:i386                   0.10.13-5                              i386         FFmpeg plugin for GStreamer
+ii  gstreamer0.10-gconf:i386                    0.10.31-3+nmu1ubuntu2                  i386         GStreamer plugin for getting the sink/source information from GConf
+ii  gstreamer0.10-gnomevfs:i386                 0.10.36-1.1ubuntu1                     i386         GStreamer plugin for GnomeVFS
+ii  gstreamer0.10-nice:i386                     0.1.3-1                                i386         ICE library (GStreamer plugin)
+ii  gstreamer0.10-plugins-bad-multiverse        0.10.21-1ubuntu1                       i386         GStreamer plugins from the "bad" set (Multiverse Variant)
+ii  gstreamer0.10-plugins-base:i386             0.10.36-1.1ubuntu1                     i386         GStreamer plugins from the "base" set
+ii  gstreamer0.10-plugins-base-apps             0.10.36-1.1ubuntu1                     i386         GStreamer helper programs from the "base" set
+ii  gstreamer0.10-plugins-ugly:i386             0.10.19-2                              i386         GStreamer plugins from the "ugly" set
+ii  gstreamer0.10-pulseaudio:i386               0.10.31-3+nmu1ubuntu2                  i386         GStreamer plugin for PulseAudio
+ii  gstreamer0.10-tools                         0.10.36-1ubuntu2                       i386         Tools for use with GStreamer
+ii  gstreamer1.0-alsa:i386                      1.0.6-1                                i386         GStreamer plugin for ALSA
+ii  gstreamer1.0-libav:i386                     1.0.6-1                                i386         FFmpeg plugin for GStreamer
+ii  gstreamer1.0-nice:i386                      0.1.3-1                                i386         ICE library (GStreamer plugin)
+ii  gstreamer1.0-plugins-base:i386              1.0.6-1                                i386         GStreamer plugins from the "base" set
+ii  gstreamer1.0-plugins-base-apps              1.0.6-1                                i386         GStreamer helper programs from the "base" set
+ii  gstreamer1.0-plugins-good:i386              1.0.6-1ubuntu1                         i386         GStreamer plugins from the "good" set
+ii  gstreamer1.0-plugins-ugly:i386              1.0.6-1                                i386         GStreamer plugins from the "ugly" set
+ii  gstreamer1.0-pulseaudio:i386                1.0.6-1ubuntu1                         i386         GStreamer plugin for PulseAudio
+ii  gstreamer1.0-tools                          1.0.6-1                                i386         Tools for use with GStreamer
+ii  gthumb-data                                 3:3.0.2-0ubuntu3                       all          image viewer and browser - arch-independent files
+ii  guile-2.0-libs                              2.0.7-0ubuntu2                         i386         Core Guile libraries
+ii  gvfs-bin                                    1.16.1-0ubuntu1.1                      i386         userspace virtual filesystem - binaries
+ii  gvfs-common                                 1.16.1-0ubuntu1.1                      all          userspace virtual filesystem - common data files
+ii  gvfs-libs:i386                              1.16.1-0ubuntu1.1                      i386         userspace virtual filesystem - private libraries
+ii  gzip                                        1.5-1.1ubuntu1                         i386         GNU compression utilities
+ii  hardening-includes                          2.3                                    all          Makefile for enabling compiler flags for security hardening
+ii  hddtemp                                     0.3-beta15-52                          i386         hard drive temperature monitoring utility
+ii  hdparm                                      9.43-1ubuntu1                          i386         tune hard disk parameters for high performance
+ii  hicolor-icon-theme                          0.12-1ubuntu2                          all          default fallback theme for FreeDesktop.org icon themes
+ii  hostname                                    3.12ubuntu1                            i386         utility to set/show the host name or domain name
+ii  hplip-data                                  3.13.3-1ubuntu0.1                      all          HP Linux Printing and Imaging - data files
+ii  hunspell-en-ca                              1:3.3.0-2ubuntu3                       all          English_canadian dictionary for hunspell
+ii  hunspell-en-us                              20070829-4ubuntu3                      all          English_american dictionary for hunspell
+ii  hwdata                                      0.234-1                                all          hardware identification / configuration data
+ii  icedtea-netx-common                         1.3.2-1ubuntu1.1                       all          NetX - implementation of the Java Network Launching Protocol (JNLP)
+ii  ifupdown                                    0.7.5ubuntu2.2                         i386         high level tools to configure network interfaces
+ii  im-config                                   0.21ubuntu3                            all          Input method configuration framework
+ii  info                                        4.13a.dfsg.1-10ubuntu4                 i386         Standalone GNU Info documentation browser
+ii  initramfs-tools                             0.103ubuntu0.8                         all          tools for generating an initramfs
+ii  initramfs-tools-bin                         0.103ubuntu0.8                         i386         binaries used by initramfs-tools
+ii  initscripts                                 2.88dsf-13.10ubuntu15                  i386         scripts for initializing and shutting down the system
+ii  inputattach                                 1:1.4.3-1                              i386         utility to connect serial-attached peripherals to the input subsystem
+ii  insserv                                     1.14.0-5ubuntu1                        i386         boot sequence organizer using LSB init.d script dependency information
+ii  install-info                                4.13a.dfsg.1-10ubuntu4                 i386         Manage installed documentation in info format
+ii  intltool-debian                             0.35.0+20060710.1                      all          Help i18n of RFC822 compliant config files
+ii  iproute                                     20121211-2ubuntu1                      i386         networking and traffic control tools
+ii  iptables                                    1.4.12-2ubuntu5                        i386         administration tools for packet filtering and NAT
+ii  iputils-arping                              3:20101006-3ubuntu1                    i386         Tool to send ICMP echo requests to an ARP address
+ii  iputils-ping                                3:20101006-3ubuntu1                    i386         Tools to test the reachability of network hosts
+ii  iputils-tracepath                           3:20101006-3ubuntu1                    i386         Tools to trace the network path to a remote host
+ii  irqbalance                                  1.0.5-2                                i386         Daemon to balance interrupts for SMP systems
+ii  isc-dhcp-client                             4.2.4-5ubuntu2.1                       i386         ISC DHCP client
+ii  isc-dhcp-common                             4.2.4-5ubuntu2.1                       i386         common files used by all the isc-dhcp* packages
+ii  iso-codes                                   3.41-1                                 all          ISO language, territory, currency, script codes and their translations
+ii  iw                                          3.4-1                                  i386         tool for configuring Linux wireless devices
+ii  java-common                                 0.43ubuntu4                            all          Base of all Java packages
+ii  jfsutils                                    1.1.15-2ubuntu1                        i386         utilities for managing the JFS filesystem
+ii  kbd                                         1.15.5-1ubuntu1                        i386         Linux console font and keytable utilities
+ii  kerneloops-daemon                           0.12+git20090217-3ubuntu3              i386         kernel oops tracker
+ii  keyboard-configuration                      1.70ubuntu7                            all          system-wide keyboard preferences
+ii  keyutils                                    1.5.5-4                                i386         Linux Key Management Utilities
+ii  klibc-utils                                 2.0.1-3.1ubuntu1                       i386         small utilities built with klibc for early boot
+ii  kmod                                        9-3ubuntu1                             i386         tools for managing Linux kernel modules
+ii  kpartx                                      0.4.9-3ubuntu7                         i386         create device mappings for partitions
+ii  kpartx-boot                                 0.4.9-3ubuntu7                         all          Provides kpartx during boot
+ii  krb5-locales                                1.10.1+dfsg-4+nmu1                     all          Internationalization support for MIT Kerberos
+ii  language-pack-en                            1:13.04+20130418                       all          translation updates for language English
+ii  language-pack-en-base                       1:13.04+20130418                       all          translations for language English
+ii  language-pack-gnome-en                      1:13.04+20130418                       all          GNOME translation updates for language English
+ii  language-pack-gnome-en-base                 1:13.04+20130418                       all          GNOME translations for language English
+ii  language-pack-zh-hans                       1:13.04+20130418                       all          translation updates for language Simplified Chinese
+ii  language-pack-zh-hans-base                  1:13.04+20130418                       all          translations for language Simplified Chinese
+ii  laptop-detect                               0.13.7ubuntu2                          i386         attempt to detect a laptop
+ii  less                                        456-1ubuntu1                           i386         pager program similar to more
+ii  liba52-0.7.4                                0.7.4-16build1                         i386         library for decoding ATSC A/52 streams
+ii  libaa1:i386                                 1.4p5-40                               i386         ASCII art library
+ii  libaacs0:i386                               0.6.0-1                                i386         free-and-libre implementation of AACS
+ii  libaccounts-glib0                           1.8-0ubuntu1                           i386         library for single signon
+ii  libaccounts-qt1                             1.6bzr13.02.27-0ubuntu1                i386         QT library for single sign on
+ii  libaccountsservice0                         0.6.29-1ubuntu8                        i386         query and manipulate user account information - shared libraries
+ii  libacl1:i386                                2.2.51-8ubuntu3                        i386         Access control list shared library
+ii  libaio1:i386                                0.3.109-3                              i386         Linux kernel AIO access library - shared library
+ii  libalgorithm-diff-perl                      1.19.02-3                              all          module to find differences between files
+ii  libalgorithm-diff-xs-perl                   0.04-2build3                           i386         module to find differences between files (XS accelerated)
+ii  libalgorithm-merge-perl                     0.08-2                                 all          Perl module for three-way merge of textual data
+ii  libamd2.2.0                                 1:3.4.0-3ubuntu1                       i386         approximate minimum degree ordering library for sparse matrices
+ii  libapr1                                     1.4.6-3ubuntu1                         i386         Apache Portable Runtime Library
+ii  libaprutil1                                 1.4.1-3                                i386         Apache Portable Runtime Utility Library
+ii  libaprutil1-dbd-sqlite3                     1.4.1-3                                i386         Apache Portable Runtime Utility Library - SQLite3 Driver
+ii  libaprutil1-ldap                            1.4.1-3                                i386         Apache Portable Runtime Utility Library - LDAP Driver
+ii  libapt-inst1.5:i386                         0.9.7.7ubuntu6                         i386         deb package format runtime library
+ii  libapt-pkg-perl                             0.1.26                                 i386         Perl interface to libapt-pkg
+ii  libapt-pkg4.12:i386                         0.9.7.7ubuntu6                         i386         package managment runtime library
+ii  libarchive-zip-perl                         1.30-6                                 all          Perl module for manipulation of ZIP archives
+ii  libarchive13:i386                           3.1.2-5ubuntu1                         i386         Multi-format archive and compression library (shared library)
+ii  libart-2.0-2:i386                           2.3.21-2                               i386         Library of functions for 2D graphics - runtime files
+ii  libasn1-8-heimdal:i386                      1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - ASN.1 library
+ii  libasound2:i386                             1.0.25-4ubuntu3.1                      i386         shared library for ALSA applications
+ii  libasound2-plugins:i386                     1.0.25-2ubuntu3                        i386         ALSA library additional plugins
+ii  libaspell15                                 0.60.7~20110707-1build1                i386         GNU Aspell spell-checker runtime library
+ii  libasprintf-dev:i386                        0.18.1.1-10ubuntu3                     i386         GNU Internationalization library development files
+ii  libasprintf0c2:i386                         0.18.1.1-10ubuntu3                     i386         GNU library to use fprintf and friends in C++
+ii  libasyncns0:i386                            0.8-4build1                            i386         Asynchronous name service query library
+ii  libatasmart4:i386                           0.19-2                                 i386         ATA S.M.A.R.T. reading and parsing library
+ii  libatk-adaptor:i386                         2.8.1-1                                i386         AT-SPI 2 toolkit bridge
+ii  libatk-bridge2.0-0:i386                     2.8.1-1                                i386         AT-SPI 2 toolkit bridge - shared library
+ii  libatk1.0-0:i386                            2.8.0-1                                i386         ATK accessibility toolkit
+ii  libatk1.0-data                              2.8.0-1                                all          Common files for the ATK accessibility toolkit
+ii  libatkmm-1.6-1:i386                         2.22.6-1ubuntu2                        i386         C++ wrappers for ATK accessibility toolkit (shared libraries)
+ii  libatspi2.0-0:i386                          2.8.0-1                                i386         Assistive Technology Service Provider Interface - shared library
+ii  libattr1:i386                               1:2.4.46-8ubuntu2                      i386         Extended attribute shared library
+ii  libaudit-common                             1:2.2.2-1ubuntu4                       all          Dynamic library for security auditing - common files
+ii  libaudit1:i386                              1:2.2.2-1ubuntu4                       i386         Dynamic library for security auditing
+ii  libavahi-client3:i386                       0.6.31-1ubuntu3                        i386         Avahi client library
+ii  libavahi-common-data:i386                   0.6.31-1ubuntu3                        i386         Avahi common data files
+ii  libavahi-common3:i386                       0.6.31-1ubuntu3                        i386         Avahi common library
+ii  libavahi-core7:i386                         0.6.31-1ubuntu3                        i386         Avahi's embeddable mDNS/DNS-SD library
+ii  libavahi-glib1:i386                         0.6.31-1ubuntu3                        i386         Avahi GLib integration library
+ii  libavahi-gobject0:i386                      0.6.31-1ubuntu3                        i386         Avahi GObject library
+ii  libavc1394-0:i386                           0.5.4-2                                i386         control IEEE 1394 audio/video devices
+ii  libavcodec53:i386                           6:0.8.9-0ubuntu0.13.04.1               i386         Libav codec library
+ii  libavformat53:i386                          6:0.8.9-0ubuntu0.13.04.1               i386         Libav file format library
+ii  libavutil51:i386                            6:0.8.9-0ubuntu0.13.04.1               i386         Libav utility library
+ii  libbabl-0.1-0:i386                          0.1.10-1ubuntu1                        i386         Dynamic, any to any, pixel format conversion library
+ii  libbind9-90                                 1:9.9.2.dfsg.P1-2ubuntu2.2             i386         BIND9 Shared Library used by BIND
+ii  libbison-dev:i386                           2:2.5.dfsg-3ubuntu1                    i386         YACC-compatible parser generator - development library
+ii  libblas3                                    1.2.20110419-5                         i386         Basic Linear Algebra Reference implementations, shared library
+ii  libblkid1:i386                              2.20.1-5.1ubuntu8                      i386         block device id library
+ii  libbluetooth3:i386                          4.101-0ubuntu8b1                       i386         Library to use the BlueZ Linux Bluetooth stack
+ii  libbluray1:i386                             1:0.2.3-1                              i386         Blu-ray disc playback support library (shared library)
+ii  libbonobo2-0:i386                           2.32.1-0ubuntu3                        i386         Bonobo CORBA interfaces library
+ii  libbonobo2-common                           2.32.1-0ubuntu3                        all          Bonobo CORBA interfaces library -- support files
+ii  libbonoboui2-common                         2.24.5-0ubuntu2                        all          The Bonobo UI library -- common files
+ii  libboost-date-time1.49.0                    1.49.0-3.2ubuntu1                      i386         set of date-time libraries based on generic programming concepts
+ii  libboost-iostreams1.49.0                    1.49.0-3.2ubuntu1                      i386         Boost.Iostreams Library
+ii  libboost-python1.49.0                       1.49.0-3.2ubuntu1                      i386         Boost.Python Library
+ii  libbrlapi0.5:i386                           4.4-8ubuntu4                           i386         braille display access via BRLTTY - shared library
+ii  libbsd0:i386                                0.4.2-1ubuntu1                         i386         utility functions from BSD systems - shared library
+ii  libburn4                                    1.2.4-0ubuntu1                         i386         library to provide CD/DVD writing functions
+ii  libbz2-1.0:i386                             1.0.6-4                                i386         high-quality block-sorting file compressor library - runtime
+ii  libc-bin                                    2.17-0ubuntu5.1                        i386         Embedded GNU C Library: Binaries
+ii  libc-dev-bin                                2.17-0ubuntu5.1                        i386         Embedded GNU C Library: Development binaries
+ii  libc6:i386                                  2.17-0ubuntu5.1                        i386         Embedded GNU C Library: Shared libraries
+ii  libc6-dev:i386                              2.17-0ubuntu5.1                        i386         Embedded GNU C Library: Development Libraries and Header Files
+ii  libcaca0:i386                               0.99.beta18-1ubuntu1                   i386         colour ASCII art library
+ii  libcamel-1.2-40                             3.6.4-0ubuntu1.1                       i386         Evolution MIME message handling library
+ii  libcanberra-pulse:i386                      0.30-0ubuntu2                          i386         PulseAudio backend for libcanberra
+ii  libcanberra0:i386                           0.30-0ubuntu2                          i386         simple abstract interface for playing event sounds
+ii  libcap-ng0                                  0.6.6-2ubuntu1                         i386         An alternate POSIX capabilities library
+ii  libcap2:i386                                1:2.22-1.2ubuntu2                      i386         support for getting/setting POSIX.1e capabilities
+ii  libcap2-bin                                 1:2.22-1.2ubuntu2                      i386         basic utility programs for using capabilities
+ii  libcaribou-common                           0.4.4-1ubuntu1                         all          Configurable on screen keyboard with scanning mode - common files
+ii  libcdaudio1                                 0.99.12p2-12                           i386         library for controlling a CD-ROM when playing audio CDs
+ii  libcddb2                                    1.3.2-3fakesync1                       i386         library to access CDDB data - runtime files
+ii  libcdio-cdda1                               0.83-4                                 i386         library to read and control digital audio CDs
+ii  libcdio-paranoia1                           0.83-4                                 i386         library to read digital audio CDs with error correction
+ii  libcdio13                                   0.83-4                                 i386         library to read and control CD-ROM
+ii  libcdparanoia0:i386                         3.10.2+debian-11                       i386         audio extraction tool for sampling CDs (library)
+ii  libcdr-0.0-0                                0.0.11-2                               i386         library for reading and converting Corel DRAW files
+ii  libck-connector0:i386                       0.4.5-3.1ubuntu2                       i386         ConsoleKit libraries
+ii  libclass-accessor-perl                      0.34-1                                 all          Perl module that automatically generates accessors
+ii  libclass-isa-perl                           0.36-5                                 all          report the search path for a class's ISA tree
+ii  libclone-perl                               0.31-1build4                           i386         recursively copy Perl datatypes
+ii  libcloog-ppl1:i386                          0.16.1-1                               i386         Chunky Loop Generator (runtime library)
+ii  libclucene-contribs1:i386                   2.3.3.4-2                              i386         language specific text analyzers (runtime)
+ii  libclucene-core1:i386                       2.3.3.4-2                              i386         core library for full-featured text search engine (runtime)
+ii  libclutter-1.0-common                       1.12.2-0ubuntu3.1                      all          Open GL based interactive canvas library (common files)
+ii  libcmis-0.3-3                               0.3.1-1ubuntu2                         i386         CMIS protocol client library
+ii  libcogl-common                              1.14.0-0ubuntu1                        all          Object oriented GL/GLES Abstraction/Utility Layer (common files)
+ii  libcogl12:i386                              1.14.0-0ubuntu1                        i386         Object oriented GL/GLES Abstraction/Utility Layer
+ii  libcolord1:i386                             0.1.30-0ubuntu3                        i386         system service to manage device colour profiles -- runtime
+ii  libcolorhug1:i386                           0.1.30-0ubuntu3                        i386         library to access the ColorHug colourimeter -- development files
+ii  libcolumbus0-0                              0.4.0daily13.04.16~13.04-0ubuntu1      i386         error tolerant matching engine - shared library
+ii  libcolumbus0-0-common                       0.4.0daily13.04.16~13.04-0ubuntu1      all          error tolerant matching engine - common files
+ii  libcomerr2:i386                             1.42.5-1ubuntu4                        i386         common error description library
+ii  libcommon-sense-perl                        3.6-1                                  all          module that implements some sane defaults for Perl programs
+ii  libcrack2                                   2.8.22-0ubuntu1                        i386         pro-active password checker library
+ii  libcroco3:i386                              0.6.8-1                                i386         Cascading Style Sheet (CSS) parsing and manipulation toolkit
+ii  libcrypt-passwdmd5-perl                     1.3-10                                 all          interoperable MD5-based crypt() for perl
+ii  libcryptsetup4                              2:1.4.3-4ubuntu2                       i386         disk encryption support - shared library
+ii  libcrystalhd3:i386                          1:0.0~git20110715.fdd2f19-9ubuntu1     i386         Crystal HD Video Decoder (shared library)
+ii  libcups2:i386                               1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - Core library
+ii  libcupscgi1:i386                            1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - CGI library
+ii  libcupsfilters1:i386                        1.0.34-0ubuntu1.1                      i386         OpenPrinting CUPS Filters - Shared library
+ii  libcupsimage2:i386                          1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - Raster image library
+ii  libcupsmime1:i386                           1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - MIME library
+ii  libcupsppdc1:i386                           1.6.2-1ubuntu8                         i386         Common UNIX Printing System(tm) - PPD manipulation library
+ii  libcurl3:i386                               7.29.0-1ubuntu3.4                      i386         easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:i386                        7.29.0-1ubuntu3.4                      i386         easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcwidget3                                 0.5.16-3.4ubuntu1                      i386         high-level terminal interface library for C++ (runtime files)
+ii  libdaemon0                                  0.14-2build1                           i386         lightweight C library for daemons - runtime library
+ii  libdatrie1:i386                             0.2.6-1                                i386         Double-array trie library
+ii  libdb5.1:i386                               5.1.29-5ubuntu8                        i386         Berkeley v5.1 Database Libraries [runtime]
+ii  libdbd-mysql-perl                           4.021-1                                i386         Perl5 database interface to the MySQL database
+ii  libdbi-perl                                 1.622-1                                i386         Perl Database Interface (DBI)
+ii  libdbus-1-3:i386                            1.6.8-1ubuntu6.1                       i386         simple interprocess messaging system (library)
+ii  libdbus-glib-1-2:i386                       0.100.2-1                              i386         simple interprocess messaging system (GLib-based shared library)
+ii  libdbus-glib1.0-cil                         0.5.0-4                                all          CLI implementation of D-Bus (GLib mainloop integration)
+ii  libdbus1.0-cil                              0.7.0-5                                all          CLI implementation of D-Bus
+ii  libdbusmenu-glib4:i386                      12.10.3daily13.06.19~13.04-0ubuntu1    i386         library for passing menus over DBus
+ii  libdbusmenu-qt5:i386                        0.9.2daily13.03.28-0ubuntu1            i386         Qt5 implementation of the DBusMenu protocol
+ii  libdc1394-22:i386                           2.2.0-2build1                          i386         high level programming interface for IEEE1394 digital camera
+ii  libdca0                                     0.0.5-5                                i386         decoding library for DTS Coherent Acoustics streams
+ii  libdconf1:i386                              0.16.0-0ubuntu1                        i386         simple configuration storage system - runtime library
+ii  libdebconfclient0                           0.181ubuntu1                           i386         Debian Configuration Management System (C-implementation library)
+ii  libdebian-installer4                        0.85ubuntu3                            i386         Library of common debian-installer functions
+ii  libdecoration0                              1:0.9.9~daily13.06.19~13.04-0ubuntu1   i386         Compiz window decoration library
+ii  libdee-1.0-4                                1.2.3~daily13.03.13.1-0ubuntu1         i386         model to synchronize mutiple instances over DBus - shared lib
+ii  libdevmapper-event1.02.1:i386               2:1.02.74-6ubuntu4                     i386         Linux Kernel Device Mapper event support library
+ii  libdevmapper1.02.1:i386                     2:1.02.74-6ubuntu4                     i386         Linux Kernel Device Mapper userspace library
+ii  libdigest-hmac-perl                         1.03+dfsg-1                            all          module for creating standard message integrity checks
+ii  libdirac-encoder0:i386                      1.0.2-6                                i386         open and royalty free high quality video codec - encoder library
+ii  libdirectfb-1.2-9:i386                      1.2.10.0-5                             i386         direct frame buffer graphics - shared libraries
+ii  libdistro-info-perl                         0.10                                   all          information about distributions' releases (Perl module)
+ii  libdjvulibre-text                           3.5.25.3-3                             all          Linguistic support files for libdjvulibre
+ii  libdjvulibre21                              3.5.25.3-3                             i386         Runtime support for the DjVu image format
+ii  libdmapsharing-3.0-2                        2.9.15-1ubuntu1                        i386         DMAP client and server library - runtime
+ii  libdmraid1.0.0.rc16                         1.0.0.rc16-4.2ubuntu1                  i386         Device-Mapper Software RAID support tool - shared library
+ii  libdmx1:i386                                1:1.1.2-1ubuntu0.13.04.1               i386         X11 Distributed Multihead extension library
+ii  libdns95                                    1:9.9.2.dfsg.P1-2ubuntu2.2             i386         DNS Shared Library used by BIND
+ii  libdotconf1.0                               1.0.13-3build2                         i386         Configuration file parser library - runtime files
+ii  libdpkg-perl                                1.16.10ubuntu1                         all          Dpkg perl modules
+ii  libdrm-dev:i386                             2.4.46-1ubuntu0.1                      i386         Userspace interface to kernel DRM services -- development files
+ii  libdrm-intel1:i386                          2.4.46-1ubuntu0.1                      i386         Userspace interface to intel-specific kernel DRM services -- runtime
+ii  libdrm-nouveau2:i386                        2.4.46-1ubuntu0.1                      i386         Userspace interface to nouveau-specific kernel DRM services -- runtime
+ii  libdrm-radeon1:i386                         2.4.46-1ubuntu0.1                      i386         Userspace interface to radeon-specific kernel DRM services -- runtime
+ii  libdrm2:i386                                2.4.46-1ubuntu0.1                      i386         Userspace interface to kernel DRM services -- runtime
+ii  libdv4:i386                                 1.0.0-6                                i386         software library for DV format digital video (runtime lib)
+ii  libdvbpsi7                                  0.2.2-1                                i386         library for MPEG TS and DVB PSI tables decoding and generating
+ii  libdvdcss2:i386                             1.2.12-0.1                             i386         Simple foundation for reading DVDs - runtime libraries
+ii  libdvdnav4:i386                             4.2.0+20130225-1ubuntu0.1              i386         DVD navigation library
+ii  libdvdread4                                 4.2.0+20121016-1ubuntu1.1              i386         library for reading DVDs
+ii  libebml3:i386                               1.2.2-2                                i386         access library for the EBML format (shared library)
+ii  libecryptfs0                                103-0ubuntu2                           i386         ecryptfs cryptographic filesystem (library)
+ii  libedit2:i386                               2.11-20080614-5ubuntu1                 i386         BSD editline and history libraries
+ii  libegl1-mesa:i386                           9.1.7-1ubuntu2                         i386         free implementation of the EGL API -- runtime
+ii  libegl1-mesa-drivers:i386                   9.1.7-1ubuntu2                         i386         free implementation of the EGL API -- hardware drivers
+ii  libelf1:i386                                0.153-2ubuntu1                         i386         library to read and write ELF files
+ii  libelfg0:i386                               0.8.13-4~1                             i386         an ELF object file access library
+ii  libemail-valid-perl                         0.190-1                                all          Perl module for checking the validity of Internet email addresses
+ii  libenca0                                    1.14-2                                 i386         Extremely Naive Charset Analyser - shared library files
+ii  libenchant1c2a                              1.6.0-7build1                          i386         Wrapper library for various spell checker engines (runtime libs)
+ii  libencode-locale-perl                       1.03-1                                 all          utility to determine the locale encoding
+ii  libept1.4.12                                1.0.9                                  i386         High-level library for managing Debian package information
+ii  liberror-perl                               0.17-1                                 all          Perl module for error/exception handling in an OO-ish way
+ii  libespeak1:i386                             1.46.02-2ubuntu1                       i386         Multi-lingual software speech synthesizer: shared library
+ii  libevent-2.0-5:i386                         2.0.19-stable-3                        i386         Asynchronous event notification library
+ii  libexempi3:i386                             2.2.0-1build1                          i386         library to parse XMP metadata (Library)
+ii  libexif12:i386                              0.6.21-1                               i386         library to parse EXIF files
+ii  libexiv2-12                                 0.23-1                                 i386         EXIF/IPTC metadata manipulation library
+ii  libexpat1:i386                              2.1.0-2                                i386         XML parsing C library - runtime library
+ii  libexporter-lite-perl                       0.02-2                                 all          lightweight subset of Exporter
+ii  libexttextcat-2.0-0                         3.4.0-2                                i386         Language detection library
+ii  libexttextcat-data                          3.4.0-2                                all          Language detection library - data files
+ii  libfaac0                                    1.28-0ubuntu2                          i386         AAC audio encoder (library)
+ii  libfaad2:i386                               2.7-8                                  i386         freeware Advanced Audio Decoder - runtime files
+ii  libfarstream-0.2-2:i386                     0.2.2-1ubuntu1                         i386         Audio/Video communications framework: core library
+ii  libffi6:i386                                3.0.13-2ubuntu1                        i386         Foreign Function Interface library runtime
+ii  libfftw3-3:i386                             3.3.3-2ubuntu1                         i386         Library for computing Fast Fourier Transforms
+ii  libfftw3-double3:i386                       3.3.3-2ubuntu1                         i386         Library for computing Fast Fourier Transforms - Double precision
+ii  libfftw3-single3:i386                       3.3.3-2ubuntu1                         i386         Library for computing Fast Fourier Transforms - Single precision
+ii  libfile-basedir-perl                        0.03-1fakesync1                        all          Perl module to use the freedesktop basedir specification
+ii  libfile-copy-recursive-perl                 0.38-1                                 all          Perl extension for recursively copying files and directories
+ii  libfile-desktopentry-perl                   0.04-3                                 all          Perl module to handle freedesktop .desktop files
+ii  libfile-fcntllock-perl                      0.14-2                                 i386         Perl module for file locking with fcntl(2)
+ii  libfile-listing-perl                        6.04-1                                 all          module to parse directory listings
+ii  libfile-mimeinfo-perl                       0.16-1                                 all          Perl module to determine file types
+ii  libfl-dev:i386                              2.5.35-10.1ubuntu1                     i386         static library for flex (a fast lexical analyzer generator).
+ii  libflac8:i386                               1.2.1-6build1                          i386         Free Lossless Audio Codec - runtime C library
+ii  libflite1:i386                              1.4-release-6                          i386         Small run-time speech synthesis engine - shared libraries
+ii  libfont-afm-perl                            1.20-1                                 all          Font::AFM - Interface to Adobe Font Metrics files
+ii  libfontembed1:i386                          1.0.34-0ubuntu1.1                      i386         OpenPrinting CUPS Filters - Font Embed Shared library
+ii  libfontenc1:i386                            1:1.1.1-1                              i386         X11 font encoding library
+ii  libframe6:i386                              2.5.0daily13.03.12-0ubuntu1            i386         Touch Frame Library
+ii  libfreerdp-plugins-standard:i386            1.0.1-2ubuntu1                         i386         RDP client for Windows Terminal Services (plugins)
+ii  libfreerdp1:i386                            1.0.1-2ubuntu1                         i386         RDP client for Windows Terminal Services (library)
+ii  libfreetype6:i386                           2.4.11-0ubuntu1                        i386         FreeType 2 font engine, shared library files
+ii  libfribidi0:i386                            0.19.5-1                               i386         Free Implementation of the Unicode BiDi algorithm
+ii  libfs6:i386                                 2:1.0.4-1ubuntu0.13.04.1               i386         X11 Font Services library
+ii  libfuse2:i386                               2.9.0-1ubuntu3                         i386         Filesystem in Userspace (library)
+ii  libgbm1:i386                                9.1.7-1ubuntu2                         i386         generic buffer management API -- runtime
+ii  libgc1c3:i386                               1:7.2d-0ubuntu5                        i386         conservative garbage collector for C and C++
+ii  libgcc-4.7-dev:i386                         4.7.3-1ubuntu1                         i386         GCC support library (development files)
+ii  libgcc1:i386                                1:4.7.3-1ubuntu1                       i386         GCC support library
+ii  libgck-1-0                                  3.6.2-0ubuntu2                         i386         Glib wrapper library for PKCS#11 - runtime
+ii  libgconf-2-4:i386                           3.2.6-0ubuntu1                         i386         GNOME configuration database system (shared libraries)
+ii  libgconf2-4:i386                            3.2.6-0ubuntu1                         i386         GNOME configuration database system (dummy package)
+ii  libgconf2.0-cil                             2.24.2-2                               all          CLI binding for GConf 2.24
+ii  libgcr-3-common                             3.6.2-0ubuntu2                         all          Library for Crypto UI related task - common files
+ii  libgcrypt11:i386                            1.5.0-3ubuntu2.2                       i386         LGPL Crypto library - runtime library
+ii  libgdata-common                             0.13.2-2svn1                           all          Library for accessing GData webservices - common data files
+ii  libgdata2.1-cil                             2.1.0.0-1                              all          Google GData CLI client library
+ii  libgdbm3:i386                               1.8.3-11ubuntu1                        i386         GNU dbm database routines (runtime version)
+ii  libgdk-pixbuf2.0-0:i386                     2.28.0-0ubuntu1                        i386         GDK Pixbuf library
+ii  libgdk-pixbuf2.0-common                     2.28.0-0ubuntu1                        all          GDK Pixbuf library - data files
+ii  libgee2:i386                                0.6.8-0ubuntu1                         i386         GObject based collection library
+ii  libgeis1:i386                               2.2.15daily13.04.03-0ubuntu1           i386         Gesture engine interface support
+ii  libgeoclue0                                 0.12.99-0ubuntu2                       i386         C API for GeoClue
+ii  libgeoip1:i386                              1.4.8+dfsg-4                           i386         non-DNS IP-to-country resolver library
+ii  libgettextpo-dev:i386                       0.18.1.1-10ubuntu3                     i386         GNU Internationalization library development files
+ii  libgettextpo0:i386                          0.18.1.1-10ubuntu3                     i386         GNU Internationalization library
+ii  libgexiv2-2                                 0.6.1-0ubuntu1                         i386         GObject-based wrapper around the Exiv2 library
+ii  libgif4:i386                                4.1.6-10ubuntu1                        i386         library for GIF images (library)
+ii  libgirepository-1.0-1                       1.36.0-1                               i386         Library for handling GObject introspection data (runtime library)
+ii  libgkeyfile1.0-cil                          0.1-4                                  all          GObject-based wrapper library for GKeyFile -- CLI bindings
+ii  libgl1-mesa-dri:i386                        9.1.7-1ubuntu2                         i386         free implementation of the OpenGL API -- DRI modules
+ii  libgl1-mesa-glx:i386                        9.1.7-1ubuntu2                         i386         free implementation of the OpenGL API -- GLX runtime
+ii  libglapi-mesa:i386                          9.1.7-1ubuntu2                         i386         free implementation of the GL API -- shared library
+ii  libgles2-mesa:i386                          9.1.7-1ubuntu2                         i386         free implementation of the OpenGL|ES 2.x API -- runtime
+ii  libglew1.8:i386                             1.9.0.is.1.8.0-0ubuntu1                i386         OpenGL Extension Wrangler - runtime environment
+ii  libglewmx1.8:i386                           1.9.0.is.1.8.0-0ubuntu1                i386         OpenGL Extension Wrangler (Multiple Rendering Contexts)
+ii  libglib-perl                                3:1.261-1                              i386         interface to the GLib and GObject libraries
+ii  libglib2.0-0:i386                           2.36.0-1ubuntu2                        i386         GLib library of C routines
+ii  libglib2.0-bin                              2.36.0-1ubuntu2                        i386         Programs for the GLib library
+ii  libglib2.0-cil                              2.12.10-5                              i386         CLI binding for the GLib utility library 2.12
+ii  libglib2.0-data                             2.36.0-1ubuntu2                        all          Common files for GLib library
+ii  libglibmm-2.4-1c2a:i386                     2.35.9-0ubuntu1                        i386         C++ wrapper for the GLib toolkit (shared libraries)
+ii  libglu1-mesa:i386                           9.0.0-0ubuntu1                         i386         Mesa OpenGL utility library (GLU)
+ii  libgme0                                     0.5.5-2                                i386         Playback library for video game music files - shared library
+ii  libgmime-2.6-0                              2.6.13-0ubuntu1                        i386         MIME message parser and creator library - runtime
+ii  libgmime2.6-cil                             2.6.13-0ubuntu1                        all          CLI binding for the GMime library
+ii  libgmp10:i386                               2:5.0.5+dfsg-2ubuntu3                  i386         Multiprecision arithmetic library
+ii  libgmpxx4ldbl:i386                          2:5.0.5+dfsg-2ubuntu3                  i386         Multiprecision arithmetic library (C++ bindings)
+ii  libgnome-keyring-common                     3.6.0-1                                all          GNOME keyring services library - data files
+ii  libgnome-keyring0:i386                      3.6.0-1                                i386         GNOME keyring services library
+ii  libgnome-menu-3-0                           3.6.2-0ubuntu1                         i386         GNOME implementation of the freedesktop menu specification
+ii  libgnome2-0:i386                            2.32.1-2ubuntu4                        i386         The GNOME library - runtime files
+ii  libgnome2-bin                               2.32.1-2ubuntu4                        i386         The GNOME library - binary files
+ii  libgnome2-common                            2.32.1-2ubuntu4                        all          The GNOME library - common files
+ii  libgnomecanvas2-common                      2.30.3-1ubuntu2                        all          powerful object-oriented display engine - common files
+ii  libgnomekbd-common                          3.6.0-0ubuntu2                         all          GNOME library to manage keyboard configuration - common files
+ii  libgnomeui-common                           2.24.5-2ubuntu3                        all          GNOME user interface library - common files
+ii  libgnomevfs2-0:i386                         1:2.24.4-1ubuntu5                      i386         GNOME Virtual File System (runtime libraries)
+ii  libgnomevfs2-common                         1:2.24.4-1ubuntu5                      i386         GNOME Virtual File System (common files)
+ii  libgnomevfs2-extra:i386                     1:2.24.4-1ubuntu5                      i386         GNOME Virtual File System (extra modules)
+ii  libgnutls26:i386                            2.12.23-1ubuntu1.1                     i386         GNU TLS library - runtime library
+ii  libgoa-1.0-common                           3.6.2-1ubuntu1                         all          library for GNOME Online Accounts - common files
+ii  libgomp1:i386                               4.7.3-1ubuntu1                         i386         GCC OpenMP (GOMP) support library
+ii  libgooglepinyin0:i386                       0.1.2-1                                i386         Pinyin engine fork from Google Pinyin on Android
+ii  libgpg-error0:i386                          1.10-3.1ubuntu1                        i386         library for common error values and messages in GnuPG components
+ii  libgpgme11                                  1.2.0-1.4ubuntu4                       i386         GPGME - GnuPG Made Easy
+ii  libgphoto2-l10n                             2.4.14-2                               all          gphoto2 digital camera library - localized messages
+ii  libgphoto2-port0:i386                       2.4.14-2                               i386         gphoto2 digital camera port library
+ii  libgpm2:i386                                1.20.4-6ubuntu1                        i386         General Purpose Mouse - shared library
+ii  libgpod-common                              0.8.2-7ubuntu1                         i386         common files for libgpod
+ii  libgpod4:i386                               0.8.2-7ubuntu1                         i386         library to read and write songs and artwork to an iPod
+ii  libgrail6                                   3.1.0daily13.02.26-0ubuntu1            i386         Gesture Recognition And Instantiation Library
+ii  libgs9-common                               9.07~dfsg2-0ubuntu3.1                  all          interpreter for the PostScript language and for PDF - common files
+ii  libgsm1:i386                                1.0.13-4                               i386         Shared libraries for GSM speech compressor
+ii  libgssapi-krb5-2:i386                       1.10.1+dfsg-4+nmu1                     i386         MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii  libgssapi3-heimdal:i386                     1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - GSSAPI support library
+ii  libgssdp-1.0-3                              0.14.2-0ubuntu1                        i386         GObject-based library for SSDP
+ii  libgstreamer-plugins-bad0.10-0:i386         0.10.23-7ubuntu2                       i386         GStreamer shared libraries from the "bad" set
+ii  libgstreamer-plugins-bad1.0-0:i386          1.0.6-1ubuntu1                         i386         GStreamer development files for libraries from the "bad" set
+ii  libgstreamer-plugins-base0.10-0:i386        0.10.36-1.1ubuntu1                     i386         GStreamer libraries from the "base" set
+ii  libgstreamer-plugins-base1.0-0:i386         1.0.6-1                                i386         GStreamer libraries from the "base" set
+ii  libgstreamer-plugins-good1.0-0:i386         1.0.6-1ubuntu1                         i386         GStreamer development files for libraries from the "good" set
+ii  libgstreamer0.10-0:i386                     0.10.36-1ubuntu2                       i386         Core GStreamer libraries and elements
+ii  libgstreamer1.0-0:i386                      1.0.6-1                                i386         Core GStreamer libraries and elements
+ii  libgtk-3-common                             3.6.4-0ubuntu8                         all          common files for the GTK+ graphical user interface library
+ii  libgtk2.0-common                            2.24.17-0ubuntu2                       all          common files for the GTK+ graphical user interface library
+ii  libgtksourceview-3.0-common                 3.6.3-0ubuntu1                         all          common files for the GTK+ syntax highlighting widget
+ii  libgtksourceview2.0-common                  2.10.5-0ubuntu3                        all          common files for the GTK+ syntax highlighting widget
+ii  libgtop2-7                                  2.28.4-3                               i386         gtop system monitoring library (shared)
+ii  libgtop2-common                             2.28.4-3                               all          gtop system monitoring library (common)
+ii  libgudev-1.0-0:i386                         1:198-0ubuntu11.2                      i386         GObject-based wrapper library for libudev
+ii  libgudev1.0-cil                             0.1-3                                  all          GObject-based wrapper library for libudev -- CLI bindings
+ii  libgupnp-1.0-4                              0.20.0-1ubuntu1                        i386         GObject-based library for UPnP
+ii  libgupnp-igd-1.0-4:i386                     0.2.1-2ubuntu1                         i386         library to handle UPnP IGD port mapping
+ii  libgusb2:i386                               0.1.5-0ubuntu1                         i386         GLib wrapper around libusb1
+ii  libgutenprint2                              5.2.9-1ubuntu1                         i386         runtime for the Gutenprint printer driver library
+ii  libgweather-common                          3.6.2-0ubuntu1                         all          GWeather common files
+ii  libharfbuzz0:i386                           0.9.13-1                               i386         OpenType text shaping engine
+ii  libhcrypto4-heimdal:i386                    1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - crypto library
+ii  libheimbase1-heimdal:i386                   1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - Base library
+ii  libheimntlm0-heimdal:i386                   1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - NTLM support library
+ii  libhpmud0                                   3.13.3-1ubuntu0.1                      i386         HP Multi-Point Transport Driver (hpmud) run-time libraries
+ii  libhsqldb-java                              1.8.0.10-14ubuntu1                     all          Java SQL database engine
+ii  libhtml-form-perl                           6.03-1                                 all          module that represents an HTML form element
+ii  libhtml-format-perl                         2.10-1                                 all          module for transforming HTML into various formats
+ii  libhtml-parser-perl                         3.69-2                                 i386         collection of modules that parse HTML text documents
+ii  libhtml-tagset-perl                         3.20-2                                 all          Data tables pertaining to HTML
+ii  libhtml-template-perl                       2.91-1                                 all          module for using HTML templates with Perl
+ii  libhtml-tree-perl                           5.02-1                                 all          Perl module to represent and create HTML syntax trees
+ii  libhttp-cookies-perl                        6.00-2                                 all          HTTP cookie jars
+ii  libhttp-daemon-perl                         6.01-1                                 all          simple http server class
+ii  libhttp-date-perl                           6.02-1                                 all          module of date conversion routines
+ii  libhttp-message-perl                        6.03-1                                 all          perl interface to HTTP style messages
+ii  libhttp-negotiate-perl                      6.00-2                                 all          implementation of content negotiation
+ii  libhunspell-1.3-0:i386                      1.3.2-4ubuntu1                         i386         spell checker and morphological analyzer (shared library)
+ii  libhx509-5-heimdal:i386                     1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - X509 support library
+ii  libhyphen0                                  2.8.3-2                                i386         ALTLinux hyphenation library - shared library
+ii  libical0                                    0.48-2                                 i386         iCalendar library implementation in C (runtime)
+ii  libicu48:i386                               4.8.1.1-12ubuntu0.1                    i386         International Components for Unicode
+ii  libidl-common                               0.8.14-0.2ubuntu3                      all          library for parsing CORBA IDL files (common files)
+ii  libidl0:i386                                0.8.14-0.2ubuntu3                      i386         library for parsing CORBA IDL files
+ii  libidn11:i386                               1.25-2                                 i386         GNU Libidn library, implementation of IETF IDN specifications
+ii  libiec61883-0:i386                          1.2.0-0.1ubuntu2                       i386         an partial implementation of IEC 61883
+ii  libieee1284-3:i386                          0.2.11-10build2                        i386         cross-platform library for parallel port access
+ii  libijs-0.35                                 0.35-8build1                           i386         IJS raster image transport protocol: shared library
+ii  libilmbase6:i386                            1.0.1-6                                i386         several utility libraries from ILM used by OpenEXR
+ii  libimobiledevice3                           1.1.4-1ubuntu6.2                       i386         Library for communicating with the iPhone and iPod Touch
+ii  libio-pty-perl                              1:1.08-1build3                         i386         Perl module for pseudo tty IO
+ii  libio-socket-inet6-perl                     2.69-2                                 all          object interface for AF_INET6 domain sockets
+ii  libio-socket-ssl-perl                       1.76-2ubuntu1                          all          Perl module implementing object oriented interface to SSL sockets
+ii  libio-string-perl                           1.08-2                                 all          Emulate IO::File interface for in-core strings
+ii  libio-stringy-perl                          2.110-5                                all          Perl modules for IO from scalars and arrays
+ii  libipc-run-perl                             0.92-1                                 all          Perl module for running processes
+ii  libisc92                                    1:9.9.2.dfsg.P1-2ubuntu2.2             i386         ISC Shared Library used by BIND
+ii  libisccc90                                  1:9.9.2.dfsg.P1-2ubuntu2.2             i386         Command Channel Library used by BIND
+ii  libisccfg90                                 1:9.9.2.dfsg.P1-2ubuntu2.2             i386         Config File Handling Library used by BIND
+ii  libiso9660-8                                0.83-4                                 i386         library to work with ISO9660 filesystems
+ii  libisofs6                                   1.2.6-0ubuntu1                         i386         library to create ISO9660 images
+ii  libitm1:i386                                4.7.3-1ubuntu1                         i386         GNU Transactional Memory Library
+ii  libiw30:i386                                30~pre9-8ubuntu1                       i386         Wireless tools - library
+ii  libjack-jackd2-0:i386                       1.9.9.5+20130127git15950eb1-1          i386         JACK Audio Connection Kit (libraries)
+ii  libjasper1:i386                             1.900.1-14                             i386         JasPer JPEG-2000 runtime library
+ii  libjavascriptcoregtk-1.0-0                  1.10.2-0ubuntu1                        i386         Javascript engine library for GTK+
+ii  libjavascriptcoregtk-3.0-0                  1.10.2-0ubuntu1                        i386         Javascript engine library for GTK+
+ii  libjbig0:i386                               2.0-2ubuntu1                           i386         JBIGkit libraries
+ii  libjbig2dec0                                0.11+20120125-1ubuntu1                 i386         JBIG2 decoder library - shared libraries
+ii  libjpeg-turbo8:i386                         1.2.1-0ubuntu2.13.04.1                 i386         IJG JPEG compliant runtime library.
+ii  libjpeg8:i386                               8c-2ubuntu7                            i386         Independent JPEG Group's JPEG runtime library (dependency package)
+ii  libjson-glib-1.0-0:i386                     0.15.2-0ubuntu1                        i386         GLib JSON manipulation library
+ii  libjson-perl                                2.53-2                                 all          module for manipulating JSON-formatted data
+ii  libjson-xs-perl                             2.330-1                                i386         module for manipulating JSON-formatted data (C/XS-accelerated)
+ii  libjson0:i386                               0.10-1.2ubuntu2                        i386         JSON manipulation library - shared library
+ii  libjte1                                     1.19-1build1                           i386         Jigdo Template Export - runtime library
+ii  libk5crypto3:i386                           1.10.1+dfsg-4+nmu1                     i386         MIT Kerberos runtime libraries - Crypto Library
+ii  libkate1                                    0.4.1-1                                i386         Kate is a codec for karaoke and text encapsulation
+ii  libkeyutils1:i386                           1.5.5-4                                i386         Linux Key Management Utilities (library)
+ii  libklibc                                    2.0.1-3.1ubuntu1                       i386         minimal libc subset for use with initramfs
+ii  libkmod2:i386                               9-3ubuntu1                             i386         libkmod shared library
+ii  libkms1:i386                                2.4.46-1ubuntu0.1                      i386         Userspace interface to kernel DRM buffer management
+ii  libkpathsea6                                2012.20120628-4                        i386         TeX Live: path search library for TeX (runtime part)
+ii  libkrb5-26-heimdal:i386                     1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - libraries
+ii  libkrb5-3:i386                              1.10.1+dfsg-4+nmu1                     i386         MIT Kerberos runtime libraries
+ii  libkrb5support0:i386                        1.10.1+dfsg-4+nmu1                     i386         MIT Kerberos runtime libraries - Support library
+ii  liblangtag-common                           0.4.0-6                                all          library to access tags for identifying languages -- data
+ii  liblangtag1                                 0.4.0-6                                i386         library to access tags for identifying languages
+ii  liblcms1:i386                               1.19.dfsg-1.2ubuntu2                   i386         Little CMS color management library
+ii  liblcms2-2:i386                             2.4-0ubuntu3.1                         i386         Little CMS 2 color management library
+ii  libldap-2.4-2:i386                          2.4.31-1ubuntu2.1                      i386         OpenLDAP libraries
+ii  liblircclient0                              0.9.0-0ubuntu3                         i386         infra-red remote control support - client library
+ii  libllvm3.2:i386                             3.2-2ubuntu5                           i386         Low-Level Virtual Machine (LLVM), runtime library
+ii  liblocale-gettext-perl                      1.05-7build2                           i386         module using libc functions for internationalization in Perl
+ii  liblockfile-bin                             1.09-5ubuntu1                          i386         support binaries for and cli utilities based on liblockfile
+ii  liblockfile1:i386                           1.09-5ubuntu1                          i386         NFS-safe locking library
+ii  liblouis-data                               2.4.1-1ubuntu2                         all          Braille translation library - data
+ii  liblouis2:i386                              2.4.1-1ubuntu2                         i386         Braille translation library - shared libs
+ii  libltdl-dev:i386                            2.4.2-1.2ubuntu1                       i386         A system independent dlopen wrapper for GNU libtool
+ii  libltdl7:i386                               2.4.2-1.2ubuntu1                       i386         A system independent dlopen wrapper for GNU libtool
+ii  liblua5.1-0:i386                            5.1.5-4                                i386         Shared library for the Lua interpreter version 5.1
+ii  liblua5.2-0:i386                            5.2.1-3                                i386         Shared library for the Lua interpreter version 5.2
+ii  liblvm2app2.2:i386                          2.02.95-6ubuntu4                       i386         LVM2 application library
+ii  liblwp-mediatypes-perl                      6.02-1                                 all          module to guess media type for a file or a URL
+ii  liblwp-protocol-https-perl                  6.03-1                                 all          HTTPS driver for LWP::UserAgent
+ii  liblwres90                                  1:9.9.2.dfsg.P1-2ubuntu2.2             i386         Lightweight Resolver Library used by BIND
+ii  liblzma5:i386                               5.1.1alpha+20120614-2ubuntu1           i386         XZ-format compression library
+ii  liblzo2-2:i386                              2.06-1build1                           i386         data compression library
+ii  libmad0:i386                                0.15.1b-7ubuntu2                       i386         MPEG audio decoder library
+ii  libmagic1:i386                              5.11-2ubuntu4                          i386         File type determination library using "magic" numbers
+ii  libmailtools-perl                           2.09-1                                 all          Manipulate email in perl programs
+ii  libmatroska5:i386                           1.3.0-2                                i386         extensible open standard audio/video container format (shared library)
+ii  libmeanwhile1                               1.0.2-4ubuntu2                         i386         open implementation of the Lotus Sametime Community Client protocol
+ii  libmessaging-menu0                          12.10.6daily13.04.09-0ubuntu1          i386         Messaging Menu - shared library
+ii  libmhash2                                   0.9.9.9-1.1                            i386         Library for cryptographic hashing and message authentication
+ii  libmimic0                                   1.0.4-2.1build1                        i386         A video codec for Mimic V2.x content
+ii  libminiupnpc8                               1.6-3ubuntu2                           i386         UPnP IGD client lightweight library
+ii  libmjpegutils-2.0-0                         1:2.0.0+debian-2ubuntu1                i386         MJPEG capture/editing/replay and MPEG encoding toolset (library)
+ii  libmms0:i386                                0.6.2-3                                i386         MMS stream protocol library - shared library
+ii  libmng1:i386                                1.0.10-3build1                         i386         Multiple-image Network Graphics library
+ii  libmodplug1                                 1:0.8.8.4-3                            i386         shared libraries for mod music based on ModPlug
+ii  libmono-addins0.2-cil                       0.6.2-2                                all          addin framework for extensible CLI applications/libraries
+ii  libmono-corlib4.0-cil                       2.10.8.1-5ubuntu1                      all          Mono core library (for CLI 4.0)
+ii  libmono-data-tds4.0-cil                     2.10.8.1-5ubuntu1                      all          Mono Data Library (for CLI 4.0)
+ii  libmono-i18n-west4.0-cil                    2.10.8.1-5ubuntu1                      all          Mono I18N.West library (for CLI 4.0)
+ii  libmono-i18n4.0-cil                         2.10.8.1-5ubuntu1                      all          Mono I18N base library (for CLI 4.0)
+ii  libmono-posix4.0-cil                        2.10.8.1-5ubuntu1                      all          Mono.Posix library (for CLI 4.0)
+ii  libmono-security4.0-cil                     2.10.8.1-5ubuntu1                      all          Mono Security library (for CLI 4.0)
+ii  libmono-sharpzip4.84-cil                    2.10.8.1-5ubuntu1                      all          Mono SharpZipLib library (for CLI 4.0)
+ii  libmono-system-configuration4.0-cil         2.10.8.1-5ubuntu1                      all          Mono System.Configuration library (for CLI 4.0)
+ii  libmono-system-core4.0-cil                  2.10.8.1-5ubuntu1                      all          Mono System.Core library (for CLI 4.0)
+ii  libmono-system-data4.0-cil                  2.10.8.1-5ubuntu1                      all          Mono System.Data library (for CLI 4.0)
+ii  libmono-system-enterpriseservices4.0-cil    2.10.8.1-5ubuntu1                      all          Mono System.EnterpriseServices library (for CLI 4.0)
+ii  libmono-system-runtime-serialization4.0-cil 2.10.8.1-5ubuntu1                      all          Mono System.Runtime.Serialization Library (for CLI 4.0)
+ii  libmono-system-security4.0-cil              2.10.8.1-5ubuntu1                      all          Mono System.Security library (for CLI 4.0)
+ii  libmono-system-transactions4.0-cil          2.10.8.1-5ubuntu1                      all          Mono System.Transactions library (for CLI 4.0)
+ii  libmono-system-xml-linq4.0-cil              2.10.8.1-5ubuntu1                      all          Mono System.Xml.Linq library (for CLI 4.0)
+ii  libmono-system-xml4.0-cil                   2.10.8.1-5ubuntu1                      all          Mono System.Xml library (for CLI 4.0)
+ii  libmono-system4.0-cil                       2.10.8.1-5ubuntu1                      all          Mono System libraries (for CLI 4.0)
+ii  libmono-zeroconf1.0-cil                     0.9.0-4                                all          CLI library for multicast DNS service discovery
+ii  libmount1:i386                              2.20.1-5.1ubuntu8                      i386         block device id library
+ii  libmozjs185-1.0                             1.8.5-1.0.0+dfsg-4                     i386         Spidermonkey javascript engine
+ii  libmp3lame0:i386                            3.99.5+repack1-3                       i386         MP3 encoding library
+ii  libmpc2:i386                                0.9-4build1                            i386         multiple precision complex floating-point library
+ii  libmpcdec6                                  2:0.1~r459-1ubuntu1                    i386         MusePack decoder - library
+ii  libmpeg2-4:i386                             0.5.1-5                                i386         MPEG1 and MPEG2 video decoder library
+ii  libmpeg2encpp-2.0-0                         1:2.0.0+debian-2ubuntu1                i386         MJPEG capture/editing/replay and MPEG encoding toolset (library)
+ii  libmpfr4:i386                               3.1.1-1                                i386         multiple precision floating-point computation
+ii  libmpg123-0:i386                            1.14.4-1                               i386         MPEG layer 1/2/3 audio decoder (shared library)
+ii  libmplex2-2.0-0                             1:2.0.0+debian-2ubuntu1                i386         MJPEG capture/editing/replay and MPEG encoding toolset (library)
+ii  libmspub-0.0-0                              0.0.5-2                                i386         library for parsing the mspub file structure
+ii  libmtdev1:i386                              1.1.2-1ubuntu1                         i386         Multitouch Protocol Translation Library - shared library
+ii  libmtp-common                               1.1.5-42-g6e96316-1ubuntu1             all          Media Transfer Protocol (MTP) common files
+ii  libmtp-runtime                              1.1.5-42-g6e96316-1ubuntu1             i386         Media Transfer Protocol (MTP) runtime tools
+ii  libmtp9:i386                                1.1.5-42-g6e96316-1ubuntu1             i386         Media Transfer Protocol (MTP) library
+ii  libmx-bin                                   1.4.7-0ubuntu2                         i386         toolkit for the Moblin user experience (utilities)
+ii  libmx-common                                1.4.7-0ubuntu2                         all          toolkit for the Moblin user experience (common files)
+ii  libmysqlclient18:i386                       5.5.34-0ubuntu0.13.04.1                i386         MySQL database client library
+ii  libmythes-1.2-0                             2:1.2.2-1build1                        i386         simple thesaurus library
+ii  libnatpmp1                                  20110808-3ubuntu2                      i386         portable and fully compliant implementation of NAT-PMP
+ii  libncurses5:i386                            5.9-10ubuntu4                          i386         shared libraries for terminal handling
+ii  libncursesw5:i386                           5.9-10ubuntu4                          i386         shared libraries for terminal handling (wide character support)
+ii  libneon27-gnutls                            0.29.6-3                               i386         HTTP and WebDAV client library (GnuTLS enabled)
+ii  libnet-daemon-perl                          0.48-1                                 all          Perl module for building portable Perl daemons easily
+ii  libnet-dns-perl                             0.68-1.1                               i386         Perform DNS queries from a Perl script
+ii  libnet-domain-tld-perl                      1.69-1                                 all          Perl module for retrieving a list of currently available TLDs
+ii  libnet-http-perl                            6.03-2                                 all          module providing low-level HTTP connection client
+ii  libnet-ip-perl                              1.26-1                                 all          Perl extension for manipulating IPv4/IPv6 addresses
+ii  libnet-ssleay-perl                          1.48-1                                 i386         Perl module for Secure Sockets Layer (SSL)
+ii  libnetfilter-conntrack3:i386                1.0.1-1                                i386         Netfilter netlink-conntrack library
+ii  libnettle4:i386                             2.4-3                                  i386         low level cryptographic library (symmetric and one-way cryptos)
+ii  libnewt0.52                                 0.52.14-11ubuntu7                      i386         Not Erik's Windowing Toolkit - text mode windowing with slang
+ii  libnewtonsoft-json4.5-cil                   4.5r6-1                                all          high-performance JSON framework for .NET
+ii  libnfnetlink0                               1.0.0-1.1ubuntu1                       i386         Netfilter netlink library
+ii  libnice10:i386                              0.1.3-1                                i386         ICE library (shared library)
+ii  libnih-dbus1:i386                           1.0.3-4ubuntu16                        i386         NIH D-Bus Bindings Library
+ii  libnih1:i386                                1.0.3-4ubuntu16                        i386         NIH Utility Library
+ii  libnl-3-200:i386                            3.2.16-0ubuntu1                        i386         library for dealing with netlink sockets
+ii  libnl-genl-3-200:i386                       3.2.16-0ubuntu1                        i386         library for dealing with netlink sockets - generic netlink
+ii  libnl-route-3-200:i386                      3.2.16-0ubuntu1                        i386         library for dealing with netlink sockets - route interface
+ii  libnm-glib-vpn1                             0.9.8.0-0ubuntu6.1                     i386         network management framework (GLib VPN shared library)
+ii  libnm-glib4                                 0.9.8.0-0ubuntu6.1                     i386         network management framework (GLib shared library)
+ii  libnm-util2                                 0.9.8.0-0ubuntu6.1                     i386         network management framework (shared library)
+ii  libnotify-bin                               0.7.5-2                                i386         sends desktop notifications to a notification daemon (Utilities)
+ii  libnotify4:i386                             0.7.5-2                                i386         sends desktop notifications to a notification daemon
+ii  libnspr4:i386                               2:4.9.5-1ubuntu1                       i386         NetScape Portable Runtime Library
+ii  libnss-mdns                                 0.10-3.2build1                         i386         NSS module for Multicast DNS name resolution
+ii  libnss3:i386                                2:3.15.3.1-0ubuntu0.13.04.1            i386         Network Security Service libraries
+ii  libnss3-1d:i386                             2:3.15.3.1-0ubuntu0.13.04.1            i386         Network Security Service libraries - transitional package
+ii  libnuma1                                    2.0.8-1                                i386         Libraries for controlling NUMA policy
+ii  libnux-4.0-common                           4.0.1daily13.06.19~13.04-0ubuntu1      i386         Visual rendering toolkit for real-time applications - common files
+ii  liboauth0:i386                              1.0.1-0ubuntu1                         i386         C library for implementing OAuth 1.0
+ii  libofa0                                     0.9.3-5                                i386         Library for acoustic fingerprinting
+ii  libogg0:i386                                1.3.0-4                                i386         Ogg bitstream library
+ii  libopenal-data                              1:1.14-4ubuntu1                        all          Software implementation of the OpenAL API (data files)
+ii  libopenal1:i386                             1:1.14-4ubuntu1                        i386         Software implementation of the OpenAL API (shared library)
+ii  libopencc1:i386                             0.3.0-3                                i386         simplified-traditional chinese conversion library - runtime
+ii  libopencore-amrnb0:i386                     0.1.3-2                                i386         Adaptive Multi Rate speech codec - shared library
+ii  libopencore-amrwb0:i386                     0.1.3-2                                i386         Adaptive Multi-Rate - Wideband speech codec - shared library
+ii  libopenexr6:i386                            1.6.1-7                                i386         runtime files for the OpenEXR image library
+ii  libopenobex1                                1.5-2build2                            i386         OBEX protocol library
+ii  libopenvg1-mesa:i386                        9.1.7-1ubuntu2                         i386         free implementation of the OpenVG API -- runtime
+ii  libopus0                                    1.0.1-0ubuntu1                         i386         Opus codec runtime library
+ii  liborbit2:i386                              1:2.14.19-0.1ubuntu2                   i386         libraries for ORBit2 - a CORBA ORB
+ii  liborc-0.4-0:i386                           1:0.4.17-1                             i386         Library of Optimized Inner Loops Runtime Compiler
+ii  libp11-kit-gnome-keyring:i386               3.6.3-0ubuntu2                         i386         GNOME keyring module for the PKCS#11 module loading library
+ii  libp11-kit0:i386                            0.14-1                                 i386         Library for loading and coordinating access to PKCS#11 modules - runtime
+ii  libpackagekit-glib2-14:i386                 0.7.6-3ubuntu1                         i386         Library for accessing PackageKit using GLib
+ii  libpam-cap:i386                             1:2.22-1.2ubuntu2                      i386         PAM module for implementing capabilities
+ii  libpam-ck-connector:i386                    0.4.5-3.1ubuntu2                       i386         ConsoleKit PAM module
+ii  libpam-gnome-keyring:i386                   3.6.3-0ubuntu2                         i386         PAM module to unlock the GNOME keyring upon login
+ii  libpam-modules:i386                         1.1.3-8ubuntu2                         i386         Pluggable Authentication Modules for PAM
+ii  libpam-modules-bin                          1.1.3-8ubuntu2                         i386         Pluggable Authentication Modules for PAM - helper binaries
+ii  libpam-runtime                              1.1.3-8ubuntu2                         all          Runtime support for the PAM library
+ii  libpam-xdg-support:i386                     0.2-0ubuntu2                           i386         PAM module for XDG_RUNTIME_DIR support
+ii  libpam0g:i386                               1.1.3-8ubuntu2                         i386         Pluggable Authentication Modules library
+ii  libpaper-utils                              1.1.24+nmu2ubuntu2                     i386         library for handling paper characteristics (utilities)
+ii  libpaper1:i386                              1.1.24+nmu2ubuntu2                     i386         library for handling paper characteristics
+ii  libparse-debcontrol-perl                    2.005-3                                all          parser for debian control-like files
+ii  libparse-debianchangelog-perl               1.2.0-1ubuntu1                         all          parse Debian changelogs and output them in other formats
+ii  libparted0debian1:i386                      2.3-11ubuntu1                          i386         disk partition manipulator - shared library
+ii  libpcap0.8:i386                             1.3.0-1                                i386         system interface for user-level packet capture
+ii  libpci3:i386                                1:3.1.9-6ubuntu3                       i386         Linux PCI Utilities (shared library)
+ii  libpciaccess-dev:i386                       0.13.1-2                               i386         Generic PCI access library for X - development files
+ii  libpciaccess0:i386                          0.13.1-2                               i386         Generic PCI access library for X
+ii  libpcre3:i386                               1:8.31-2                               i386         Perl 5 Compatible Regular Expression Library - runtime files
+ii  libpcsclite1:i386                           1.8.6-3ubuntu1b1                       i386         Middleware to access a smart card using PC/SC (library)
+ii  libpeas-common                              1.6.2-0ubuntu1                         all          Application plugin library (common files)
+ii  libperl5.14                                 5.14.2-21                              i386         shared Perl library
+ii  libpipeline1:i386                           1.2.2-2                                i386         pipeline manipulation library
+ii  libpixman-1-0:i386                          0.30.2-1ubuntu0.0.1                    i386         pixel-manipulation library for X and cairo
+ii  libpixman-1-dev                             0.30.2-1ubuntu0.0.1                    i386         pixel-manipulation library for X and cairo (development files)
+ii  libplist1                                   1.8-2                                  i386         Library for handling Apple binary and XML property lists
+ii  libplrpc-perl                               0.2020-2                               all          Perl extensions for writing PlRPC servers and clients
+ii  libplymouth2:i386                           0.8.8-0ubuntu6.2                       i386         graphical boot animation and logger - shared libraries
+ii  libpng12-0:i386                             1.2.49-1ubuntu2                        i386         PNG library - runtime
+ii  libpolkit-agent-1-0:i386                    0.105-1ubuntu1.1                       i386         PolicyKit Authentication Agent API
+ii  libpolkit-backend-1-0:i386                  0.105-1ubuntu1.1                       i386         PolicyKit backend API
+ii  libpolkit-gobject-1-0:i386                  0.105-1ubuntu1.1                       i386         PolicyKit Authorization API
+ii  libpopt0:i386                               1.16-7ubuntu3                          i386         lib for parsing cmdline parameters
+ii  libportaudio2:i386                          19+svn20111121-1build1                 i386         Portable audio I/O - shared library
+ii  libpostproc52:i386                          6:0.8.9-0ubuntu0.13.04.1               i386         Libav video postprocessing library
+ii  libppl-c4:i386                              1.0-1ubuntu2                           i386         Parma Polyhedra Library (C interface)
+ii  libppl12:i386                               1.0-1ubuntu2                           i386         Parma Polyhedra Library (runtime library)
+ii  libprocps0:i386                             1:3.3.3-2ubuntu5.3                     i386         library for accessing process information from /proc
+ii  libprotobuf7                                2.4.1-3ubuntu1                         i386         protocol buffers C++ library
+ii  libprotoc7                                  2.4.1-3ubuntu1                         i386         protocol buffers compiler library
+ii  libproxy1:i386                              0.4.11-0ubuntu1                        i386         automatic proxy configuration management library (shared)
+ii  libproxy1-plugin-gsettings:i386             0.4.11-0ubuntu1                        i386         automatic proxy configuration management library (GSettings plugin)
+ii  libproxy1-plugin-networkmanager:i386        0.4.11-0ubuntu1                        i386         automatic proxy configuration management library (Network Manager plugin)
+ii  libpth20                                    2.0.7-16ubuntu4                        i386         The GNU Portable Threads
+ii  libpthread-stubs0:i386                      0.3-3                                  i386         pthread stubs not provided by native libc
+ii  libpthread-stubs0-dev:i386                  0.3-3                                  i386         pthread stubs not provided by native libc, development files
+ii  libpulse-mainloop-glib0:i386                1:3.0-0ubuntu6                         i386         PulseAudio client libraries (glib support)
+ii  libpulse0:i386                              1:3.0-0ubuntu6                         i386         PulseAudio client libraries
+ii  libpulsedsp:i386                            1:3.0-0ubuntu6                         i386         PulseAudio OSS pre-load library
+ii  libpurple-bin                               1:2.10.7-0ubuntu4.1                    all          multi-protocol instant messaging library - extra utilities
+ii  libpwquality1                               1.1.1-1                                i386         library for password quality checking and generation
+ii  libpython-stdlib:i386                       2.7.4-0ubuntu1                         i386         interactive high-level object-oriented language (default python version)
+ii  libpython2.7:i386                           2.7.4-2ubuntu3.2                       i386         Shared Python runtime library (version 2.7)
+ii  libpython2.7-minimal:i386                   2.7.4-2ubuntu3.2                       i386         Minimal subset of the Python language (version 2.7)
+ii  libpython2.7-stdlib:i386                    2.7.4-2ubuntu3.2                       i386         Interactive high-level object-oriented language (version 2.7)
+ii  libpython3-stdlib:i386                      3.3.1-0ubuntu1                         i386         interactive high-level object-oriented language (default python3 version)
+ii  libpython3.3:i386                           3.3.1-1ubuntu5.2                       i386         Shared Python runtime library (version 3.3)
+ii  libpython3.3-minimal:i386                   3.3.1-1ubuntu5.2                       i386         Minimal subset of the Python language (version 3.3)
+ii  libpython3.3-stdlib:i386                    3.3.1-1ubuntu5.2                       i386         Interactive high-level object-oriented language (version 3.3)
+ii  libqjson0:i386                              0.8.1-1                                i386         Qt-based library that maps JSON data to QVariant objects
+ii  libqpdf10:i386                              4.0.1-2                                i386         runtime library for PDF transformation/inspection software
+ii  libqt4-dbus:i386                            4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 D-Bus module
+ii  libqt4-network:i386                         4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 network module
+ii  libqt4-script:i386                          4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 script module
+ii  libqt4-sql:i386                             4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 SQL module
+ii  libqt4-sql-sqlite:i386                      4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 SQLite 3 database driver
+ii  libqt4-test:i386                            4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 test module
+ii  libqt4-xml:i386                             4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 XML module
+ii  libqt4-xmlpatterns:i386                     4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 XML patterns module
+rc  libqt5concurrent5:i386                      5.0.1+dfsg-0ubuntu4.1                  i386         Qt 5 concurrent module
+ii  libqt5core5:i386                            5.0.1+dfsg-0ubuntu4.1                  i386         Qt 5 core module
+ii  libqt5dbus5:i386                            5.0.1+dfsg-0ubuntu4.1                  i386         Qt 5 D-Bus module
+rc  libqt5network5:i386                         5.0.1+dfsg-0ubuntu4.1                  i386         Qt 5 network module
+rc  libqt5printsupport5:i386                    5.0.1+dfsg-0ubuntu4.1                  i386         Qt 5 print support module
+rc  libqt5sql5:i386                             5.0.1+dfsg-0ubuntu4.1                  i386         Qt 5 SQL module
+rc  libqt5test5:i386                            5.0.1+dfsg-0ubuntu4.1                  i386         Qt 5 test module
+rc  libqt5xml5:i386                             5.0.1+dfsg-0ubuntu4.1                  i386         Qt 5 XML module
+ii  libqtassistantclient4:i386                  4.6.3-4ubuntu1                         i386         Qt Assistant client library (runtime)
+ii  libqtcore4:i386                             4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 core module
+ii  libquadmath0:i386                           4.7.3-1ubuntu1                         i386         GCC Quad-Precision Math Library
+ii  libquvi-scripts                             0.4.8-3                                all          library for parsing video download links (Lua scripts)
+ii  libquvi7:i386                               0.4.1-1                                i386         library for parsing video download links (runtime libraries)
+ii  libraptor2-0                                2.0.8-2                                i386         Raptor 2 RDF syntax library
+ii  librarian0                                  0.8.1-5build1                          i386         Documentation meta-data library (library package)
+ii  librasqal3                                  0.9.29-1                               i386         Rasqal RDF query library
+ii  libraw1394-11:i386                          2.0.9-1                                i386         library for direct access to IEEE 1394 bus (aka FireWire)
+ii  libraw5:i386                                0.14.7-0ubuntu1.13.04.2                i386         raw image decoder library
+ii  librdf0                                     1.0.16-1                               i386         Redland Resource Description Framework (RDF) library
+ii  libreadline5:i386                           5.2+dfsg-1                             i386         GNU readline and history libraries, run-time libraries
+ii  libreadline6:i386                           6.2-9ubuntu1                           i386         GNU readline and history libraries, run-time libraries
+ii  librecode0:i386                             3.6-20                                 i386         Shared library on which recode is based
+ii  libreoffice-common                          1:4.0.2-0ubuntu1                       all          office productivity suite -- arch-independent files
+ii  libresid-builder0c2a                        2.1.1-14                               i386         SID chip emulation class based on resid
+ii  librest-0.7-0:i386                          0.7.90-0ubuntu1                        i386         REST service access library
+ii  libroken18-heimdal:i386                     1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - roken support library
+ii  librsync1:i386                              0.9.7-9                                i386         rsync remote-delta algorithm library
+ii  librtmp0:i386                               2.4+20111222.git4e06e21-1ubuntu1       i386         toolkit for RTMP streams (shared library)
+ii  libsamplerate0:i386                         0.1.8-5                                i386         Audio sample rate conversion library
+ii  libsane-common                              1.0.23-0ubuntu1                        i386         API library for scanners -- documentation and support files
+ii  libsane-hpaio                               3.13.3-1ubuntu0.1                      i386         HP SANE backend for multi-function peripherals
+ii  libsasl2-2:i386                             2.1.25.dfsg1-6ubuntu0.1                i386         Cyrus SASL - authentication abstraction library
+ii  libsasl2-modules:i386                       2.1.25.dfsg1-6ubuntu0.1                i386         Cyrus SASL - pluggable authentication modules
+ii  libsbc1:i386                                1.0-2                                  i386         Sub Band CODEC library - runtime
+ii  libschroedinger-1.0-0:i386                  1.0.11-2                               i386         library for encoding/decoding of Dirac video streams
+ii  libsdl-image1.2:i386                        1.2.12-3~exp1ubuntu2                   i386         Image loading library for Simple DirectMedia Layer 1.2, libraries
+ii  libsdl1.2debian:i386                        1.2.15-5ubuntu1                        i386         Simple DirectMedia Layer
+ii  libsecret-1-0:i386                          0.15-0ubuntu1                          i386         Secret store
+ii  libsecret-common                            0.15-0ubuntu1                          all          Secret store (common files)
+ii  libselinux1:i386                            2.1.9-5ubuntu1                         i386         SELinux runtime shared libraries
+ii  libsemanage-common                          2.1.6-6ubuntu1                         all          Common files for SELinux policy management libraries
+ii  libsemanage1:i386                           2.1.6-6ubuntu1                         i386         SELinux policy management library
+ii  libsensors4:i386                            1:3.3.2-2ubuntu1                       i386         library to read temperature/voltage/fan sensors
+ii  libsepol1:i386                              2.1.4-3ubuntu2                         i386         SELinux library for manipulating binary security policies
+ii  libservlet3.0-java                          7.0.35-1~exp2ubuntu1.1                 all          Servlet 3.0 and JSP 2.2 Java API classes
+ii  libsgutils2-2                               1.33-1build1                           i386         utilities for devices using the SCSI command set (shared libraries)
+ii  libshout3:i386                              2.3.1-1ubuntu2                         i386         MP3/Ogg Vorbis broadcast streaming library
+ii  libsidplay1                                 1.36.59-5                              i386         SID (MOS 6581) emulation library
+ii  libsidplay2                                 2.1.1-14                               i386         SID (MOS 6581) emulation library
+ii  libsigc++-2.0-0c2a:i386                     2.2.10-0.2                             i386         type-safe Signal Framework for C++ - runtime
+ii  libsignon-extension1                        8.49-0ubuntu2                          i386         Single Sign On framework
+ii  libsignon-glib1                             1.9-0ubuntu1                           i386         library for signond
+ii  libsignon-plugins-common1                   8.49-0ubuntu2                          i386         Single Sign On framework
+ii  libsignon-qt1                               8.49-0ubuntu2                          i386         Single Sign On framework
+ii  libsigsegv2                                 2.9-4ubuntu3                           i386         Library for handling page faults in a portable way
+ii  libslang2:i386                              2.2.4-15ubuntu1                        i386         S-Lang programming library - runtime version
+ii  libslv2-9                                   0.6.6+dfsg1-2                          i386         library for simple use of LV2 plugins
+ii  libsmbclient:i386                           2:3.6.9-1ubuntu1.2                     i386         shared library for communication with SMB/CIFS servers
+ii  libsndfile1:i386                            1.0.25-5                               i386         Library for reading/writing audio files
+ii  libsnmp-base                                5.4.3~dfsg-2.7ubuntu1                  all          SNMP (Simple Network Management Protocol) MIBs and documentation
+ii  libsnmp15                                   5.4.3~dfsg-2.7ubuntu1                  i386         SNMP (Simple Network Management Protocol) library
+ii  libsocket6-perl                             0.23-1build3                           i386         Perl extensions for IPv6
+ii  libsonic0:i386                              0.1.18-0ubuntu1                        i386         Simple library to speed up or slow down speech
+ii  libsoundtouch0:i386                         1.7.1-1                                i386         Sound stretching library
+ii  libsoup-gnome2.4-1:i386                     2.40.3-0ubuntu1                        i386         HTTP library implementation in C -- GNOME support library
+ii  libsoup2.4-1:i386                           2.40.3-0ubuntu1                        i386         HTTP library implementation in C -- Shared library
+ii  libsox-fmt-alsa:i386                        14.4.1-2                               i386         SoX alsa format I/O library
+ii  libsox-fmt-base:i386                        14.4.1-2                               i386         Minimal set of SoX format libraries
+ii  libsox2:i386                                14.4.1-2                               i386         SoX library of audio effects and processing
+ii  libspandsp2                                 0.0.6~pre20-3ubuntu1                   i386         Telephony signal processing library
+ii  libspeechd2:i386                            0.7.1-6.1ubuntu2                       i386         Speech Dispatcher: Shared libraries
+ii  libspeex1:i386                              1.2~rc1-7ubuntu1                       i386         The Speex codec runtime library
+ii  libspeexdsp1:i386                           1.2~rc1-7ubuntu1                       i386         The Speex extended runtime library
+ii  libsqlite3-0:i386                           3.7.15.2-1ubuntu1                      i386         SQLite 3 shared library
+ii  libss2:i386                                 1.42.5-1ubuntu4                        i386         command-line interface parsing library
+ii  libssh-4:i386                               0.5.3-1ubuntu1                         i386         tiny C SSH library
+ii  libssh2-1:i386                              1.4.2-1.1                              i386         SSH2 client-side library
+ii  libssl1.0.0:i386                            1.0.1c-4ubuntu8.2                      i386         SSL shared libraries
+ii  libstartup-notification0:i386               0.12-2                                 i386         library for program launch feedback (shared library)
+ii  libstdc++6:i386                             4.7.3-1ubuntu1                         i386         GNU Standard C++ Library v3
+ii  libstdc++6-4.7-dev:i386                     4.7.3-1ubuntu1                         i386         GNU Standard C++ Library v3 (development files)
+ii  libsub-name-perl                            0.05-1build3                           i386         module for assigning a new name to referenced sub
+ii  libsunpinyin3:i386                          2.0.3+git20120607-1                    i386         Simplified Chinese Input Method from SUN (runtime)
+ii  libswitch-perl                              2.16-2                                 all          switch statement for Perl
+ii  libswscale2:i386                            6:0.8.9-0ubuntu0.13.04.1               i386         Libav video scaling library
+ii  libsync-menu1:i386                          12.10.5daily13.03.28.1-0ubuntu1        i386         indicator for synchronisation processes status - libraries
+ii  libsysfs2:i386                              2.1.0+repack-2                         i386         interface library to sysfs
+ii  libsystemd-daemon0:i386                     198-0ubuntu11.2                        i386         systemd utility library
+ii  libt1-5                                     5.1.2-3.6                              i386         Type 1 font rasterizer library - runtime
+ii  libtag1-vanilla:i386                        1.8-1                                  i386         audio meta-data library - vanilla flavour
+ii  libtag1c2a:i386                             1.8-1                                  i386         audio meta-data library
+ii  libtaglib2.1-cil                            2.1.0.0-2                              all          CLI library for accessing audio and video files metadata
+ii  libtalloc2:i386                             2.0.7+git20120207-1ubuntu1             i386         hierarchical pool based memory allocator
+ii  libtar0                                     1.2.16-1                               i386         C library for manipulating tar archives
+ii  libtasn1-3:i386                             2.14-2                                 i386         Manage ASN.1 structures (runtime)
+ii  libtdb1:i386                                1.2.10-2ubuntu1                        i386         Trivial Database - shared library
+ii  libtelepathy-glib0:i386                     0.20.2-0ubuntu1                        i386         Telepathy framework - GLib library
+ii  libterm-readkey-perl                        2.30-4build4                           i386         A perl module for simple terminal control
+ii  libtext-charwidth-perl                      0.04-7build2                           i386         get display widths of characters on the terminal
+ii  libtext-iconv-perl                          1.7-5build1                            i386         converts between character sets in Perl
+ii  libtext-levenshtein-perl                    0.06~01-2                              all          implementation of the Levenshtein edit distance
+ii  libtext-wrapi18n-perl                       0.06-7                                 all          internationalized substitute of Text::Wrap
+ii  libthai-data                                0.1.19-1                               all          Data files for Thai language support library
+ii  libthai0:i386                               0.1.19-1                               i386         Thai language support library
+ii  libtheora0:i386                             1.1.1+dfsg.1-3.1                       i386         The Theora Video Compression Codec
+ii  libtidy-0.99-0                              20091223cvs-1.2                        i386         HTML syntax checker and reformatter - library
+ii  libtie-ixhash-perl                          1.22-1                                 all          Perl module to order associative arrays
+ii  libtiff5:i386                               4.0.2-4ubuntu2.1                       i386         Tag Image File Format (TIFF) library
+ii  libtimedate-perl                            1.2000-1                               all          collection of modules to manipulate date/time information
+ii  libtinfo5:i386                              5.9-10ubuntu4                          i386         shared low-level terminfo library for terminal handling
+ii  libtotem-plparser17                         3.4.4-1                                i386         Totem Playlist Parser library - runtime files
+ii  libts-0.0-0:i386                            1.0-11                                 i386         touch screen library
+ii  libtwolame0                                 0.3.13-1build1                         i386         MPEG Audio Layer 2 encoding library
+ii  libtxc-dxtn-s2tc0:i386                      0~git20121227-1                        i386         Texture compression library for Mesa
+ii  libudev1:i386                               198-0ubuntu11.2                        i386         libudev shared library
+ii  libudisks2-0:i386                           2.1.0-2                                i386         GObject based library to access udisks2
+ii  libumfpack5.4.0                             1:3.4.0-3ubuntu1                       i386         sparse LU factorization library
+ii  libunistring0:i386                          0.9.3-5build1                          i386         Unicode string library for C
+ii  libunity-common                             6.90.2daily13.04.05-0ubuntu1           all          binding to get places into the launcher - common files
+ii  libunity-protocol-private0:i386             6.90.2daily13.04.05-0ubuntu1           i386         binding to get places into the launcher - private library
+ii  libunity9:i386                              6.90.2daily13.04.05-0ubuntu1           i386         binding to get places into the launcher - shared library
+ii  libunshield0                                0.6-3                                  i386         library to extract CAB files from InstallShield installers
+ii  libupnp6                                    1:1.6.17-1.2                           i386         Portable SDK for UPnP Devices, version 1.6 (shared libraries)
+ii  libupower-glib1                             0.9.20-1ubuntu0.1                      i386         abstraction for power management - shared library
+ii  liburi-perl                                 1.60-1                                 all          module to manipulate and access URI strings
+ii  libusb-0.1-4:i386                           2:0.1.12-23+nmu1ubuntu1                i386         userspace USB programming library
+ii  libusb-1.0-0:i386                           2:1.0.12-2ubuntu1                      i386         userspace USB programming library
+ii  libusbmuxd2                                 1.0.8-1ubuntu1                         i386         USB multiplexor daemon for iPhone and iPod Touch devices - library
+ii  libustr-1.0-1:i386                          1.0.4-3ubuntu1                         i386         Micro string library: shared library
+ii  libutempter0                                1.1.5-4build1                          i386         A privileged helper for utmp/wtmp updates (runtime)
+ii  libuuid-perl                                0.02-5                                 i386         Perl extension for using UUID interfaces as defined in e2fsprogs
+ii  libuuid1:i386                               2.20.1-5.1ubuntu8                      i386         Universally Unique ID library
+ii  libv4l-0:i386                               0.8.9-1                                i386         Collection of video4linux support libraries
+ii  libv4lconvert0:i386                         0.8.9-1                                i386         Video4linux frame format conversion library
+ii  libva-x11-1:i386                            1.0.15-4build1                         i386         Video Acceleration (VA) API for Linux -- X11 runtime
+ii  libva1:i386                                 1.0.15-4build1                         i386         Video Acceleration (VA) API for Linux -- runtime
+ii  libvcdinfo0                                 0.7.24+dfsg-0.1                        i386         library to extract information from VideoCD
+rc  libvdpau1:i386                              0.4.1-8                                i386         Video Decode and Presentation API for Unix (libraries)
+ii  libvisio-0.0-0                              0.0.25-1                               i386         library for parsing the visio file structure
+ii  libvisual-0.4-0:i386                        0.4.0-5                                i386         Audio visualization framework
+ii  libvisual-0.4-plugins:i386                  0.4.0.dfsg.1-7build1                   i386         Audio visualization framework plugins
+ii  libvlc5                                     2.0.8-0ubuntu0.13.04.1                 i386         multimedia player and streamer library
+ii  libvlccore5                                 2.0.8-0ubuntu0.13.04.1                 i386         base library for VLC and its modules
+ii  libvncserver0:i386                          0.9.9+dfsg-1                           i386         API to write one's own vnc server
+ii  libvo-aacenc0:i386                          0.1.2-1                                i386         VisualOn AAC encoder library
+ii  libvo-amrwbenc0:i386                        0.1.2-1                                i386         VisualOn AMR-WB encoder library
+ii  libvorbis0a:i386                            1.3.2-1.3                              i386         The Vorbis General Audio Compression Codec (Decoder library)
+ii  libvorbisenc2:i386                          1.3.2-1.3                              i386         The Vorbis General Audio Compression Codec (Encoder library)
+ii  libvorbisfile3:i386                         1.3.2-1.3                              i386         The Vorbis General Audio Compression Codec (High Level API)
+ii  libvpx1:i386                                1.1.0-1                                i386         VP8 video codec (shared library)
+ii  libvte-2.90-common                          1:0.34.2-0ubuntu2                      all          Terminal emulator widget for GTK+ 3.0 - common files
+ii  libvte-common                               1:0.28.2-5ubuntu1                      all          Terminal emulator widget for GTK+ 2.x - common files
+ii  libwacom-common                             0.7-1                                  all          Wacom model feature query library (common files)
+ii  libwacom2:i386                              0.7-1                                  i386         Wacom model feature query library
+ii  libwavpack1:i386                            4.60.1-3                               i386         audio codec (lossy and lossless) - library
+ii  libwayland0:i386                            1.0.5-0ubuntu1                         i386         wayland compositor infrastructure - shared libraries
+ii  libwbclient0:i386                           2:3.6.9-1ubuntu1.2                     i386         Samba winbind client library
+ii  libwebkitgtk-1.0-common                     1.10.2-0ubuntu1                        all          Web content engine library for GTK+ - data files
+ii  libwebkitgtk-3.0-common                     1.10.2-0ubuntu1                        all          Web content engine library for GTK+ - data files
+ii  libwebp4:i386                               0.2.1-3                                i386         Lossy compression of digital photographic images.
+ii  libwildmidi-config                          0.2.3.4-2.1ubuntu1                     all          software MIDI player configuration
+ii  libwildmidi1:i386                           0.2.3.4-2.1ubuntu1                     i386         software MIDI player library
+ii  libwind0-heimdal:i386                       1.6~git20120403+dfsg1-2ubuntu0.13.04.1 i386         Heimdal Kerberos - stringprep implementation
+ii  libwmf0.2-7:i386                            0.2.8.4-10.3ubuntu1                    i386         Windows metafile conversion library
+ii  libwmf0.2-7-gtk                             0.2.8.4-10.3ubuntu1                    i386         Windows metafile conversion library
+ii  libwnck-3-common                            3.4.5-0ubuntu1                         all          Window Navigator Construction Kit - common files
+ii  libwnck-common                              1:2.30.7-0ubuntu2                      all          Window Navigator Construction Kit - common files
+ii  libwpd-0.9-9                                0.9.6-2                                i386         Library for handling WordPerfect documents (shared library)
+ii  libwpg-0.2-2                                0.2.1-1build1                          i386         WordPerfect graphics import/convert library (shared library)
+ii  libwps-0.2-2                                0.2.7-1                                i386         Works text file format import filter library (shared library)
+ii  libwrap0:i386                               7.6.q-24                               i386         Wietse Venema's TCP wrappers library
+ii  libwww-perl                                 6.04-1                                 all          simple and consistent interface to the world-wide web
+ii  libwww-robotrules-perl                      6.01-1                                 all          database of robots.txt-derived permissions
+ii  libx11-6:i386                               2:1.5.0-1ubuntu1.1                     i386         X11 client-side library
+ii  libx11-data                                 2:1.5.0-1ubuntu1.1                     all          X11 client-side library
+ii  libx11-doc                                  2:1.5.0-1ubuntu1.1                     all          X11 client-side library (development documentation)
+ii  libx11-xcb1:i386                            2:1.5.0-1ubuntu1.1                     i386         Xlib/XCB interface library
+ii  libx264-123:i386                            2:0.123.2189+git35cf912-1              i386         x264 video coding library
+ii  libx86-1:i386                               1.1+ds1-10                             i386         x86 real-mode library
+ii  libxapian22                                 1.2.12-2                               i386         Search engine library
+ii  libxatracker1:i386                          9.1.7-1ubuntu2                         i386         X acceleration library -- runtime
+ii  libxau6:i386                                1:1.0.7-1                              i386         X11 authorisation library
+ii  libxcb-composite0:i386                      1.8.1-2ubuntu2.1                       i386         X C Binding, composite extension
+ii  libxcb-dri2-0:i386                          1.8.1-2ubuntu2.1                       i386         X C Binding, dri2 extension
+ii  libxcb-glx0:i386                            1.8.1-2ubuntu2.1                       i386         X C Binding, glx extension
+ii  libxcb-icccm4:i386                          0.3.9-2                                i386         utility libraries for X C Binding -- icccm
+ii  libxcb-image0:i386                          0.3.9-1ubuntu1                         i386         utility libraries for X C Binding -- image
+ii  libxcb-keysyms1:i386                        0.3.9-1                                i386         utility libraries for X C Binding -- keysyms
+ii  libxcb-randr0:i386                          1.8.1-2ubuntu2.1                       i386         X C Binding, randr extension
+ii  libxcb-render-util0:i386                    0.3.8-1.1                              i386         utility libraries for X C Binding -- render-util
+ii  libxcb-render0:i386                         1.8.1-2ubuntu2.1                       i386         X C Binding, render extension
+ii  libxcb-shape0:i386                          1.8.1-2ubuntu2.1                       i386         X C Binding, shape extension
+ii  libxcb-shm0:i386                            1.8.1-2ubuntu2.1                       i386         X C Binding, shm extension
+ii  libxcb-sync0:i386                           1.8.1-2ubuntu2.1                       i386         X C Binding, sync extension
+ii  libxcb-util0:i386                           0.3.8-2build1                          i386         utility libraries for X C Binding -- atom, aux and event
+ii  libxcb-xfixes0:i386                         1.8.1-2ubuntu2.1                       i386         X C Binding, xfixes extension
+ii  libxcb-xv0:i386                             1.8.1-2ubuntu2.1                       i386         X C Binding, xv extension
+ii  libxcb1:i386                                1.8.1-2ubuntu2.1                       i386         X C Binding
+ii  libxcomposite1:i386                         1:0.4.3-2build2                        i386         X11 Composite extension library
+ii  libxcursor1:i386                            1:1.1.13-1ubuntu0.13.04.1              i386         X cursor management library
+ii  libxdamage1:i386                            1:1.1.3-2build2                        i386         X11 damaged region extension library
+ii  libxdmcp6:i386                              1:1.1.1-1                              i386         X11 Display Manager Control Protocol library
+ii  libxext6:i386                               2:1.3.1-2ubuntu0.13.04.1               i386         X11 miscellaneous extension library
+ii  libxfixes3:i386                             1:5.0-4ubuntu5.13.04.1                 i386         X11 miscellaneous 'fixes' extension library
+ii  libxfont1                                   1:1.4.5-2ubuntu0.13.04.1               i386         X11 font rasterisation library
+ii  libxi6:i386                                 2:1.6.99.1-0ubuntu3.1                  i386         X11 Input extension library
+ii  libxinerama1:i386                           2:1.1.2-1ubuntu0.13.04.1               i386         X11 Xinerama extension library
+ii  libxkbcommon0:i386                          0.2.0-0ubuntu3                         i386         library interface to the XKB compiler - shared library
+ii  libxkbfile1:i386                            1:1.0.8-1                              i386         X11 keyboard file manipulation library
+ii  libxml2:i386                                2.9.0+dfsg1-4ubuntu4.3                 i386         GNOME XML library
+ii  libxmuu1:i386                               2:1.1.1-1                              i386         X11 miscellaneous micro-utility library
+ii  libxp6:i386                                 1:1.0.1-2ubuntu0.13.04.1               i386         X Printing Extension (Xprint) client library
+ii  libxpm4:i386                                1:3.5.10-1                             i386         X11 pixmap library
+ii  libxrandr2:i386                             2:1.4.0-1ubuntu1.1                     i386         X11 RandR extension library
+ii  libxrender1:i386                            1:0.9.7-1ubuntu0.13.04.1               i386         X Rendering Extension client library
+ii  libxres1:i386                               2:1.0.6-1ubuntu0.13.04.1               i386         X11 Resource extension library
+ii  libxslt1.1:i386                             1.1.27-1ubuntu2                        i386         XSLT 1.0 processing library - runtime library
+ii  libxv1:i386                                 2:1.0.7-1ubuntu0.13.04.1               i386         X11 Video extension library
+ii  libxvidcore4:i386                           2:1.3.2-9                              i386         Open source MPEG-4 video codec (library)
+ii  libxxf86dga1:i386                           2:1.1.3-2ubuntu0.13.04.1               i386         X11 Direct Graphics Access extension library
+ii  libxxf86vm1:i386                            1:1.1.2-1ubuntu0.13.04.1               i386         X11 XFree86 video mode extension library
+ii  libyajl2                                    2.0.4-2                                i386         Yet Another JSON Library
+ii  libyaml-tiny-perl                           1.51-1                                 all          Perl module for reading and writing YAML files
+ii  libzbar0                                    0.10+doc-8                             i386         bar code scanner and decoder (library)
+ii  libzeitgeist-1.0-1                          0.3.18-1ubuntu1                        i386         library to access Zeitgeist - shared library
+ii  libzephyr4                                  3.0.2-2                                i386         Project Athena's notification service - non-Kerberos libraries
+ii  libzvbi-common                              0.2.33-6                               all          Vertical Blanking Interval decoder (VBI) - common files
+ii  libzvbi0:i386                               0.2.33-6                               i386         Vertical Blanking Interval decoder (VBI) - runtime files
+ii  linux-firmware                              1.106                                  all          Firmware for Linux kernel drivers
+ii  linux-headers-3.8.13.13-cdos                3.8.13.13-cdos-10.00.Custom            i386         Header files related to Linux kernel, specifically,
+ii  linux-image-3.8.13.13-cdos                  3.8.13.13-cdos-10.00.Custom            i386         Linux kernel binary image for version 3.8.13.13-cdos
+ii  linux-libc-dev:i386                         3.8.0-35.50                            i386         Linux Kernel Headers for development
+ii  linux-sound-base                            1.0.25+dfsg-0ubuntu4                   all          base package for ALSA and OSS sound systems
+ii  linuxmint-keyring                           2009.04.29                             all          GnuPG key of the Linux Mint repository
+ii  lm-sensors                                  1:3.3.2-2ubuntu1                       i386         utilities to read temperature/voltage/fan sensors
+ii  localechooser-data                          2.49ubuntu4                            all          Lists of locales supported by the installer
+ii  locales                                     2.13+git20120306-9                     all          common files for locale support
+ii  lockfile-progs                              0.1.17                                 i386         Programs for locking and unlocking files and mailboxes
+ii  login                                       1:4.1.5.1-1ubuntu4.1                   i386         system login tools
+ii  logrotate                                   3.8.3-3ubuntu2                         i386         Log rotation utility
+ii  lsb-base                                    4.0-0ubuntu27.3                        all          Linux Standard Base 4.0 init script functionality
+ii  lsb-release                                 4.0-0ubuntu27.3                        all          Linux Standard Base version reporting utility
+ii  lshw                                        02.16-1                                i386         information about hardware configuration
+ii  lsof                                        4.86+dfsg-1ubuntu2                     i386         Utility to list open files
+ii  ltrace                                      0.5.3-2.1ubuntu3                       i386         Tracks runtime library calls in dynamically linked programs
+ii  lupin-support                               0.53                                   i386         Support files for loop-mount installations
+ii  lvm2                                        2.02.95-6ubuntu4                       i386         Linux Logical Volume Manager
+ii  m4                                          1.4.16-5                               i386         a macro processing language
+ii  make                                        3.81-8.2ubuntu2                        i386         An utility for Directing compilation.
+ii  makedev                                     2.3.1-92ubuntu1                        all          creates device files in /dev
+ii  man-db                                      2.6.3-3                                i386         on-line manual pager
+ii  manpages                                    3.44-0ubuntu1                          all          Manual pages about using a GNU/Linux system
+ii  manpages-dev                                3.44-0ubuntu1                          all          Manual pages about using GNU/Linux for development
+ii  mawk                                        1.3.3-17ubuntu1                        i386         a pattern scanning and text processing language
+ii  media-player-info                           17-1                                   all          Media player identification files
+ii  memtest86+                                  4.20-1.1ubuntu3                        i386         thorough real-mode memory tester
+ii  mesa-utils                                  8.0.1+git20110129+d8f7d6b-0ubuntu2     i386         Miscellaneous Mesa GL utilities
+ii  metacity-common                             1:2.34.13-0ubuntu1                     all          shared files for the Metacity window manager
+ii  mime-support                                3.52-2ubuntu1                          all          MIME files 'mime.types' & 'mailcap', and support programs
+ii  mint-search-addon                           2012.05.11                             all          Enhances the results given by Google
+ii  mlocate                                     0.25-0ubuntu2                          i386         quickly find files on the filesystem based on their name
+ii  mobile-broadband-provider-info              20130312-1                             all          database of mobile broadband service providers
+ii  modemmanager                                0.6.0.0.really-0ubuntu5                i386         D-Bus service for managing modems
+ii  module-init-tools                           9-3ubuntu1                             all          transitional dummy package (module-init-tools to kmod)
+ii  mono-4.0-gac                                2.10.8.1-5ubuntu1                      all          Mono GAC tool (for CLI 4.0)
+ii  mono-gac                                    2.10.8.1-5ubuntu1                      all          Mono GAC tool
+ii  mono-runtime                                2.10.8.1-5ubuntu1                      i386         Mono runtime
+ii  mount                                       2.20.1-5.1ubuntu8                      i386         Tools for mounting and manipulating filesystems
+ii  mountall                                    2.48build1                             i386         filesystem mounting tool
+rc  mplayer2                                    2.0-554-gf63dbad-1ubuntu1              i386         next generation movie player for Unix-like systems
+ii  mscompress                                  0.3-4                                  i386         Microsoft "compress.exe/expand.exe" compatible (de)compressor
+ii  mtools                                      4.0.17-1                               i386         Tools for manipulating MSDOS files
+ii  mtr-tiny                                    0.82-3ubuntu1                          i386         Full screen ncurses traceroute tool
+ii  muffin-common                               1.8.2+olivia                           all          shared files for the Muffin window manager
+ii  multiarch-support                           2.17-0ubuntu5.1                        i386         Transitional package to ensure multiarch compatibility
+ii  myspell-en-gb                               1:3.3.0-2ubuntu3                       all          English_british dictionary for myspell
+ii  mysql-client-5.5                            5.5.34-0ubuntu0.13.04.1                i386         MySQL database client binaries
+ii  mysql-client-core-5.5                       5.5.34-0ubuntu0.13.04.1                i386         MySQL database core client binaries
+ii  mysql-common                                5.5.34-0ubuntu0.13.04.1                all          MySQL database common files, e.g. /etc/mysql/my.cnf
+ii  mysql-server                                5.5.34-0ubuntu0.13.04.1                all          MySQL database server (metapackage depending on the latest version)
+ii  mysql-server-5.5                            5.5.34-0ubuntu0.13.04.1                i386         MySQL database server binaries and system database setup
+ii  mysql-server-core-5.5                       5.5.34-0ubuntu0.13.04.1                i386         MySQL database server binaries
+ii  nano                                        2.2.6-1ubuntu1                         i386         small, friendly text editor inspired by Pico
+ii  nautilus-data                               1:3.6.3-0ubuntu16                      all          data files for nautilus
+ii  ncurses-base                                5.9-10ubuntu4                          all          basic terminal type definitions
+ii  ncurses-bin                                 5.9-10ubuntu4                          i386         terminal-related programs and man pages
+ii  ncurses-term                                5.9-10ubuntu4                          all          additional terminal type definitions
+ii  ndiswrapper-common                          1.58-0ubuntu1                          all          Common scripts required to use the utilities for ndiswrapper
+ii  ndiswrapper-utils-1.9                       1.58-0ubuntu1                          i386         Userspace utilities for the ndiswrapper Linux kernel module
+ii  net-tools                                   1.60-24.2ubuntu1                       i386         The NET-3 networking toolkit
+ii  netbase                                     5.0ubuntu1                             all          Basic TCP/IP networking system
+ii  netcat-openbsd                              1.105-7ubuntu1                         i386         TCP/IP swiss army knife
+ii  network-manager                             0.9.8.0-0ubuntu6.1                     i386         network management framework (daemon and userspace tools)
+ii  network-manager-pptp                        0.9.6.0-0ubuntu2                       i386         network management framework (PPTP plugin core)
+ii  notify-osd-icons                            0.7                                    all          Notify-OSD icons
+ii  ntpdate                                     1:4.2.6.p5+dfsg-2ubuntu1               i386         client for setting system time from NTP servers
+ii  nux-tools                                   4.0.1daily13.06.19~13.04-0ubuntu1      i386         Visual rendering toolkit for real-time applications - tools
+ii  obex-data-server                            0.4.6-0ubuntu2                         i386         D-Bus service for OBEX client and server side functionality
+ii  obexd-client                                0.46-1ubuntu3                          i386         D-Bus OBEX client
+ii  oneconf-common                              0.3.3                                  all          synchronize your configuration data over the network
+ii  openjdk-7-jre-lib                           7u51-2.4.4-0ubuntu0.13.04.2            all          OpenJDK Java runtime (architecture independent libraries)
+ii  openprinting-ppds                           20130308-0ubuntu2                      all          OpenPrinting printer support - PostScript PPD files
+ii  openssl                                     1.0.1c-4ubuntu8.2                      i386         Secure Socket Layer (SSL) binary and related cryptographic tools
+ii  os-prober                                   1.57ubuntu1                            i386         utility to detect other OSes on a set of drives
+ii  p7zip                                       9.20.1~dfsg.1-4                        i386         7z file archiver with high compression ratio
+ii  parted                                      2.3-11ubuntu1                          i386         disk partition manipulator
+ii  passwd                                      1:4.1.5.1-1ubuntu4.1                   i386         change and administer password and group data
+ii  patch                                       2.6.1-3ubuntu2                         i386         Apply a diff file to an original
+ii  patchutils                                  0.3.2-1.1build1                        i386         Utilities to work with patches
+ii  pciutils                                    1:3.1.9-6ubuntu3                       i386         Linux PCI Utilities
+ii  pcmciautils                                 018-8                                  i386         PCMCIA utilities for Linux 2.6
+ii  perl                                        5.14.2-21                              i386         Larry Wall's Practical Extraction and Report Language
+ii  perl-base                                   5.14.2-21                              i386         minimal Perl system
+ii  perl-modules                                5.14.2-21                              all          Core Perl modules
+ii  php5-cli                                    5.4.9-4ubuntu2.4                       i386         command-line interpreter for the php5 scripting language
+ii  php5-common                                 5.4.9-4ubuntu2.4                       i386         Common files for packages built from the php5 source
+ii  php5-mysql                                  5.4.9-4ubuntu2.4                       i386         MySQL module for php5
+ii  pidgin-data                                 1:2.10.7-0ubuntu4.1                    all          multi-protocol instant messaging client - data files
+ii  pkg-config                                  0.26-1ubuntu3                          i386         manage compile and link flags for libraries
+ii  plymouth                                    0.8.8-0ubuntu6.2                       i386         graphical boot animation and logger - main package
+ii  plymouth-theme-ubuntu-text                  0.8.8-0ubuntu6.2                       i386         graphical boot animation and logger - ubuntu-logo theme
+ii  pm-utils                                    1.4.1-9git1ubuntu0.1                   all          utilities and scripts for power management
+ii  policykit-1                                 0.105-1ubuntu1.1                       i386         framework for managing administrative policies and privileges
+ii  policykit-desktop-privileges                0.14                                   all          run common desktop actions without password
+ii  poppler-data                                0.4.6-2                                all          encoding data for the poppler PDF rendering library
+ii  powermgmt-base                              1.31build1                             i386         Common utils and configs for power management
+ii  ppp                                         2.4.5-5.1ubuntu2                       i386         Point-to-Point Protocol (PPP) - daemon
+ii  pppconfig                                   2.3.19ubuntu1                          all          A text menu based utility for configuring ppp
+ii  pppoe                                       3.8-3ubuntu1                           i386         PPP over Ethernet driver
+ii  pppoeconf                                   1.20ubuntu1                            all          configures PPPoE/ADSL connections
+ii  pptp-linux                                  1.7.2-7                                i386         Point-to-Point Tunneling Protocol (PPTP) Client
+ii  printer-driver-c2esp                        26-1ubuntu1                            i386         printer driver for Kodak ESP AiO color inkjet Series
+ii  printer-driver-min12xxw                     0.0.9-6ubuntu2                         i386         printer driver for KonicaMinolta PagePro 1[234]xxW
+ii  procps                                      1:3.3.3-2ubuntu5.3                     i386         /proc file system utilities
+ii  protobuf-compiler                           2.4.1-3ubuntu1                         i386         compiler for protocol buffer definition files
+ii  psmisc                                      22.20-1ubuntu2                         i386         utilities that use the proc file system
+ii  pulseaudio                                  1:3.0-0ubuntu6                         i386         PulseAudio sound server
+ii  pulseaudio-module-bluetooth                 1:3.0-0ubuntu6                         i386         Bluetooth module for PulseAudio sound server
+ii  python                                      2.7.4-0ubuntu1                         i386         interactive high-level object-oriented language (default version)
+ii  python-apt                                  0.8.8ubuntu6                           i386         Python interface to libapt-pkg
+ii  python-apt-common                           0.8.8ubuntu6                           all          Python interface to libapt-pkg (locales)
+ii  python-aptdaemon                            1.0-0ubuntu9                           all          Python 2 module for the server and client of aptdaemon
+ii  python-beautifulsoup                        3.2.1-1                                all          error-tolerant HTML parser for Python
+ii  python-central                              0.6.17ubuntu2                          all          register and build utility for Python packages
+ii  python-chardet                              2.0.1-2build1                          all          universal character encoding detector
+ii  python-configglue                           1.0-1build1                            all          Glues together optparse.OptionParser and ConfigParser.ConfigParser
+ii  python-crypto                               2.6-4                                  i386         cryptographic algorithms and protocols for Python
+ii  python-cups                                 1.9.62-0ubuntu3                        i386         Python bindings for CUPS
+ii  python-cupshelpers                          1.3.12+20130308-0ubuntu4               all          Python modules for printer configuration with CUPS
+ii  python-dbus                                 1.1.1-1ubuntu3                         i386         simple interprocess messaging system (Python interface)
+ii  python-dbus-dev                             1.1.1-1ubuntu3                         all          main loop integration development files for python-dbus
+ii  python-debian                               0.1.21+nmu2ubuntu1                     all          Python modules to work with Debian-related data formats
+ii  python-debtagshw                            1.10.2ubuntu1                          all          Match debtags hardware:: tags against the actual hardware
+ii  python-defer                                1.0.6-2                                all          Small framework for asynchronous programming (Python 2)
+ii  python-dirspec                              4.2.0-0ubuntu1                         all          Python User Folders Specification Library
+ii  python-feedparser                           5.1.2-1ubuntu2                         all          Universal Feed Parser for Python
+ii  python-gconf                                2.28.1+dfsg-1build1                    i386         Python bindings for the GConf configuration database system
+ii  python-gi                                   3.8.0-2                                i386         Python 2.x bindings for gobject-introspection libraries
+ii  python-gobject                              3.8.0-2                                all          Python 2.x bindings for GObject - transitional package
+ii  python-gobject-2                            2.28.6-11                              i386         deprecated static Python bindings for the GObject library
+ii  python-httplib2                             0.7.7-1ubuntu0.1                       all          comprehensive HTTP client library written for Python
+ii  python-imaging                              1.1.7+2.0.0-1ubuntu0.1                 i386         Python Imaging Library (Pillow fork)
+ii  python-imaging-compat                       1.1.7+2.0.0-1ubuntu0.1                 all          Python Imaging Library compatibility layer
+ii  python-libxml2                              2.9.0+dfsg1-4ubuntu4.3                 i386         Python bindings for the GNOME XML library
+ii  python-lxml                                 3.1.0-1                                i386         pythonic binding for the libxml2 and libxslt libraries
+ii  python-mako                                 0.7.3-1                                all          fast and lightweight templating for the Python platform
+ii  python-markupsafe                           0.15-1build3                           i386         XML/HTML/XHTML Markup safe string for Python
+ii  python-minimal                              2.7.4-0ubuntu1                         i386         minimal subset of the Python language (default version)
+ii  python-oauthlib                             0.3.7-0ubuntu1                         all          generic, spec-compliant implementation of OAuth for Python 2
+ii  python-oneconf                              0.3.3                                  all          synchronize your configuration data over the network (Python 2)
+ii  python-openssl                              0.13-2ubuntu3.1                        i386         Python 2 wrapper around the OpenSSL library
+ii  python-pam                                  0.4.2-13ubuntu4                        i386         Python interface to the PAM library
+ii  python-paramiko                             1.7.7.1-3.1ubuntu1                     all          Make ssh v2 connections with Python
+ii  python-pexpect                              2.4-1                                  all          Python module for automating interactive applications
+ii  python-piston-mini-client                   0.7.5-0ubuntu1                         all          library for writing clients for Django's Piston REST APIs
+ii  python-pkg-resources                        0.6.34-0ubuntu1                        all          Package Discovery and Resource Access using pkg_resources
+ii  python-protobuf                             2.4.1-3ubuntu1                         i386         Python bindings for protocol buffers
+ii  python-pycurl                               7.19.0-5ubuntu8                        i386         Python bindings to libcurl
+ii  python-pyinotify                            0.9.3-1.1ubuntu1                       all          simple Linux inotify Python bindings
+ii  python-pyorbit                              2.24.0-6ubuntu3                        i386         A Python language binding for the ORBit2 CORBA implementation
+ii  python-qt4-dbus                             4.10-0ubuntu3                          i386         D-Bus Support for PyQt4
+ii  python-renderpm                             2.6-1                                  i386         python low level render interface
+ii  python-reportlab                            2.6-1                                  all          ReportLab library to create PDF documents using Python
+ii  python-reportlab-accel                      2.6-1                                  i386         C coded extension accelerator for the ReportLab Toolkit
+ii  python-requests                             1.1.0-1                                all          elegant and simple HTTP library for Python, built for human beings
+ii  python-serial                               2.6-1                                  all          pyserial - module encapsulating access for the serial port
+ii  python-sip                                  4.14.5-0ubuntu1                        i386         Python/C++ bindings generator runtime library
+ii  python-six                                  1.2.0-1                                all          Python 2 and 3 compatibility library (Python 2 interface)
+ii  python-smbc                                 1.0.13-0ubuntu4                        i386         Python bindings for Samba clients (libsmbclient)
+ii  python-support                              1.0.15                                 all          automated rebuilding support for Python modules
+ii  python-twisted-bin                          12.3.0-1ubuntu6                        i386         Event-based framework for internet applications
+ii  python-twisted-core                         12.3.0-1ubuntu6                        all          Event-based framework for internet applications
+ii  python-twisted-names                        12.3.0-1                               all          DNS protocol implementation with client and server
+ii  python-twisted-web                          12.3.0-1                               all          HTTP protocol implementation together with clients and servers
+ii  python-urllib3                              1.5-0ubuntu1                           all          HTTP library with thread-safe connection pooling for Python
+ii  python-utidylib                             0.2-8build1                            all          Python wrapper for TidyLib
+ii  python-xapian                               1.2.12-2                               i386         Xapian search engine interface for Python
+ii  python-xdg                                  0.25-2                                 all          Python 2 library to access freedesktop.org standards
+ii  python-zeitgeist                            0.9.5-0ubuntu1                         all          event logging framework - Python bindings
+ii  python-zope.interface                       4.0.5-0ubuntu1                         i386         Interfaces for Python
+ii  python2.7                                   2.7.4-2ubuntu3.2                       i386         Interactive high-level object-oriented language (version 2.7)
+ii  python2.7-minimal                           2.7.4-2ubuntu3.2                       i386         Minimal subset of the Python language (version 2.7)
+ii  python3                                     3.3.1-0ubuntu1                         i386         interactive high-level object-oriented language (default python3 version)
+ii  python3-apt                                 0.8.8ubuntu6                           i386         Python 3 interface to libapt-pkg
+ii  python3-aptdaemon                           1.0-0ubuntu9                           all          Python 3 module for the server and client of aptdaemon
+ii  python3-aptdaemon.pkcompat                  1.0-0ubuntu9                           all          PackageKit compatibilty for AptDaemon
+ii  python3-brlapi                              4.4-8ubuntu4                           i386         Python bindings for BrlAPI
+ii  python3-chardet                             2.0.1-1                                all          universal encoding detector
+ii  python3-commandnotfound                     0.3ubuntu7.1                           all          Python 3 bindings for command-not-found.
+ii  python3-crypto                              2.6-4                                  i386         cryptographic algorithms and protocols for Python 3
+ii  python3-dbus                                1.1.1-1ubuntu3                         i386         simple interprocess messaging system (Python 3 interface)
+ii  python3-debian                              0.1.21+nmu2ubuntu1                     all          Python 3 modules to work with Debian-related data formats
+ii  python3-defer                               1.0.6-2                                all          Small framework for asynchronous programming (Python 3)
+ii  python3-dirspec                             4.2.0-0ubuntu1                         all          Python User Folders Specification Library
+ii  python3-distupgrade                         1:0.192.13                             all          manage release upgrades
+ii  python3-gdbm:i386                           3.3.1-0ubuntu2                         i386         GNU dbm database support for Python 3.x
+ii  python3-gi                                  3.8.0-2                                i386         Python 3 bindings for gobject-introspection libraries
+ii  python3-httplib2                            0.7.7-1ubuntu0.1                       all          comprehensive HTTP client library written for Python3
+ii  python3-louis                               2.4.1-1ubuntu2                         i386         Python bindings for liblouis
+ii  python3-lxml                                3.1.0-1                                i386         pythonic binding for the libxml2 and libxslt libraries
+ii  python3-magic                               5.11-2ubuntu4                          all          File type determination library using "magic" numbers (Python3 bindings)
+ii  python3-minimal                             3.3.1-0ubuntu1                         i386         minimal subset of the Python language (default python3 version)
+ii  python3-oauthlib                            0.3.7-0ubuntu1                         all          generic, spec-compliant implementation of OAuth for Python 3
+ii  python3-oneconf                             0.3.3                                  all          synchronize your configuration data over the network (Python 3)
+ii  python3-piston-mini-client                  0.7.5-0ubuntu1                         all          library for writing clients for Django's Piston REST APIs
+ii  python3-pkg-resources                       0.6.34-0ubuntu1                        all          Package Discovery and Resource Access using pkg_resources
+ii  python3-problem-report                      2.9.2-0ubuntu8.5                       all          Python 3 library to handle problem reports
+ii  python3-pyicu                               1.4-1ubuntu3                           i386         Python 3 extension wrapping the ICU C++ API
+ii  python3-six                                 1.2.0-1                                all          Python 2 and 3 compatibility library (Python 3 interface)
+ii  python3-software-properties                 0.92.17.3                              all          manage the repositories that you install software from
+ii  python3-speechd                             0.7.1-6.1ubuntu2                       all          Python interface to Speech Dispatcher
+ii  python3-update-manager                      1:0.186.2                              all          python 3.x module for update-manager
+ii  python3-xdg                                 0.25-2                                 all          Python 3 library to access freedesktop.org standards
+ii  python3-xkit                                0.5.0ubuntu1                           all          library for the manipulation of xorg.conf files (Python 3)
+ii  python3.3                                   3.3.1-1ubuntu5.2                       i386         Interactive high-level object-oriented language (version 3.3)
+ii  python3.3-minimal                           3.3.1-1ubuntu5.2                       i386         Minimal subset of the Python language (version 3.3)
+ii  qdbus                                       4:4.8.4+dfsg-0ubuntu9.5                i386         Qt 4 D-Bus tool
+ii  qpdf                                        4.0.1-2                                i386         tools for and transforming and inspecting PDF files
+ii  qtchooser                                   0.0.1~git20121229.g8f08405-0ubuntu3    i386         Wrapper to select between Qt development binary versions
+ii  radeontool                                  1.6.2-1.1build1                        i386         utility to control ATI Radeon backlight functions on laptops
+ii  rarian-compat                               0.8.1-5build1                          i386         Documentation meta-data library (compatibility tools)
+ii  rdate                                       1:1.2-5                                i386         sets the system's date from a remote host
+ii  readline-common                             6.2-9ubuntu1                           all          GNU readline and history libraries, common files
+ii  reiserfsprogs                               1:3.6.21-1build2                       i386         User-level tools for ReiserFS filesystems
+ii  remote-login-service                        1.0.0-0ubuntu3                         i386         Service to track the remote servers to use
+ii  resolvconf                                  1.69ubuntu1                            all          name server information handler
+ii  rfkill                                      0.4-2ubuntu1                           i386         tool for enabling and disabling wireless devices
+ii  rsync                                       3.0.9-4                                i386         fast, versatile, remote (and local) file-copying tool
+ii  rsyslog                                     5.8.11-2ubuntu2.2                      i386         reliable system and kernel logging daemon
+ii  rtkit                                       0.10-2ubuntu0.13.04.1                  i386         Realtime Policy and Watchdog Daemon
+ii  samba                                       2:3.6.9-1ubuntu1.2                     i386         SMB/CIFS file, print, and login server for Unix
+ii  samba-common                                2:3.6.9-1ubuntu1.2                     all          common files used by both the Samba server and client
+ii  samba-common-bin                            2:3.6.9-1ubuntu1.2                     i386         common files used by both the Samba server and client
+ii  sed                                         4.2.1-10ubuntu2                        i386         The GNU sed stream editor
+ii  sensible-utils                              0.0.7ubuntu1                           all          Utilities for sensible alternative selection
+ii  session-migration                           0.2                                    i386         Tool to migrate in user session settings
+ii  sgml-base                                   1.26+nmu4ubuntu1                       all          SGML infrastructure and SGML catalog file support
+ii  sgml-data                                   2.0.8                                  all          common SGML and XML data
+ii  shared-mime-info                            1.1-0ubuntu2                           i386         FreeDesktop.org shared MIME database and spec
+ii  signon-keyring-extension                    0.4daily12.12.06-0ubuntu1              i386         GNOME keyring extension for signond
+ii  signon-plugin-password                      8.49-0ubuntu2                          i386         Plain Password plugin for Single Sign On
+ii  signond                                     8.49-0ubuntu2                          i386         Single Sign On framework
+ii  smbclient                                   2:3.6.9-1ubuntu1.2                     i386         command-line SMB/CIFS clients for Unix
+ii  software-properties-common                  0.92.17.3                              all          manage the repositories that you install software from (common)
+ii  sound-theme-freedesktop                     0.7.pristine-2                         all          freedesktop.org sound theme
+ii  sox                                         14.4.1-2                               i386         Swiss army knife of sound processing
+ii  speech-dispatcher                           0.7.1-6.1ubuntu2                       i386         Common interface to speech synthesizers
+ii  ssh-import-id                               3.14-0ubuntu1                          all          securely retrieve an SSH public key and install it locally
+ii  ssl-cert                                    1.0.32                                 all          simple debconf wrapper for OpenSSL
+ii  strace                                      4.5.20-2.3ubuntu2                      i386         A system call tracer
+ii  sudo                                        1.8.6p3-0ubuntu3                       i386         Provide limited super user privileges to specific users
+ii  sunpinyin-data                              0.1.22+20120112-1                      i386         Statistical language model data from open-gram
+ii  sysbench                                    0.4.12-1build2                         i386         Cross-platform and multi-threaded benchmark tool
+ii  syslinux                                    3:4.05+dfsg-6+deb7u2ubuntu1            i386         collection of boot loaders
+ii  syslinux-common                             3:4.05+dfsg-6+deb7u2ubuntu1            all          collection of boot loaders (common files)
+ii  syslinux-legacy                             2:3.63+dfsg-2ubuntu5                   i386         Bootloader for Linux/i386 using MS-DOS floppies
+ii  system-config-printer-common                1.3.12+20130308-0ubuntu4               all          Printer configuration GUI
+ii  system-config-printer-udev                  1.3.12+20130308-0ubuntu4               i386         Printer auto-configuration facility based on udev
+ii  systemd-services                            198-0ubuntu11.2                        i386         systemd runtime services
+ii  systemd-shim                                2-0ubuntu1                             i386         shim for systemd
+ii  sysv-rc                                     2.88dsf-13.10ubuntu15                  all          System-V-like runlevel change mechanism
+ii  sysvinit-utils                              2.88dsf-13.10ubuntu15                  i386         System-V-like utilities
+ii  t1utils                                     1.37-2                                 i386         Collection of simple Type 1 font manipulation programs
+ii  tar                                         1.26+dfsg-5                            i386         GNU version of the tar archiving utility
+ii  tasksel                                     2.88ubuntu14                           all          Tool for selecting tasks for installation on Debian systems
+ii  tasksel-data                                2.88ubuntu14                           all          Official tasks used for installation of Debian systems
+ii  tcl8.5                                      8.5.13-1ubuntu4                        i386         Tcl (the Tool Command Language) v8.5 - run-time files
+ii  tcl8.5-lib:i386                             8.5.13-1ubuntu4                        i386         Tcl (the Tool Command Language) v8.5 - run-time library files
+ii  tcpd                                        7.6.q-24                               i386         Wietse Venema's TCP wrapper utilities
+ii  tcpdump                                     4.3.0-1ubuntu1                         i386         command-line network traffic analyzer
+ii  tdb-tools                                   1.2.10-2ubuntu1                        i386         Trivial Database - bundled binaries
+ii  telnet                                      0.17-36build2                          i386         The telnet client
+ii  thin-client-config-agent                    0.7                                    all          Retrieve the list of remote desktop servers for a user.
+ii  time                                        1.7-24                                 i386         GNU time program for measuring CPU resource usage
+ii  toshset                                     1.76-4                                 i386         Access much of the Toshiba laptop hardware interface
+ii  tsconf                                      1.0-11                                 all          touch screen library common files
+ii  ttf-dejavu                                  2.33-3ubuntu2                          all          Metapackage to pull in ttf-dejavu-core and ttf-dejavu-extra
+ii  ttf-dejavu-core                             2.33-3ubuntu2                          all          Vera font family derivate with additional characters
+ii  ttf-dejavu-extra                            2.33-3ubuntu2                          all          Vera font family derivate with additional characters
+ii  ttf-indic-fonts-core                        1:0.5.11ubuntu1                        all          Core collection of free fonts for languages of India
+ii  ttf-punjabi-fonts                           1:0.5.11ubuntu1                        all          Free TrueType fonts for the Punjabi language
+ii  ttf-ubuntu-font-family                      0.80-0ubuntu5                          all          Ubuntu Font Family, sans-serif typeface hinted for clarity
+ii  ttf-wqy-microhei                            0.2.0-beta-1.1ubuntu3                  all          A droid derived Sans-Seri style CJK font
+ii  tzdata                                      2013g-0ubuntu0.13.04                   all          time zone and daylight-saving time data
+ii  tzdata-java                                 2013g-0ubuntu0.13.04                   all          time zone and daylight-saving time data for use by java runtimes
+ii  ubuntu-drivers-common                       1:0.2.76                               i386         Detect and install additional Ubuntu driver packages
+ii  ubuntu-extras-keyring                       2010.09.27                             all          GnuPG keys of the Ubuntu extras archive
+ii  ubuntu-keyring                              2012.05.19                             all          GnuPG keys of the Ubuntu archive
+ii  ubuntu-minimal                              1.299                                  i386         Minimal core of Ubuntu
+ii  ubuntu-release-upgrader-core                1:0.192.13                             all          manage release upgrades
+ii  ubuntu-settings                             12.10.8                                all          default settings for the Ubuntu desktop
+ii  ubuntu-system-service                       0.2.4.1                                all          Dbus service to set various system-wide configurations
+ii  ucf                                         3.0025+nmu3                            all          Update Configuration File: preserve user changes to config files.
+ii  udev                                        175-0ubuntu26                          i386         rule-based device node and kernel event manager
+ii  udisks                                      1.0.4-7build1                          i386         storage media interface
+ii  udisks2                                     2.1.0-2                                i386         D-BUS service to access and manipulate storage devices
+ii  ufw                                         0.33-0ubuntu3                          all          program for managing a Netfilter firewall
+ii  unattended-upgrades                         0.79.3ubuntu7                          all          automatic installation of security upgrades
+ii  uno-libs3                                   4.0.2-0ubuntu1                         i386         LibreOffice UNO runtime environment -- public shared libraries
+ii  unrar                                       1:4.2.4-0.3                            i386         Unarchiver for .rar files (non-free version) - binary program
+ii  unshield                                    0.6-3                                  i386         extracts CAB files from InstallShield installers
+ii  unzip                                       6.0-8ubuntu2                           i386         De-archiver for .zip files
+ii  update-inetd                                4.43                                   all          inetd configuration file updater
+ii  update-manager-core                         1:0.186.2                              all          manage release upgrades
+ii  update-notifier-common                      0.134                                  all          Files shared between update-notifier and other packages
+ii  upower                                      0.9.20-1ubuntu0.1                      i386         abstraction for power management
+ii  upstart                                     1.8-0ubuntu1                           i386         event-based init daemon
+ii  ure                                         4.0.2-0ubuntu1                         i386         LibreOffice UNO runtime environment
+ii  ureadahead                                  0.100.0-16                             i386         Read required files in advance
+ii  usb-modeswitch                              1.2.3+repack0-1ubuntu3                 i386         mode switching tool for controlling "flip flop" USB devices
+ii  usb-modeswitch-data                         20120815-2                             all          mode switching data for usb-modeswitch
+ii  usbmuxd                                     1.0.8-1ubuntu1                         i386         USB multiplexor daemon for iPhone and iPod Touch devices
+ii  usbutils                                    1:005-3ubuntu1                         i386         Linux USB utilities
+ii  user-setup                                  1.47ubuntu1                            all          Set up initial user and password
+ii  util-linux                                  2.20.1-5.1ubuntu8                      i386         Miscellaneous system utilities
+ii  uuid-runtime                                2.20.1-5.1ubuntu8                      i386         runtime components for the Universally Unique ID library
+ii  vbetool                                     1.1-3                                  i386         run real-mode video BIOS code to alter hardware state
+ii  vim                                         2:7.3.547-6ubuntu5                     i386         Vi IMproved - enhanced vi editor
+ii  vim-common                                  2:7.3.547-6ubuntu5                     i386         Vi IMproved - Common files
+ii  vim-runtime                                 2:7.3.547-6ubuntu5                     all          Vi IMproved - Runtime files
+ii  vim-tiny                                    2:7.3.547-6ubuntu5                     i386         Vi IMproved - enhanced vi editor - compact version
+ii  virtualbox-guest-dkms                       4.2.10-dfsg-0ubuntu2.1                 all          x86 virtualization solution - guest addition module source for dkms
+ii  virtualbox-guest-utils                      4.2.10-dfsg-0ubuntu2.1                 i386         x86 virtualization solution - non-X11 guest utilities
+ii  vlc-data                                    2.0.8-0ubuntu0.13.04.1                 all          Common data for VLC
+ii  w32codecs:i386                              1:20110131-dmo2                        i386         win32 binary codecs
+ii  wamerican                                   7.1-1                                  all          American English dictionary words for /usr/share/dict
+ii  watershed                                   7                                      i386         reduce superfluous executions of idempotent command
+ii  wdiff                                       1.1.2-1                                i386         Compares two files word by word
+ii  wget                                        1.14-1ubuntu1                          i386         retrieves files from the web
+ii  whiptail                                    0.52.14-11ubuntu7                      i386         Displays user-friendly dialog boxes from shell scripts
+ii  wireless-regdb                              2011.04.28-1ubuntu3                    all          wireless regulatory database
+ii  wireless-tools                              30~pre9-8ubuntu1                       i386         Tools for manipulating Linux Wireless Extensions
+ii  wodim                                       9:1.1.11-2ubuntu3                      i386         command line CD/DVD writing tool
+ii  wpasupplicant                               1.0-3ubuntu1                           i386         client support for WPA and WPA2 (IEEE 802.11i)
+ii  xauth                                       1:1.0.7-1ubuntu1                       i386         X authentication utility
+ii  xbitmaps                                    1.1.1-2                                all          Base X bitmaps
+ii  xdg-user-dirs                               0.14-0ubuntu5                          i386         tool to manage well known user directories
+ii  xdg-utils                                   1.1.0~rc1-2ubuntu7                     all          desktop integration utilities from freedesktop.org
+ii  xfsprogs                                    3.1.9                                  i386         Utilities for managing the XFS filesystem
+ii  xinput                                      1.6.0-1                                i386         Runtime configuration and test of XInput devices
+ii  xkb-data                                    2.5.1-3ubuntu1                         all          X Keyboard Extension (XKB) configuration data
+ii  xml-core                                    0.13+nmu2                              all          XML infrastructure and XML catalog file support
+ii  xtrans-dev                                  1.2.7-1                                all          X transport library (development files)
+ii  xul-ext-ubufox                              2.7-0ubuntu0.13.04.1                   all          Ubuntu-specific configuration defaults and apt support for Firefox
+ii  xutils-dev                                  1:7.7~1build1                          i386         X Window System utility programs for development
+ii  xz-utils                                    5.1.1alpha+20120614-2ubuntu1           i386         XZ-format compression utilities
+ii  yelp-xsl                                    3.6.1-1                                all          XSL stylesheets for the yelp help browser
+ii  zlib1g:i386                                 1:1.2.7.dfsg-13ubuntu2                 i386         compression library - runtime

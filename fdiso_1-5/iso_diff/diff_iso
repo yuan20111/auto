@@ -1,0 +1,89 @@
+#!/bin/bash
+
+[  $# -eq  0 ] && echo "Usage: sudo ./diff_iso ISO1 ISO2" && exit 1
+
+finish()
+{
+  case $1 in
+    "0")
+       umount mnt_squ/tmp/
+       umount mnt_squ
+       umount mnt_iso
+       rmdir mnt_squ mnt_iso
+       rm -rf tmp
+       exit 0
+       ;;
+     "1")
+       echo "比对失败"
+       echo "提醒: 检查64位的iso，需要在64位系统上运行iso_compare"
+       finish 0
+       ;;
+     "2")
+       echo "比对失败"
+       echo "提醒: 在chroot环境执行dpkg -l 失败"
+       finish 0
+       ;;
+  esac     
+}
+for it in mnt_iso  mnt_squ tmp
+do 
+    [ -d $it ] || mkdir $it
+done    
+
+
+[ ! -f $1 ] && echo "error: 参数 $1不存在" && exit 1
+[ ! -f $2 ] && echo "error: 参数 $2不存在" && exit 1
+#生成第一个参数iso的信息
+it=$1
+flag="left"
+version=$flag"_version"
+deb=$flag"_deb"
+    mount -o loop $it mnt_iso &>/dev/null
+    mount -o loop mnt_iso/casper/filesystem.squashfs mnt_squ &>/dev/null
+    mount -o bind tmp mnt_squ/tmp/
+    name=`basename $it`
+    chroot mnt_squ/  /bin/bash -c "touch  /tmp/$flag" || finish 1
+    chroot mnt_squ/  /bin/bash -c "dpkg -l > /tmp/$flag" || finish 2
+    chroot mnt_squ/  /bin/bash -c " md5sum /boot/vmlinuz-* >> /tmp/$deb" || finish 2
+    echo -n "$name::" >> tmp/info_version
+    chroot mnt_squ/  /bin/bash -c "grep "VERSION_ID="  /etc/os-release >> /tmp/$version" || finish 2
+    umount mnt_squ/tmp/
+    umount mnt_squ
+    umount mnt_iso
+	cd tmp
+    awk '{print $2 "\t" $3}' $flag | column -t >>$deb
+
+cd ..
+#生成第二个参数iso的信息
+it=$2
+flag="right"
+version=$flag"_version"
+deb=$flag"_deb"
+    mount -o loop $it mnt_iso &>/dev/null
+    mount -o loop mnt_iso/casper/filesystem.squashfs mnt_squ &>/dev/null
+    mount -o bind tmp mnt_squ/tmp/
+    name=`basename $it`
+    chroot mnt_squ/  /bin/bash -c "touch  /tmp/$flag" || finish 1
+    chroot mnt_squ/  /bin/bash -c "dpkg -l > /tmp/$flag" || finish 2
+    chroot mnt_squ/  /bin/bash -c "md5sum  /boot/vmlinuz-* >> /tmp/$deb" || finish 2
+    echo -n "$name::" >> tmp/info_version
+    chroot mnt_squ/  /bin/bash -c "grep "VERSION_ID="  /etc/os-release >> /tmp/$version" || finish 2
+    umount mnt_squ/tmp/
+    umount mnt_squ
+    umount mnt_iso
+	cd tmp
+    awk '{print $2 "\t" $3}' $flag | column -t >>$deb
+
+cd ..
+
+f_result=isodiff_between_`basename ${1/.iso//}`_`basename ${2/.iso//}`
+cat tmp/left_version >> $f_result
+cat tmp/right_version >> $f_result
+diff tmp/left_deb tmp/right_deb >> $f_result
+sed '/^[0-9]/{x;p;x;}' $f_result > f_temp
+cat f_temp > $f_result
+echo "比对结果是：$f_result"
+rm -rf tmp
+rm f_temp
+finish 0 
+

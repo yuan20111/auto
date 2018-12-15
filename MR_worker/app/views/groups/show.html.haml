@@ -1,0 +1,19 @@
+.dashboard
+  %div
+    = image_tag group_icon(@group.path), class: "avatar group-avatar s90"
+    .clearfix
+      %h2
+        = @group.name
+      - if @group.description.present?
+        %p
+          = escaped_autolink(@group.description)
+  %hr
+  .row
+    %section.activities.col-md-8.hidden-sm.hidden-xs
+      - if current_user
+        = render "events/event_last_push", event: @last_push
+        = render 'shared/event_filter'
+      .content_list
+      = spinner
+    %aside.side.col-md-4
+      = render "projects", projects: @projects

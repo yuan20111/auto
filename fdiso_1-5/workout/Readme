@@ -1,0 +1,6 @@
+source ../build/envsetup.sh
+mosfd | tee log
+
+
+研发自主出测试盘请使用master_VER分支
+

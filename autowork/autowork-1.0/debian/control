@@ -1,0 +1,15 @@
+Source: autowork
+Section: admin
+Priority: optional
+Maintainer: zhiyuan <yuanzhiyuan@nfschina.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://git.debian.org/?p=collab-maint/autowork.git;a=summary
+#Vcs-Git: git://git.debian.org/collab-maint/autowork.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/autowork.git;a=summary
+
+Package: autowork
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: aoto compile with gitlab
+ <insert long description, indented with spaces>

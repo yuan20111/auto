@@ -1,0 +1,33 @@
+Package: sl-modem-daemon
+Source: sl-modem
+Version: 2.9.11~20110321-9
+Architecture: i386
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@sabily.org>
+Installed-Size: 1134
+Depends: debconf (>= 0.5) | debconf-2.0, libasound2 (>= 1.0.16), libc6 (>= 2.15), adduser, alsa-utils
+Conflicts: sl-modem-modules
+Breaks: sl-modem-source (<< 2.9.11~20080817)
+Provides: slmodem
+Homepage: http://linmodems.technion.ac.il/packages/smartlink/
+Priority: optional
+Section: non-free/misc
+Filename: pool/non-free/s/sl-modem/sl-modem-daemon_2.9.11~20110321-9_i386.deb
+Size: 513368
+SHA256: b24779aae103ef32cd374d460c6afa5b93c430f6dfc160ca4aa81ff90ce5d8e7
+SHA1: a349dc145d1033e02450a1de2eaf4db339966c3f
+MD5sum: e46c8d65bf15e284a187ef2fb46521e0
+Description: SmartLink software modem daemon
+ The SmartLink modem daemon is the application part of the
+ driver for recent modems produced by Smart Link Ltd.
+ .
+ This package replaces (along with hardware access drivers) the old
+ driver generation (2.7.x) which consisted of kernel modules only.
+ .
+ It needs a kernel driver to access the hardware. This can be either
+ recent ALSA (shipped with a newer kernel (>=2.6.4) with ALSA support
+ and snd-intel8x0m module) which is sufficient for basic operation and
+ data/Internet connection, or the SmartLink kernel driver which is
+ provided by separate packages which you can build using the source from
+ the sl-modem-dkms package.
+

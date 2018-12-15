@@ -1,0 +1,15 @@
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev GE
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_03
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_02
+deb ftp://fdos2:fdos2123@192.168.8.102//dev_nfs/ dev new_deb_01
+deb ftp://fdos2:fdos2123@192.168.8.102//mirror/packages.linuxmint.com/ qiana  main upstream import
+deb ftp://fdos2:fdos2123@192.168.8.102//mirror/extra.linuxmint.com/ qiana  main
+deb ftp://fdos2:fdos2123@192.168.8.102//mirror/security.ubuntu.com/ubuntu/ trusty-security main multiverse restricted universe
+deb ftp://fdos2:fdos2123@192.168.8.102//mirror/archive.ubuntu.com/ubuntu/ trusty main multiverse restricted universe
+deb ftp://fdos2:fdos2123@192.168.8.102//mirror/archive.canonical.com/ubuntu/ trusty partner
+
+deb-src ftp://fdos2:fdos2123@192.168.8.102//mirror/packages.linuxmint.com/ qiana  main upstream import
+deb-src ftp://fdos2:fdos2123@192.168.8.102//mirror/extra.linuxmint.com/ qiana  main
+deb-src ftp://fdos2:fdos2123@192.168.8.102//mirror/security.ubuntu.com/ubuntu/ trusty-security main multiverse restricted universe
+deb-src ftp://fdos2:fdos2123@192.168.8.102//mirror/archive.ubuntu.com/ubuntu/ trusty main multiverse restricted universe
+deb-src ftp://fdos2:fdos2123@192.168.8.102//mirror/archive.canonical.com/ubuntu/ trusty partner

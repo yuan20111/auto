@@ -1,0 +1,12 @@
+*out*
+*.iso*
+log*
+*.md5sum
+*.md5
+zero.img
+*.sh
+NFS Desktop
+\.log*
+*.note
+isodiff_*
+test_deb/*.deb

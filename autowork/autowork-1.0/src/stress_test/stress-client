@@ -1,0 +1,63 @@
+#!/bin/bash
+S3=pm-action_auto_s3.sh
+S4=pm-action_auto_s4.sh
+REBOOT=reboot_12our.sh
+
+RUNSTATE=./run_state
+
+[ -e ${RUNSTATE} ] || echo "ready" >  ${RUNSTATE}
+
+STATE=`cat $RUNSTATE`
+
+
+success_state(){
+		[ $1 -eq 0 ] && {
+			echo "$2_success" > ${RUNSTATE}
+			#sudo shutdown now
+		}
+}
+
+
+case $STATE in
+	ready)
+
+		echo "s3 begining" > ${RUNSTATE}
+		source ${S3}
+		state=$?
+		success_state $state "s3"
+		;;
+	s3_success)
+		echo "s4 begining" > ${RUNSTATE}
+		source ${S4}
+		state=$?
+		success_state $state "s4"
+		;;
+	s4_success)
+		echo "reboot begining" > ${RUNSTATE}
+		source ${REBOOT}
+		state=$?
+		success_state $state "reboot"
+		;;
+	reboot_success)
+		echo "burnintest begining" > ${RUNSTATE}
+		source ${BURNINTEST}
+		state=$?
+		success_state $state "burnintest"
+		;;
+	burnintest_success)
+		echo "specviewperf begining" > ${RUNSTATE}
+		source ${SPECVIEWPERF}
+		state=$?
+		success_state $state "specviewperf"
+		;;
+	*)
+		echo "defult"
+		;;
+
+	esac
+
+
+
+
+
+

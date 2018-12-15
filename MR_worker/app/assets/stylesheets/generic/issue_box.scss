@@ -1,0 +1,32 @@
+/**
+ * Issue box for showing Open/Closed state:
+ * Used for Issue#show page, MergeRequest#show page etc
+ *
+ */
+
+.issue-box {
+  display: inline-block;
+  padding: 7px 13px;
+  font-weight: normal;
+  margin-right: 5px;
+
+  &.issue-box-closed {
+    background-color: $bg_danger;
+    color: #FFF;
+  }
+
+  &.issue-box-merged {
+    background-color: $bg_primary;
+    color: #FFF;
+  }
+
+  &.issue-box-open {
+    background-color: $bg_success;
+    color: #FFF;
+  }
+
+  &.issue-box-expired {
+    background: #cea61b;
+    color: #FFF;
+  }
+}

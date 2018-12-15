@@ -1,0 +1,22 @@
+Package: b43-fwcutter
+Version: 1:018-2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Daniel Echeverry <epsilon77@gmail.com>
+Installed-Size: 94
+Depends: libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
+Homepage: http://wireless.kernel.org/en/users/Drivers/b43
+Priority: optional
+Section: contrib/utils
+Filename: pool/contrib/b/b43-fwcutter/b43-fwcutter_018-2_amd64.deb
+Size: 26398
+SHA256: c40fb7868bb41646ef96ff1dc43d8d096e2888825bef087914c76f2f83547f07
+SHA1: 53736592f84782401c36d3ef0f8bf6ed9aa85692
+MD5sum: cf320b21c8873ede3170d63b923c3942
+Description: utility for extracting Broadcom 43xx firmware
+ This package provides a tool for extracting BCM43xx wireless chip
+ firmware from Broadcom's proprietary driver files.
+ .
+ It is used by the firmware-b43(legacy)-installer packages as part of
+ the automated process of downloading and installing firmware.
+

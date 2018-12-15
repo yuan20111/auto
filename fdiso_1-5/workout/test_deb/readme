@@ -1,0 +1,18 @@
+为了测试deb包构建iso方法
+
+1, 准备脚本
+   git clone git@nfsgitlab:systeam/fdiso_1-5.git
+   git checkout master
+
+2, 复制deb包到目录workout/test_deb/里面
+
+3, 执行命令
+   cd fdiso_1-5/workout/
+   source ../build/envsetup.sh "1.5 HGJ-0713-testdeb-xxx" (说明： 1, testdeb是必需的、代表测试deb的版本；2, 可以用GE替换HGJ制作通用版本 ) 
+   cclean
+   mosfd_log
+
+4, 执行	上面的命令以后，在workout会生成一个iso文件。
+   最后， 用工具dd把iso放进优盘：sudo  dd if=NFS_Desktop-64bit-201605251755.iso of=/dev/sdd bs=10M (需要调整if of 参数)
+    
+   请注意： 版本号必须升级，被测deb包的版本号一定要高于仓库中同名包的版本号。
